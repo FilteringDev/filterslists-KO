@@ -3,7 +3,7 @@ Open a PR to contribute.
 
 ## Become a Maintainer
 If you want to become a maintainer, please follow the folllowing rules:
- - Every contributors must not share an user's private information to anyone **excluding** other contributors of List-KR without their permission.
+ - Every contributors must not share an user's private information to anyone **excluding** other contributors of FilteringDev without their permission.
  - Every contributors must respect an user's privacy.
  - All commit that is pushed to master branch must be signed.
  - Your email must be public.
@@ -23,13 +23,13 @@ And, email one of the administrators.
 ## Work without an offline editor
 ### With write permission
 1. Sign in to GitHub.
-2. Go to https://github.dev/List-KR/List-KR or press `.`.
+2. Go to https://github.dev/FilteringDev/filterslists-KO or press `.`.
 3. Contribute!
 
 ### Without write permission
 1. Sign in to GitHub.
-2. Fork https://github.com/List-KR/List-KR.
-3. Go to yours forked from List-KR/List-KR. For example, if your GitHub username is `DaycareEndorphinWalnut`, please go to https://github.dev/DaycareEndorphinWalnut/List-KR.
+2. Fork https://github.com/FilteringDev/filterslists-KO.
+3. Go to yours forked from FilteringDev/filterslists-KO. For example, if your GitHub username is `DaycareEndorphinWalnut`, please go to https://github.dev/DaycareEndorphinWalnut/filterslists-KO.
 4. Commit the changes that you want to contribute.
 5. Open a new pull request.
 

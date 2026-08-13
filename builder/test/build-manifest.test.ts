@@ -27,12 +27,12 @@ function RawTexts(FiltersList: AGTree.FilterList): string[] {
 
 Test('NormalizeFilterListForContentHash excludes only the Version header', T => {
   const VersionOne = [
-    '! Title: List-KR test',
+    '! Title: @filteringdev/filterslists-ko test',
     '! Version: 2026.20610.0',
     'example.com##.ad'
   ].join('\n')
   const VersionTwo = VersionOne.replace('2026.20610.0', '2026.20610.1')
-  const TitleChanged = VersionOne.replace('List-KR test', 'List-KR renamed')
+  const TitleChanged = VersionOne.replace('@filteringdev/filterslists-ko test', '@filteringdev/filterslists-ko renamed')
   const RuleChanged = VersionOne.replace('example.com##.ad', 'example.com##.sponsor')
 
   T.is(

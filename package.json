@@ -1,5 +1,5 @@
 {
-  "name": "@list-kr/filterslists",
+  "name": "@filteringdev/filterslists-ko",
   "version": "0.0.0",
   "description": "The adblock filters lists for uBO and AdGuard, designed for Korean-language websites",
   "type": "module",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/List-KR/List-KR.git"
+    "url": "git+https://github.com/FilteringDev/filterslists-KO.git"
   },
   "engines": {
     "node": ">=24"

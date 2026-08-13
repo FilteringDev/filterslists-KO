@@ -1,4 +1,4 @@
-! Domains used to select upstream rules for List-KR unified filters.
+! Domains used to select upstream rules for filterslists-KO unified filters.
 ! Add one bare domain or hostname per line, for example:
 ! example.com
 youtube.com

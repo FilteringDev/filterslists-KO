@@ -2,8 +2,8 @@ import * as Semver from 'semver'
 import * as Zod from 'zod'
 import { SimpleSecureReq } from '@typescriptprime/securereq'
 
-const NpmPackageName = '@list-kr/filterslists'
-const NpmPackagePath = '@list-kr%2Ffilterslists'
+const NpmPackageName = '@filteringdev/filterslists-ko'
+const NpmPackagePath = '@filteringdev%2Ffilterslists-ko'
 
 const NpmRegistryPackageDistTagSchema = Zod.object({
   'dist-tags': Zod.object({

@@ -1,5 +1,5 @@
 {
-  "name": "@list-kr/filterslists-builder",
+  "name": "@filteringdev/filterslists-ko-builder",
   "type": "module",
   "private": true,
   "scripts": {
