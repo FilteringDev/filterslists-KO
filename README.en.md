@@ -2,7 +2,7 @@
 
 [![jsDelivr Stats](https://data.jsdelivr.com/v1/package/npm/@filteringdev/filterslists-ko/badge)](https://www.jsdelivr.com/package/npm/@filteringdev/filterslists-ko)
 
-filterslists-KO is an ad blocking filter list maintained by the Ad Blocking community.
+filterslists-KO is an ad blocking filter list maintained by the Ad Blocking community and AdGuard.
 
 Supported adblockers are AdGuard and uBlock Origin.
 
