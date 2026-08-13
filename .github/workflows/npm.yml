@@ -44,10 +44,10 @@ jobs:
       definition_versions_json: ${{ steps.check.outputs.definition_versions_json }}
     steps:
       - name: Check out to repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Set up Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: 'lts/*'
 
@@ -105,10 +105,10 @@ jobs:
       contents: read
     steps:
       - name: Check out to repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Set up Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: 'lts/*'
 
@@ -134,12 +134,12 @@ jobs:
       id-token: write
     steps:
       - name: Set up Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: 'lts/*'
           registry-url: 'https://registry.npmjs.org'
       - name: Check out to repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Install pnpm
         run: npm install -g pnpm
       - name: Set pnpm store-dir path
@@ -165,7 +165,7 @@ jobs:
       actions: read
     steps:
       - name: Set up NodeJS LTS
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: 'lts/*'
       - name: Purge jsdelivr cache
