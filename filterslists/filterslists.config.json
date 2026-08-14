@@ -1,6 +1,6 @@
 [
   {
-    "Name": "filterslists-KOclassic filters list (AdGuard)",
+    "Name": "filterslists-KO classic (AdGuard)",
     "DefinitionFileName": "filterslist-AdGuard-classic.txt",
     "Description": "AdGuard용 filterslists-KO클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.",
     "ExpireDuration": 1,
@@ -10,7 +10,7 @@
     "AdblockType": "AdGuard"
   },
   {
-    "Name": "filterslists-KOclassic filters list (uBO)",
+    "Name": "filterslists-KO classic (uBO)",
     "DefinitionFileName": "filterslist-uBlockOrigin-classic.txt",
     "Description": "uBlock Origin용 filterslists-KO클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.",
     "ExpireDuration": 1,
@@ -20,7 +20,7 @@
     "AdblockType": "uBlockOrigin"
   },
   {
-    "Name": "filterslists-KOfilters list (AdGuard)",
+    "Name": "filterslists-KO (AdGuard)",
     "DefinitionFileName": "filterslist-AdGuard.txt",
     "Description": "AdGuard용 filterslists-KO필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.",
     "ExpireDuration": 1,
@@ -30,7 +30,7 @@
     "AdblockType": "AdGuard"
   },
   {
-    "Name": "filterslists-KOfilters list (uBO)",
+    "Name": "filterslists-KO (uBO)",
     "DefinitionFileName": "filterslist-uBlockOrigin.txt",
     "Description": "uBlock Origin용 filterslists-KO필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.",
     "ExpireDuration": 1,
@@ -40,7 +40,7 @@
     "AdblockType": "uBlockOrigin"
   },
   {
-    "Name": "filterslists-KOunified filters list (AdGuard)",
+    "Name": "filterslists-KO unified (AdGuard)",
     "DefinitionFileName": "filterslist-AdGuard-unified.txt",
     "Description": "AdGuard용 filterslists-KO통합 필터 리스트입니다. 한국어권 및 국제 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.",
     "ExpireDuration": 1,
@@ -51,7 +51,7 @@
     "UnifiedDomainListFileName": "unified-domains.txt"
   },
   {
-    "Name": "filterslists-KOunified filters list (uBlock Origin)",
+    "Name": "filterslists-KO unified (uBlock Origin)",
     "DefinitionFileName": "filterslist-uBlockOrigin-unified.txt",
     "Description": "uBlock Origin용 filterslists-KO통합 필터 리스트입니다. 한국어권 및 국제 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.",
     "ExpireDuration": 1,

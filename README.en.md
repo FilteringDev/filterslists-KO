@@ -21,29 +21,29 @@ You can use the following URLs to add filterslists-KO to your ad blocker.
 > [!IMPORTANT]
 filterslists-KO filter lists support **only** AdGuard and uBlock Origin. If used in other blockers, it may malfunction instead of work as intended. Related requests will be ignored and closed.
 
-**filterslists-KO filters list Classic for AdGuard**:
+**filterslists-KO Classic for AdGuard**:
 ```
 https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filterslist-AdGuard-classic.txt
 ```
-**filterslists-KO filters list Classic for uBlock Origin**:
+**filterslists-KO Classic for uBlock Origin**:
 ```
 https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filterslist-uBlockOrigin-classic.txt
 ```
 
-**filterslists-KO filters list for AdGuard**:
+**filterslists-KO for AdGuard**:
 ```
 https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filterslist-AdGuard.txt
 ```
-**filterslists-KO filters list for uBlock Origin**:
+**filterslists-KO for uBlock Origin**:
 ```
 https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filterslist-uBlockOrigin.txt
 ```
 
-**filterslists-KO filters list Unified for AdGuard**:
+**filterslists-KO Unified for AdGuard**:
 ```
 https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filterslist-AdGuard-unified.txt
 ```
-**filterslists-KO filters list Unified for uBlock Origin**:
+**filterslists-KO Unified for uBlock Origin**:
 ```
 https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filterslist-uBlockOrigin-unified.txt
 ```

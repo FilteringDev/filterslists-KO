@@ -27,29 +27,29 @@ filterslists-KO filters list Unified 버전은 일반 필터 리스트들(filter
 > [!IMPORTANT]
 > filterslists-KO 필터 리스트는 **오직** AdGuard와 uBlock Origin만 지원합니다. 사용자에 의해 다른 애드블록에 추가된다고 한들 예상된 작동은 커녕 오작동을 불러올 수 있습니다. 관련된 요청은 무시되고 닫힙니다.
 
-**filterslists-KO filters list Classic for AdGuard**:
+**filterslists-KO Classic for AdGuard**:
 ```
 https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filterslist-AdGuard-classic.txt
 ```
-**filterslists-KO filters list Classic for uBlock Origin**:
+**filterslists-KO Classic for uBlock Origin**:
 ```
 https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filterslist-uBlockOrigin-classic.txt
 ```
 
-**filterslists-KO filters list for AdGuard**:
+**filterslists-KO for AdGuard**:
 ```
 https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filterslist-AdGuard.txt
 ```
-**filterslists-KO filters list for uBlock Origin**:
+**filterslists-KO for uBlock Origin**:
 ```
 https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filterslist-uBlockOrigin.txt
 ```
 
-**filterslists-KO filters list Unified for AdGuard**:
+**filterslists-KO Unified for AdGuard**:
 ```
 https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filterslist-AdGuard-unified.txt
 ```
-**filterslists-KO filters list Unified for uBlock Origin**:
+**filterslists-KO Unified for uBlock Origin**:
 ```
 https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filterslist-uBlockOrigin-unified.txt
 ```
