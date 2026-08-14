@@ -48,7 +48,10 @@
     "SupportUrl": "https://github.com/FilteringDev/filterslists-KO/issues",
     "LicenseUrl": "https://github.com/FilteringDev/filterslists-KO/blob/master/LICENSE",
     "AdblockType": "AdGuard",
-    "UnifiedDomainListFileName": "unified-domains.txt"
+    "UnifiedDomainListFileName": "unified-domains.txt",
+    "UnifiedPreservePatterns": [
+      "^##\\.ad-slot-placeholder$"
+    ]
   },
   {
     "Name": "filterslists-KO unified (uBlock Origin)",
@@ -59,6 +62,9 @@
     "SupportUrl": "https://github.com/FilteringDev/filterslists-KO/issues",
     "LicenseUrl": "https://github.com/FilteringDev/filterslists-KO/blob/master/LICENSE",
     "AdblockType": "uBlockOrigin",
-    "UnifiedDomainListFileName": "unified-domains.txt"
+    "UnifiedDomainListFileName": "unified-domains.txt",
+    "UnifiedPreservePatterns": [
+      "^##\\.ad-slot-placeholder$"
+    ]
   }
 ]
