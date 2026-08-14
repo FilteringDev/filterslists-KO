@@ -14,6 +14,12 @@ filterslists-KO filters list (standard) handles ads, anti-adblock rules (maintai
 
 filterslists-KO filters list Unified includes extra coverage for high-traffic global sites such as YouTube, in addition to filterslists-KO filters list (standard).
 
+| Filter list | Ads | Anti-adblock | Trackers | Annoyances | Major global sites |
+| --- | --- | --- | --- | --- | --- |
+| Classic | Supported | Anti-adblock filters allowed by AdGuard in response to legal requests are excluded | - | - | - |
+| Standard | Supported | Maintained by contributors | Supported | Supported | - |
+| Unified | Supported | Maintained by contributors | Supported | Supported | YouTube and others |
+
 ## Usage
 
 You can use the following URLs to add filterslists-KO to your ad blocker.

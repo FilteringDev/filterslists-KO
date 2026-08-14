@@ -17,8 +17,16 @@ filterslists-KO는 AdGuard와 애드블록 커뮤니티에서 관리하는 한�
 이메일을 통한 비공개 지원이 필요하시면 각 기여자의 GitHub 프로필에서 연락처를 확인하실 수 있습니다.
 
 AdGuard에 사전 탑재된 filterslists-KO 필터 리스트(filterslists-KO filters list Classic)는 광고와 AdGuard에서 수용하기로 결정한 법적 요청을 제외한 안티-애드블록을 처리합니다.
+
 그러나, 일반 필터 리스트들(filterslists-KO filters list)은 광고, 각 기여자가 책임을 지는 안티-애드블록, 추적기, 방해 요소 등을 처리합니다.
+
 filterslists-KO filters list Unified 버전은 일반 필터 리스트들(filterslists-KO filters list)에 YouTube 같은 한국에서도 높은 트래픽을 가진 국제 웹 사이트에 대한 대응도 포함됩니다.
+
+| 필터 리스트 | 광고 | 안티-애드블록 | 추적기 | 방해 요소 | 주요 국제 웹 사이트 |
+| --- | --- | --- | --- | --- | --- |
+| Classic | 지원 | AdGuard가 법적 요청에 따라 허용한 항목 제외 | - | - | - |
+| standard | 지원 | 기여자 관리 범위 | 지원 | 지원 | - |
+| Unified | 지원 | 기여자 관리 범위 | 지원 | 지원 | YouTube 등 |
 
 ## 사용법
 
