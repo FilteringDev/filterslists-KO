@@ -12,7 +12,7 @@
   {
     "Name": "filterslists-KO classic (uBO)",
     "DefinitionFileName": "filterslist-uBlockOrigin-classic.txt",
-    "Description": "uBlock Origin용 filterslists-KO클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.",
+    "Description": "uBlock Origin용 filterslists-KO 클래식 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고와 거부되지 않은 안티 애드블록을 차단합니다.",
     "ExpireDuration": 1,
     "HomepageUrl": "https://github.com/FilteringDev/filterslists-KO",
     "SupportUrl": "https://github.com/FilteringDev/filterslists-KO/issues",
@@ -22,7 +22,7 @@
   {
     "Name": "filterslists-KO (AdGuard)",
     "DefinitionFileName": "filterslist-AdGuard.txt",
-    "Description": "AdGuard용 filterslists-KO필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.",
+    "Description": "AdGuard용 filterslists-KO 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.",
     "ExpireDuration": 1,
     "HomepageUrl": "https://github.com/FilteringDev/filterslists-KO",
     "SupportUrl": "https://github.com/FilteringDev/filterslists-KO/issues",
@@ -32,7 +32,7 @@
   {
     "Name": "filterslists-KO (uBO)",
     "DefinitionFileName": "filterslist-uBlockOrigin.txt",
-    "Description": "uBlock Origin용 filterslists-KO필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.",
+    "Description": "uBlock Origin용 filterslists-KO 필터 리스트입니다. 한국어권 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.",
     "ExpireDuration": 1,
     "HomepageUrl": "https://github.com/FilteringDev/filterslists-KO",
     "SupportUrl": "https://github.com/FilteringDev/filterslists-KO/issues",
@@ -42,7 +42,7 @@
   {
     "Name": "filterslists-KO unified (AdGuard)",
     "DefinitionFileName": "filterslist-AdGuard-unified.txt",
-    "Description": "AdGuard용 filterslists-KO통합 필터 리스트입니다. 한국어권 및 국제 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.",
+    "Description": "AdGuard용 filterslists-KO 통합 필터 리스트입니다. 한국어권 및 국제 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.",
     "ExpireDuration": 1,
     "HomepageUrl": "https://github.com/FilteringDev/filterslists-KO",
     "SupportUrl": "https://github.com/FilteringDev/filterslists-KO/issues",
@@ -53,7 +53,7 @@
   {
     "Name": "filterslists-KO unified (uBlock Origin)",
     "DefinitionFileName": "filterslist-uBlockOrigin-unified.txt",
-    "Description": "uBlock Origin용 filterslists-KO통합 필터 리스트입니다. 한국어권 및 국제 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.",
+    "Description": "uBlock Origin용 filterslists-KO 통합 필터 리스트입니다. 한국어권 및 국제 웹 페이지 및 앱에 있는 광고, 트래커, 방해 요소와 안티 애드블록을 차단합니다.",
     "ExpireDuration": 1,
     "HomepageUrl": "https://github.com/FilteringDev/filterslists-KO",
     "SupportUrl": "https://github.com/FilteringDev/filterslists-KO/issues",
