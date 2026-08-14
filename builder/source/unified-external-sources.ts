@@ -25,6 +25,8 @@ type FilterExternalRulesResult = {
   InvalidRules: number
 }
 
+type UnifiedPreservePattern = RegExp
+
 type PreProcessorFrame = {
   IfIndex: number
   ElseIndex?: number
@@ -128,7 +130,11 @@ export function RuleMatchesUnifiedDomains(Filter: AGTree.AnyRule, UnifiedDomains
   return GetRuleCandidateDomains(Filter).some(Candidate => DoesCandidateMatchUnifiedDomains(Candidate, UnifiedDomains))
 }
 
-export function FilterExternalRulesByDomains(FiltersList: AGTree.FilterList, UnifiedDomains: Set<string>): FilterExternalRulesResult {
+export function FilterExternalRulesByDomains(
+  FiltersList: AGTree.FilterList,
+  UnifiedDomains: Set<string>,
+  PreservePatterns: UnifiedPreservePattern[] = []
+): FilterExternalRulesResult {
   const MarkedIndexes = new Set<number>()
   const PendingHintIndexes: number[] = []
   const PreProcessorStack: PreProcessorFrame[] = []
@@ -162,7 +168,7 @@ export function FilterExternalRulesByDomains(FiltersList: AGTree.FilterList, Uni
       continue
     }
 
-    if (RuleMatchesUnifiedDomains(Filter, UnifiedDomains)) {
+    if (RuleMatchesUnifiedDomains(Filter, UnifiedDomains) || RuleMatchesPreservePattern(Filter, PreservePatterns)) {
       KeptRules += 1
       MarkedIndexes.add(Index)
       for (const HintIndex of PendingHintIndexes) {
@@ -188,6 +194,10 @@ export function FilterExternalRulesByDomains(FiltersList: AGTree.FilterList, Uni
   }
 }
 
+export function CompileUnifiedPreservePatterns(Patterns: string[] = []): UnifiedPreservePattern[] {
+  return Patterns.map(Pattern => new RegExp(Pattern, 'u'))
+}
+
 export async function LoadUnifiedExternalRules(
   FiltersListsConfig: FiltersListsConfigWithVersion,
   FiltersListDirectory: string
@@ -211,9 +221,11 @@ export async function LoadUnifiedExternalRules(
 
     ActionCore.info('[unified-external] ' + Definition.DefinitionFileName + ': loaded ' + UnifiedDomains.size + ' unified domains from ' + DomainListPath)
 
+    const PreservePatterns = CompileUnifiedPreservePatterns(Definition.UnifiedPreservePatterns)
+
     for (const Source of GetUnifiedExternalSourceUrls(Definition.AdblockType)) {
       const ParsedSource = await LoadParsedExternalSource(Source, SourceCache)
-      const FilteredSource = FilterExternalRulesByDomains(ParsedSource.FilterList, UnifiedDomains)
+      const FilteredSource = FilterExternalRulesByDomains(ParsedSource.FilterList, UnifiedDomains, PreservePatterns)
       Rules.push(...FilteredSource.Rules)
       ActionCore.info([
         '[unified-external] ' + Definition.AdblockType + ': ' + Source.Name,
@@ -229,6 +241,15 @@ export async function LoadUnifiedExternalRules(
   }
 
   return ExternalRules
+}
+
+function RuleMatchesPreservePattern(Filter: AGTree.AnyRule, PreservePatterns: UnifiedPreservePattern[]): boolean {
+  if (PreservePatterns.length === 0) {
+    return false
+  }
+
+  const RawText = Filter.raws?.text ?? AGTree.RuleGenerator.generate(Filter)
+  return PreservePatterns.some(Pattern => Pattern.test(RawText))
 }
 
 async function LoadParsedExternalSource(Source: UnifiedExternalSource, SourceCache: Map<string, ParsedExternalSource>): Promise<ParsedExternalSource> {

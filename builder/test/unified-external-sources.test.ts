@@ -5,6 +5,7 @@ import Test from 'ava'
 import { BuildBundledFiltersLists } from '../source/worker-bundle-core.ts'
 import {
   DoesCandidateMatchUnifiedDomains,
+  CompileUnifiedPreservePatterns,
   FilterExternalRulesByDomains,
   GetRuleCandidateDomains,
   ParseUnifiedDomains,
@@ -134,11 +135,61 @@ Test('FilterExternalRulesByDomains preserves matching else branch wrappers', T =
   ])
 })
 
+Test('FilterExternalRulesByDomains preserves rules matching configured patterns', T => {
+  const FiltersList = ParseFilterList([
+    '||ads.example.net^',
+    '||keep.example.net^',
+    'other.example##.ad'
+  ].join('\n'))
+  const FilteredList = {
+    ...FiltersList,
+    children: FilterExternalRulesByDomains(
+      FiltersList,
+      new Set(['example.com']),
+      CompileUnifiedPreservePatterns(['keep\\.example\\.net', 'other\\.example##\\.ad'])
+    ).Rules
+  }
+
+  T.deepEqual(RawTexts(FilteredList), [
+    '||keep.example.net^',
+    'other.example##.ad'
+  ])
+})
+
+Test('FilterExternalRulesByDomains keeps preprocessor wrappers for preserved patterns', T => {
+  const FiltersList = ParseFilterList([
+    '!#if env_chromium',
+    'keep.example##.ad',
+    '!#else',
+    'drop.example##.ad',
+    '!#endif'
+  ].join('\n'))
+  const FilteredList = {
+    ...FiltersList,
+    children: FilterExternalRulesByDomains(
+      FiltersList,
+      new Set(['unmatched.example']),
+      CompileUnifiedPreservePatterns(['keep\\.example##\\.ad'])
+    ).Rules
+  }
+
+  T.deepEqual(RawTexts(FilteredList), [
+    '!#if env_chromium',
+    'keep.example##.ad',
+    '!#endif'
+  ])
+})
+
+Test('CompileUnifiedPreservePatterns rejects invalid regular expressions', T => {
+  T.throws(() => CompileUnifiedPreservePatterns(['[invalid']))
+})
+
 Test('ResolveForPlatform handles #else branches', T => {
   const Builder = new TestBuilder({
     FiltersProcessableCache: new Map(),
     WorkingDirectory: Process.cwd(),
     FiltersListDirectory: Path.resolve(Process.cwd(), 'filterslists'),
+    OutputDirectory: Path.resolve(Process.cwd(), 'temp'),
     UnifiedExternalRules: {}
   })
   const FiltersList = ParseFilterList([
