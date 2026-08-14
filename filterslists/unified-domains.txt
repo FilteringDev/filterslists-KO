@@ -5,3 +5,4 @@ youtube.com
 msn.com
 google.com
 reddit.com
+finance.yahoo.com
