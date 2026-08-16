@@ -57,6 +57,7 @@ eegosa.com##section[id*="_ads_"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+cctimes.kr###adbay_floatingid
 newsen.com##td[style="margin-right:10px;"] p[style="padding-top:10px;"]
 sportschosun.com##.advertisement-area
 sportschosun.com##.d-none.d-lg-flex
