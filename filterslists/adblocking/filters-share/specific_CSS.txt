@@ -98,7 +98,7 @@ lottoen.com#$#.content_more_div > .cmd_block_layer { display: none !important; }
 lottoen.com#$#.wrap.blocked .content_more_div { max-height: 100% !important; }
 simcong.com#$#.waiting_coupang_wrap { display: none !important; }
 simcong.com#$#.result_wrap { display: block !important; }
-simcong.com#$#.quiz_list:not([style]) ~  .result_wrap .restart { display: none !important; }
+simcong.com#$#.quiz_list:not([style]) ~ .result_wrap .restart { display: none !important; }
 gorani.kr#$#.column_content { margin-top: 50px !important; }
 www.naver.com#$##topSearchWrap { padding-bottom: 50px !important; }
 dodot.cafe24.com,loapost.cafe24.com,jiavr.xyz,ohohz.cafe24.com#$##content .ad_parent { height: 100% !important; overflow: auto !important; }
