@@ -318,7 +318,7 @@ lottecinema.co.kr##.banner_box_login
 lottecinema.co.kr##.login260_btn
 m.celuvmedia.com##.main_bnr
 m.celuvmedia.com###container > div[style="margin-top:10px"]
-celuvmedia.com###CmAdContent  > table[style]
+celuvmedia.com###CmAdContent > table[style]
 www.chosun.com##article.layout__article-main > .box--pad-bottom-lg
 www.chosun.com##article.layout__article-main > .box--pad-top-xl.box--hidden-sm:has(> .box--border-xs)
 chaoscube.co.kr##div[ad-size]
@@ -1208,7 +1208,7 @@ m.joynews24.com,inews24.com##article > div[style]:not([class])
 arca.live##div#newsRank
 m.happymoney.co.kr##.topBannerUse
 happymoney.co.kr###topBnrWrap
-happymoney.co.kr###content  > .mainBanner
+happymoney.co.kr###content > .mainBanner
 cultureland.co.kr##.slider > div[id$="_popup"]
 cultureland.co.kr##.main-evn > .main-visual
 tcafe2a.com##.side-event-img
