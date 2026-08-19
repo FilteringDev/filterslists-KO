@@ -149,7 +149,7 @@ damoang.net##.gap-4.flex-col > div:has(> div[data-position="side-image-text-bann
 ruliweb.com##.ti_reserved_slot[style^="min-height:"]
 tenasia.co.kr###article-body > div[style^="min-height:"]
 tenasia.co.kr##.article-view > div[style^="min-height:"]:has(> div[id^="dablewidget_"])
-mbiz.heraldcorp.com##div[data-svcad]
+munhwa.com,mbiz.heraldcorp.com##div[data-svcad]
 mbiz.heraldcorp.com##.view_editor_bg div[id^="da"][style^="min-height:"]
 mbiz.heraldcorp.com##.view_editor_bg div[style^="width:"][style*="min-height:"]
 vod.sooplive.com##.adballoon_icon
@@ -1032,7 +1032,7 @@ m.joynews24.com##hr[style].blank
 joynews24.com,inews24.com##ad
 playcraft.tistory.com##.module.module_plugin a[href*="//coinone.co.kr/user/signup?ref="]
 playcraft.tistory.com##.module.module_plugin a[href*="//link.coupang.com/"]
-youthassembly.kr,blockchainhub.kr,wowtv.co.kr,mobiinside.co.kr,phdkim.net,quasarzone.com##div[class*="-banner-"]
+munhwa.com,youthassembly.kr,blockchainhub.kr,wowtv.co.kr,mobiinside.co.kr,phdkim.net,quasarzone.com##div[class*="-banner-"]
 minimap.net##div[class*="-ad"]:not(.container):not([style])
 minimap.net##.feed-list-wrap .feed-item-wrap-SPONSORED
 m.tf.co.kr###artContent > div[style]:not([class])
