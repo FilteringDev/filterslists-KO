@@ -57,6 +57,7 @@ eegosa.com##section[id*="_ads_"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+m.wikitree.co.kr##div[id^="wikitree_"][style^="min-height:"]
 m.etnews.com##ul[class^="ad-"]
 etnews.com##aside[class^="ad_"]
 bosik.kr##div[class*="padright-"]
