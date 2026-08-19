@@ -1,3 +1,4 @@
+||go.trvdp.com^
 ||priel.co.kr^$third-party
 ||api-external.adsvani.com^
 ||cdn.adsvani.com^
