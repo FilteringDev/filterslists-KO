@@ -1,35 +1,78 @@
 sites:
   WFWF (wfwf*.com):
-    last_known_mirror: wfwf459.com
+    last_known_mirror: wfwf483.com
+    success_since: 2026-08-19 22:45
   Yasyadong (yasyadong*.tv):
     last_known_mirror: yasyadong09.tv
+    failed_since: 2026-08-19 22:45
+    failed_days: 0
+    potentially_dead: true
   Manatoki (manatoki*.net):
     last_known_mirror: manatoki477.net
+    success_since: 2026-08-19 22:45
   TVWiki (tvwiki*.com):
     last_known_mirror: tvwiki34.com
+    success_since: 2026-08-19 22:45
   Hoohoo TV (hoohootv*.xyz):
     last_known_mirror: hoohootv321.xyz
+    failed_since: 2026-08-19 22:45
+    failed_days: 0
+    potentially_dead: true
   TVWiki (tvwiki*.net):
     last_known_mirror: tvwiki32.net
+    heuristic_history:
+      - tvwiki32.net
+    pattern_changed: true
+    non_pattern_mirror: xn--9w3b43d58f04atzyznd.com
+    success_since: 2026-08-19 22:45
   Nooo (nooo*.tv):
     last_known_mirror: nooo20.tv
+    failed_since: 2026-08-19 22:45
+    failed_days: 0
+    potentially_dead: true
   CokCok (cokcok*.com):
     last_known_mirror: cokcok23.com
+    failed_since: 2026-08-19 22:45
+    failed_days: 0
+    potentially_dead: true
   Mato (mato*.com):
-    last_known_mirror: mato16.com
+    last_known_mirror: mato110.com
+    success_since: 2026-08-19 22:45
   Newto (newto*.com):
-    last_known_mirror: newto16.com
+    last_known_mirror: newto65.com
+    success_since: 2026-08-19 22:45
   Bookto (bookto*.com):
     last_known_mirror: bookto16.com
+    heuristic_history:
+      - bookto16.com
+    pattern_changed: true
+    non_pattern_mirror: t.me
+    success_since: 2026-08-19 22:45
   SBXH (sbxh*.com):
     last_known_mirror: sbxh12.com
+    failed_since: 2026-08-19 22:45
+    failed_days: 0
+    potentially_dead: true
   Yako (yako*.com):
-    last_known_mirror: yako13.com
+    last_known_mirror: yako23.com
+    success_since: 2026-08-19 22:45
   Lover (lover*.net):
     last_known_mirror: lover946.net
+    failed_since: 2026-08-19 22:45
+    failed_days: 0
+    potentially_dead: true
   TorrentQQ (torrentqq*.com):
     last_known_mirror: torrentqq397.com
+    failed_since: 2026-08-19 22:45
+    failed_days: 0
+    potentially_dead: true
   TorrentPi (torrentpi*.com):
     last_known_mirror: torrentpi160.com
+    failed_since: 2026-08-19 22:45
+    failed_days: 0
+    potentially_dead: true
   TorrentBot (torrentbot*.site):
     last_known_mirror: torrentbot208.site
+    failed_since: 2026-08-19 22:45
+    failed_days: 0
+    potentially_dead: true
