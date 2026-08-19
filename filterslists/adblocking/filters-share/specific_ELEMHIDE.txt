@@ -49,7 +49,7 @@ auto.danawa.com,m.sports.chosun.com,m.sportschosun.com,m.wowtv.co.kr,m.eye.seoul
 ! ##div[class*="ad_"]
 search.zum.com,philgo.com,vop.co.kr,paxnet.co.kr##div[class*="ad_"]
 ! ##div[class*="ad-"]
-sportschosun.com,lol.ps##div[class*="ad-"]
+mt.co.kr,sportschosun.com,lol.ps##div[class*="ad-"]
 ! ##div[id^="Banner"]
 jobkorea.co.kr##div[id^="Banner"]
 ! ##section[id*="_ads_"]
