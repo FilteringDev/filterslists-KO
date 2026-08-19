@@ -57,6 +57,7 @@ eegosa.com##section[id*="_ads_"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+loawa.com##div[data-ad-placement]
 inven.co.kr##div[style*="height:"]:has(> *[class^="ad-"])
 instiz.net##table[itemtype="http://schema.org/Article"] tr:has(> td[class^="view_"] ins.adsbygoogle)
 orbi.kr##div[style^="height:"]:has(ins[data-revive-zoneid])
