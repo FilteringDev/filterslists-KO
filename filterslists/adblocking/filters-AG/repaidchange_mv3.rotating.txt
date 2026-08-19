@@ -1,3 +1,5 @@
+anilife1.tv,anilife2.tv,anilife3.tv,anilife4.tv,anilife5.tv,anilife6.tv,anilife7.tv,anilife8.tv,anilife9.tv,anilife10.tv,anilife11.tv,anilife12.tv,anilife13.tv,anilife14.tv##*[class^="partner-banner-"]
+/^https:\/\/anilife[0-9]+\.tv\/tvwiki-banners\//$domain=anilife1.tv|anilife2.tv|anilife3.tv|anilife4.tv|anilife5.tv|anilife6.tv|anilife7.tv|anilife8.tv|anilife9.tv|anilife10.tv|anilife11.tv|anilife12.tv|anilife13.tv|anilife14.tv
 /^https:\/\/cdn[0-9]+\.cokcok\.[a-z0-9]+\/assets\/images\//$domain=cokcok15.com|cokcok16.com|cokcok17.com|cokcok18.com|cokcok19.com|cokcok20.com|cokcok21.com|cokcok22.com|cokcok23.com
 /\/data\/apms\/banner\//$domain=mato05.com|mato06.com|mato07.com|mato08.com|mato09.com|mato10.com|mato11.com|mato12.com|mato13.com|mato14.com|mato15.com|mato16.com
 /\/data\/apms\/banner\//$domain=newto05.com|newto06.com|newto07.com|newto08.com|newto09.com|newto10.com|newto11.com|newto12.com|newto13.com|newto14.com|newto15.com|newto16.com
