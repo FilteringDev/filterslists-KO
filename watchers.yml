@@ -5,7 +5,7 @@ sites:
   Yasyadong (yasyadong*.tv):
     last_known_mirror: yasyadong09.tv
     failed_since: 2026-08-20 06:59
-    failed_days: 0
+    failed_days: 1
     potentially_dead: true
   Manatoki (manatoki*.net):
     last_known_mirror: manatoki477.net
@@ -18,21 +18,17 @@ sites:
     accept_antibot: true
     success_since: 2026-08-20 06:59
   TVWiki (tvwiki*.net):
-    last_known_mirror: tvwiki32.net
-    heuristic_history:
-      - tvwiki32.net
-    pattern_changed: true
-    non_pattern_mirror: xn--9w3b43d58f04atzyznd.com
-    success_since: 2026-08-20 06:59
+    last_known_mirror: tvwiki88.net
+    success_since: 2026-08-20 07:34
   Nooo (nooo*.tv):
     last_known_mirror: nooo20.tv
     failed_since: 2026-08-20 06:59
-    failed_days: 0
+    failed_days: 1
     potentially_dead: true
   CokCok (cokcok*.com):
     last_known_mirror: cokcok23.com
     failed_since: 2026-08-20 06:59
-    failed_days: 0
+    failed_days: 1
     potentially_dead: true
   Mato (mato*.com):
     last_known_mirror: mato110.com
@@ -46,13 +42,11 @@ sites:
       - bookto16.com
     pattern_changed: true
     non_pattern_mirror: t.me
-    failed_since: 2026-08-20 06:59
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-08-20 07:34
   SBXH (sbxh*.com):
     last_known_mirror: sbxh12.com
     failed_since: 2026-08-20 06:59
-    failed_days: 0
+    failed_days: 1
     potentially_dead: true
   Yako (yako*.com):
     last_known_mirror: yako23.com
@@ -60,18 +54,18 @@ sites:
   Lover (lover*.net):
     last_known_mirror: lover946.net
     failed_since: 2026-08-20 06:59
-    failed_days: 0
+    failed_days: 1
     potentially_dead: true
   TorrentQQ (torrentqq*.com):
-    last_known_mirror: torrentqq401.com
+    last_known_mirror: torrentqq402.com
     accept_antibot: true
-    success_since: 2026-08-20 06:59
+    success_since: 2026-08-20 07:34
   TorrentPi (torrentpi*.com):
     last_known_mirror: torrentpi160.com
     failed_since: 2026-08-20 06:59
-    failed_days: 0
+    failed_days: 1
     potentially_dead: true
   TorrentBot (torrentbot*.site):
-    last_known_mirror: torrentbot253.site
+    last_known_mirror: torrentbot254.site
     accept_antibot: true
-    success_since: 2026-08-20 06:59
+    success_since: 2026-08-20 07:34
