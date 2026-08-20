@@ -237,11 +237,23 @@
 !#endif
 
 !#if (adguard && adguard_app_ios)
-!#include adblocking/filters-AG/repaidchange_ios.txt
+!#include adblocking/filters-AG/repaidchange_ios.rotating.txt
 
 !#include analytics/filters-AG/repaidchange_ios.txt
 
 !#include annoyance/filters-AG/repaidchange_ios.txt
 
 !#include antiadblockplus/filters-AG/repaidchange_ios.txt
+!#endif
+
+!#if (adguard && adguard_ext_chromium_mv3)
+!#include adblocking/filters-AG/repaidchange_mv3.rotating.txt
+
+!#include analytics/filters-AG/repaidchange_ios.txt
+
+!#include annoyance/filters-AG/repaidchange_ios.txt
+
+!#include antiadblockplus/filters-AG/repaidchange_ios.txt
+
+!#include international/filters-AG/repaidchange_ios.txt
 !#endif
