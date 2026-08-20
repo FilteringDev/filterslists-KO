@@ -14,9 +14,9 @@ sites:
     last_known_mirror: tvwiki34.com
     success_since: 2026-08-20 06:59
   Hoohoo TV (hoohootv*.xyz):
-    last_known_mirror: hoohootv328.xyz
+    last_known_mirror: hoohootv341.xyz
     accept_antibot: true
-    success_since: 2026-08-20 06:59
+    success_since: 2026-08-20 13:42
   TVWiki (tvwiki*.net):
     last_known_mirror: tvwiki88.net
     success_since: 2026-08-20 07:34
@@ -42,7 +42,9 @@ sites:
       - bookto16.com
     pattern_changed: true
     non_pattern_mirror: t.me
-    success_since: 2026-08-20 07:34
+    failed_since: 2026-08-20 13:42
+    failed_days: 0
+    potentially_dead: true
   SBXH (sbxh*.com):
     last_known_mirror: sbxh12.com
     failed_since: 2026-08-20 06:59
@@ -57,15 +59,15 @@ sites:
     failed_days: 1
     potentially_dead: true
   TorrentQQ (torrentqq*.com):
-    last_known_mirror: torrentqq402.com
+    last_known_mirror: torrentqq403.com
     accept_antibot: true
-    success_since: 2026-08-20 07:34
+    success_since: 2026-08-20 13:42
   TorrentPi (torrentpi*.com):
     last_known_mirror: torrentpi160.com
     failed_since: 2026-08-20 06:59
     failed_days: 1
     potentially_dead: true
   TorrentBot (torrentbot*.site):
-    last_known_mirror: torrentbot254.site
+    last_known_mirror: torrentbot255.site
     accept_antibot: true
-    success_since: 2026-08-20 07:34
+    success_since: 2026-08-20 13:42
