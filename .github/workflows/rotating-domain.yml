@@ -34,3 +34,7 @@ jobs:
           mode: ${{ github.event.inputs.mode || '' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/upload-artifact@v7
+        with:
+          name: rotating-domains-checker-log
+          path: /logs/rotating-domains-checker.log

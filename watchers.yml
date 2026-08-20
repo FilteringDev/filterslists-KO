@@ -9,6 +9,7 @@ sites:
     last_known_mirror: tvwiki34.com
   Hoohoo TV (hoohootv*.xyz):
     last_known_mirror: hoohootv321.xyz
+    accept_antibot: true
   TVWiki (tvwiki*.net):
     last_known_mirror: tvwiki32.net
   Nooo (nooo*.tv):
@@ -29,7 +30,9 @@ sites:
     last_known_mirror: lover946.net
   TorrentQQ (torrentqq*.com):
     last_known_mirror: torrentqq397.com
+    accept_antibot: true
   TorrentPi (torrentpi*.com):
     last_known_mirror: torrentpi160.com
   TorrentBot (torrentbot*.site):
     last_known_mirror: torrentbot208.site
+    accept_antibot: true

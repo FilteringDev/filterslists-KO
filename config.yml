@@ -51,7 +51,7 @@ skip_text:
 logging:
   saveToFile: true       # save logs to file
   incremental: true      # append to existing log file (false = overwrite)
-  filePath: "logs/rotating-domains-checker.log"
+  filePath: "/logs/rotating-domains-checker.log"
 
 git:
   mode: "debug"           # "prod" = commit directly to master, "debug" = create PR
