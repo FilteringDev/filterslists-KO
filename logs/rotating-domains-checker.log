@@ -1,0 +1,94 @@
+Run: 2026-08-20 02:20:16.421
+================================================================================
+
+2026-08-20 02:12:22.416 Rotating Domains Checker v1.5.1 - WRITE mode
+2026-08-20 02:12:22.418 Test filters dir: NO
+2026-08-20 02:12:22.418 Target repo path: ./
+2026-08-20 02:12:22.418 Sites to check: 17
+
+2026-08-20 02:20:16.277 
+                      Redirected domains 
+╔════════════════════╤═════════════╤═════════════╤═════════╗
+║ Site               │ From        │ To          │ Time    ║
+╟────────────────────┼─────────────┼─────────────┼─────────╢
+║ WFWF (wfwf*.com)   │ wfwf459.com │ wfwf482.com │ 428.61s ║
+║ Mato (mato*.com)   │ mato16.com  │ mato110.com │ 426.19s ║
+║ Newto (newto*.com) │ newto16.com │ newto65.com │ 402.07s ║
+║ Yako (yako*.com)   │ yako13.com  │ yako23.com  │ 3.38s   ║
+╚════════════════════╧═════════════╧═════════════╧═════════╝
+
+2026-08-20 02:20:16.309 ⬇️ ⬇️ ⬇️  ---=== Domains rotating summary ===---  ⬇️ ⬇️ ⬇️
+2026-08-20 02:20:16.309   Total sites: 17
+2026-08-20 02:20:16.309   ├─ Checked sites: 17
+2026-08-20 02:20:16.309   ├─ 🔄 Watchers with active mirror changed: 4
+2026-08-20 02:20:16.309   ├─ 📋 Watchers with filter mirror list changed: 0
+2026-08-20 02:20:16.309   ├─ 🚩 Pattern→non-pattern: 2
+2026-08-20 02:20:16.309   └─ Unchanged watchers: 2
+2026-08-20 02:20:16.309  🚨  Failed: 9
+2026-08-20 02:20:16.310   ├─ including antibot blocked: 3
+2026-08-20 02:20:16.310   └─ Network problems or dead: 6
+2026-08-20 02:20:16.310 
+2026-08-20 02:20:16.310 Problems:
+2026-08-20 02:20:16.310  🚨 Errors (no replacements made):
+2026-08-20 02:20:16.310      - Yasyadong (yasyadong*.tv) [https://yasyadong09.tv]: Timeout (10000ms) [code=23]: The operation was aborted due to timeout (21.08s)
+2026-08-20 02:20:16.310      - Hoohoo TV (hoohootv*.xyz) [https://hoohootv335.xyz]: Antibot detected: 403 or __cf_chl_tk in URL (437.50s)
+2026-08-20 02:20:16.310      - Nooo (nooo*.tv) [https://nooo20.tv]: DNS resolution failed (0.08s)
+2026-08-20 02:20:16.310      - CokCok (cokcok*.com) [https://cokcok23.com]: DNS resolution failed (0.02s)
+2026-08-20 02:20:16.310      - SBXH (sbxh*.com) [https://sbxh12.com]: DNS resolution failed (0.07s)
+2026-08-20 02:20:16.310      - Lover (lover*.net) [https://lover946.net]: DNS resolution failed (0.03s)
+2026-08-20 02:20:16.310      - TorrentQQ (torrentqq*.com) [https://torrentqq401.com]: Antibot detected: 403 or __cf_chl_tk in URL (452.98s)
+2026-08-20 02:20:16.310      - TorrentPi (torrentpi*.com) [https://torrentpi160.com]: DNS resolution failed (0.14s)
+2026-08-20 02:20:16.310      - TorrentBot (torrentbot*.site) [https://torrentbot253.site]: Antibot detected: 403 or __cf_chl_tk in URL (453.05s)
+2026-08-20 02:20:16.310  🚩  Changed pattern → non-pattern domains:
+2026-08-20 02:20:16.310      TVWiki (tvwiki*.net): Pattern domain redirected to non-pattern (tvwiki32.net → xn--9w3b43d58f04atzyznd.com) - filter not updated, waiting for new pattern domain
+2026-08-20 02:20:16.310      Bookto (bookto*.com): Pattern domain redirected to non-pattern (bookto16.com → t.me) - filter not updated, waiting for new pattern domain
+2026-08-20 02:20:16.310 
+2026-08-20 02:20:16.310 Total phase time: 473.850s
+2026-08-20 02:20:16.310 
+2026-08-20 02:20:16.310 Unchanged watchers:
+                        Manatoki (manatoki*.net) (manatoki477.net), TVWiki (tvwiki*.com) (tvwiki34.com)
+
+2026-08-20 02:20:16.310 === Domains replacement summary ===
+2026-08-20 02:20:16.310 Files scanned: 4
+2026-08-20 02:20:16.310 Files modified: 2
+2026-08-20 02:20:16.310 Total line edits: 5
+2026-08-20 02:20:16.310 Total phase time: 0.039s
+2026-08-20 02:20:16.310 ⬆️ ⬆️ ⬆️  ---=== Domains rotating summary ===---  ⬆️ ⬆️ ⬆️
+
+
+2026-08-20 02:20:16.420 ⌛ Total execution time: 474.074s
+
+⬇️ ⬇️ ⬇️  💡 💡 💡  Pull Request Mode 💡 💡 💡  ⬇️ ⬇️ ⬇️
+Branch: domain-rotate/2026-08-20
+Commit message:
+Rotating Domains Checker: Updating domains
+
+🔄  Watchers with active mirror changed:
+
+WFWF (wfwf*.com)                 wfwf459.com          → wfwf482.com         
+Mato (mato*.com)                 mato16.com           → mato110.com         
+Newto (newto*.com)               newto16.com          → newto65.com         
+Yako (yako*.com)                 yako13.com           → yako23.com          
+
+✅ Unchanged watchers:
+     Manatoki (manatoki*.net) (manatoki477.net), TVWiki (tvwiki*.com) (tvwiki34.com)
+
+🚨 Errors (no replacements made):
+     - Yasyadong (yasyadong*.tv) [https://yasyadong09.tv]: Timeout (10000ms) [code=23]: The operation was aborted due to timeout (21.08s)
+     - Hoohoo TV (hoohootv*.xyz) [https://hoohootv335.xyz]: Antibot detected: 403 or __cf_chl_tk in URL (437.50s)
+     - Nooo (nooo*.tv) [https://nooo20.tv]: DNS resolution failed (0.08s)
+     - CokCok (cokcok*.com) [https://cokcok23.com]: DNS resolution failed (0.02s)
+     - SBXH (sbxh*.com) [https://sbxh12.com]: DNS resolution failed (0.07s)
+     - Lover (lover*.net) [https://lover946.net]: DNS resolution failed (0.03s)
+     - TorrentQQ (torrentqq*.com) [https://torrentqq401.com]: Antibot detected: 403 or __cf_chl_tk in URL (452.98s)
+     - TorrentPi (torrentpi*.com) [https://torrentpi160.com]: DNS resolution failed (0.14s)
+     - TorrentBot (torrentbot*.site) [https://torrentbot253.site]: Antibot detected: 403 or __cf_chl_tk in URL (453.05s)
+🚩  Changed pattern → non-pattern domains:
+     TVWiki (tvwiki*.net): Pattern domain redirected to non-pattern (tvwiki32.net → xn--9w3b43d58f04atzyznd.com) - filter not updated, waiting for new pattern domain
+     Bookto (bookto*.com): Pattern domain redirected to non-pattern (bookto16.com → t.me) - filter not updated, waiting for new pattern domain
+
+
+
+📋  View detailed log: https://github.com/FilteringDev/filterslists-KO/actions/runs/32323798665#artifacts
+⬆️ ⬆️ ⬆️  💡 💡 💡  Pull Request Mode 💡 💡 💡  ⬆️ ⬆️ ⬆️
+
