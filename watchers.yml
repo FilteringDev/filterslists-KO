@@ -43,7 +43,7 @@ sites:
     pattern_changed: true
     non_pattern_mirror: t.me
     failed_since: 2026-08-20 19:27
-    failed_days: 0
+    failed_days: 1
     potentially_dead: true
   SBXH (sbxh*.com):
     last_known_mirror: sbxh12.com
@@ -59,15 +59,15 @@ sites:
     failed_days: 1
     potentially_dead: true
   TorrentQQ (torrentqq*.com):
-    last_known_mirror: torrentqq403.com
+    last_known_mirror: torrentqq404.com
     accept_antibot: true
-    success_since: 2026-08-20 19:27
+    success_since: 2026-08-21 02:19
   TorrentPi (torrentpi*.com):
     last_known_mirror: torrentpi160.com
     failed_since: 2026-08-20 06:59
     failed_days: 1
     potentially_dead: true
   TorrentBot (torrentbot*.site):
-    last_known_mirror: torrentbot255.site
+    last_known_mirror: torrentbot256.site
     accept_antibot: true
-    success_since: 2026-08-20 19:27
+    success_since: 2026-08-21 02:19
