@@ -44,6 +44,7 @@ export type BuildManifestDiff = {
 type ManifestDefinitionInput = {
   DefinitionFileName: string
   Version: string
+  DnsOutputFileName?: string
 }
 
 export function NormalizeFilterListForContentHash(RawFilterList: string): string {
@@ -108,6 +109,7 @@ export function CreateDefinitionManifestFromOutputDirectory(
   const DefinitionBaseName = Path.basename(Definition.DefinitionFileName, Path.extname(Definition.DefinitionFileName))
   const OutputFiles = [
     Path.resolve(OutputDirectory, Definition.DefinitionFileName),
+    ...(Definition.DnsOutputFileName ? [Path.resolve(OutputDirectory, Definition.DnsOutputFileName)] : []),
     ...ReadDirectoryFiles(Path.resolve(OutputDirectory, 'resolved', DefinitionBaseName))
   ]
   const Outputs = OutputFiles

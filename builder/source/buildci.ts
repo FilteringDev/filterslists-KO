@@ -64,10 +64,18 @@ const FiltersBuildWorkerpool = new Piscina.Piscina({
   execArgv: [...Process.execArgv, '--import=tsx'],
   workerData: { FiltersProcessableCache, WorkingDirectory, FiltersListDirectory, OutputDirectory, UnifiedExternalRules }
 })
+const FiltersBuildDnsWorkerpool = new Piscina.Piscina({
+  filename: Path.resolve(WorkingDirectory, 'builder/source/worker-bundle-dns.ts'),
+  execArgv: [...Process.execArgv, '--import=tsx'],
+  workerData: { FiltersProcessableCache, WorkingDirectory, FiltersListDirectory, OutputDirectory, UnifiedExternalRules }
+})
 const FiltersBuildResults: Promise<void>[] = []
 for (const FiltersListDefinition of FiltersListsConfigWithVersion) {
   FiltersBuildResults.push(FiltersBuildResolvedWorkerpool.run(FiltersListDefinition))
   FiltersBuildResults.push(FiltersBuildWorkerpool.run(FiltersListDefinition))
+  if (FiltersListDefinition.DnsOutputFileName) {
+    FiltersBuildResults.push(FiltersBuildDnsWorkerpool.run(FiltersListDefinition))
+  }
 }
 await Promise.all(FiltersBuildResults)
 

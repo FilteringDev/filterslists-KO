@@ -7,7 +7,8 @@
     "HomepageUrl": "https://github.com/FilteringDev/filterslists-KO",
     "SupportUrl": "https://github.com/FilteringDev/filterslists-KO/issues",
     "LicenseUrl": "https://github.com/FilteringDev/filterslists-KO/blob/master/LICENSE",
-    "AdblockType": "AdGuard"
+    "AdblockType": "AdGuard",
+    "DnsOutputFileName": "filterslist-classic-dns.txt"
   },
   {
     "Name": "filterslists-KO classic (uBO)",
@@ -27,7 +28,8 @@
     "HomepageUrl": "https://github.com/FilteringDev/filterslists-KO",
     "SupportUrl": "https://github.com/FilteringDev/filterslists-KO/issues",
     "LicenseUrl": "https://github.com/FilteringDev/filterslists-KO/blob/master/LICENSE",
-    "AdblockType": "AdGuard"
+    "AdblockType": "AdGuard",
+    "DnsOutputFileName": "filterslist-dns.txt"
   },
   {
     "Name": "filterslists-KO (uBO)",
@@ -51,7 +53,8 @@
     "UnifiedDomainListFileName": "unified-domains.txt",
     "UnifiedPreservePatterns": [
       "^##\\.ad-slot-placeholder$"
-    ]
+    ],
+    "DnsOutputFileName": "filterslist-unified-dns.txt"
   },
   {
     "Name": "filterslists-KO unified (uBlock Origin)",
