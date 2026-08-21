@@ -1,2 +1,2 @@
-syntax:
-  - AdGuard
+platforms:
+  - adg_any
