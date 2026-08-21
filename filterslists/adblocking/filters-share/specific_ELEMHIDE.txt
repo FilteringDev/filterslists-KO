@@ -1488,9 +1488,12 @@ avjoa69.com##.happy-header
 ntnt4.tv##a[data-testid="linkElement"][href^="http"][target="_blank"]:has(> wow-image)
 aniwolf.*##.banner-area
 anilife.*##div[class] > a[class][href^="http"][target="_blank"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^tvwiki[0-9]+\.com/]##div[id] > ul:has(a[href] > img[src^="/AD/"])
 hoduhodu.com##.w-full > a[target="_blank"] > img
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^kktv[0-9]+\.com/]##.modal_contents
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^tvmon[0-9]+\.org/]##.row-banner
 tvroom5.org##div.banners_area
 tvroom5.org##div.banner_l

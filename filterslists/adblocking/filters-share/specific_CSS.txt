@@ -228,6 +228,7 @@ www.erdcloud.com#$#.erd-container { width: 100% !important; }
 ! DOMAIN-REFRESHER: START
 !
 ! aglint-disable-next-line
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^spotv[0-9]+\.com$/]##header { top: 0px !important; }
 !
 ! DOMAIN-REFRESHER: END

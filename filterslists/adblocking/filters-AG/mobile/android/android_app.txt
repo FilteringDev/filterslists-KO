@@ -1,12 +1,19 @@
+! aglint-disable-next-line no-invalid-modifiers
 ||cdn.011st.com^$app=com.towneers.www
+! aglint-disable-next-line no-invalid-modifiers
 ||graph.facebook.com^$app=viva.republica.toss
+! aglint-disable-next-line no-invalid-modifiers
 ||fundingchoicesmessages.google.com^$app=com.dencreak.spbook
 ||settings.cashwalk.io/cashwalk/*/notice/notice2_main|
+! aglint-disable-next-line no-invalid-modifiers
 ||braze-images.com^$app=kr.co.rememberapp
 ||app.dcinside.com/api/_ad_search_link2.php
+! aglint-disable-next-line no-invalid-modifiers
 ||firebaseinstallations.googleapis.com^$app=instasaver.instagram.video.downloader.photo
 ||ds.11st.co.kr/NetInsight/text/11st/11st_mobile/mobile_product
+! aglint-disable-next-line no-invalid-modifiers
 ||centaurs-rest.coupang.com^$app=com.timespread.Timetable2
+! aglint-disable-next-line no-invalid-modifiers
 ||img.samsungapps.com/display^$app=com.samsung.android.game.gamehome
 ||adlibr.com^
 ||ad-display.s.zigzag.kr^

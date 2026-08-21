@@ -1,4 +1,6 @@
 ! https://github.com/AdguardTeam/CoreLibs/issues/2084
+! aglint-disable-next-line no-invalid-modifiers
 @@||inven.co.kr/sitebuilder/common/?mode=leftmenu$xmlhttprequest,elemhide,jsinject,extension
 ! https://github.com/AdguardTeam/AdguardFilters/issues/208160
+! aglint-disable-next-line no-invalid-modifiers
 @@||m.sktuniverse.co.kr/html/template/*.html$xmlhttprequest,elemhide,jsinject,extension

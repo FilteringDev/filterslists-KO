@@ -1,1 +1,2 @@
+! aglint-disable-next-line no-invalid-modifiers
 ||videoads.kakao.com/adserver/api/v*/vmap$redirect=noopvmap-1.0,app=PotPlayer.exe

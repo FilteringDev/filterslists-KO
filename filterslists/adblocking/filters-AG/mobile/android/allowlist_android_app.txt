@@ -1,3 +1,6 @@
+! aglint-disable-next-line no-invalid-modifiers
 @@||api-ao-list.adison.co^$app=kvp.jjy.MispAndroid320
+! aglint-disable-next-line no-invalid-modifiers
 @@||api-ao-list.adison.co^$app=com.nhn.android.webtoon
+! aglint-disable-next-line no-invalid-modifiers
 @@||api-ao-list.adison.co^$app=com.nhn.android.nbooks

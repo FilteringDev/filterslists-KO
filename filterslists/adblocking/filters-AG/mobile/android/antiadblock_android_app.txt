@@ -1,2 +1,4 @@
+! aglint-disable-next-line no-invalid-modifiers
 @@||pagead2.googlesyndication.com^$app=co.benx.weverse
+! aglint-disable-next-line no-invalid-modifiers
 @@||imasdk.googleapis.com^$app=com.google.android.youtube

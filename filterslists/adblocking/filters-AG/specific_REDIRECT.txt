@@ -1,12 +1,24 @@
+! aglint-disable-next-line no-invalid-modifiers
 ||jeongcheogi.edugamja.com/ads/$redirect=2x2-transparent.png
+! aglint-disable-next-line no-invalid-modifiers
 ||ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js$script,domain=m.cafe.naver.com,redirect=noopjs
+! aglint-disable-next-line no-invalid-modifiers
 ||video.veilduck.app^$redirect=noopmp4-1s
+! aglint-disable-next-line no-invalid-modifiers
 ||advod.sbs.co.kr/sbsad/$media,redirect=noopmp4-1s
+! aglint-disable-next-line no-invalid-modifiers
 ||smrmembers-smr.smartmediarep.com/smc/smrmembers/$redirect=noopmp4-1s
+! aglint-disable-next-line no-invalid-modifiers
 ||news.mobfeed.co.kr/front/personal/coupang$redirect=nooptext
+! aglint-disable-next-line no-invalid-modifiers
 ||bigkinds.or.kr/resources/files/banner/$redirect=2x2-transparent.png
+! aglint-disable-next-line no-invalid-modifiers
 ||bigkinds.or.kr/assets/*/img/content/*banner$redirect=2x2-transparent.png
+! aglint-disable-next-line no-invalid-modifiers
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=~duden.de
+! aglint-disable-next-line no-invalid-modifiers
 ||amazon-adsystem.com/aax2/apstag.js$script,redirect=amazon-apstag,domain=~wcyb.com
+! aglint-disable-next-line no-invalid-modifiers
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt
+! aglint-disable-next-line no-invalid-modifiers
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=~investing.com|~wcyb.com

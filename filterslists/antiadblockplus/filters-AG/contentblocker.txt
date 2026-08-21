@@ -1,3 +1,6 @@
+! aglint-disable-next-line no-invalid-modifiers
 @@||nam.veta.naver.com/vas|$xmlhttprequest,domain=chzzk.naver.com
+! aglint-disable-next-line no-invalid-modifiers
 @@||nam.veta.naver.com/gfp$xmlhttprequest,domain=chzzk.naver.com
+! aglint-disable-next-line no-invalid-modifiers
 @@||nam.veta.naver.com/call|$xmlhttprequest,domain=chzzk.naver.com

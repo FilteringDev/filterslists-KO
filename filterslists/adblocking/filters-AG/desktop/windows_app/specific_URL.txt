@@ -1,9 +1,13 @@
+! aglint-disable-next-line no-invalid-modifiers
 ||ad.altools.co.kr^$redirect=noopframe
 ||altools.zum.com/PC_altoolspopskin_display_pop_
 ||cubec.gomtv.com/TextAdInfo_new.gom
+! aglint-disable-next-line no-invalid-modifiers
 ||safevisit.org/appdisplay?$redirect=noopframe
+! aglint-disable-next-line no-invalid-modifiers
 184.25.232.20:443$network,app=ALYac.aye
 ||data.news.zumst.com/alyac/popular/news.json
+! aglint-disable-next-line no-invalid-modifiers
 121.189.38.123^$network,app=ALYac.aye
 ||pirogom.com/mopdf/image_ads/
 ||pirogom.com/newmop/popup/
@@ -14,6 +18,7 @@
 ||admin.helpstart.co.kr/app/shortcut_bookmark_config.php
 ||cf-xdn.altools.co.kr/Ex_image/alyac/EndBanner/
 ||bandisoft.com/bandizip/ad/
+! aglint-disable-next-line no-invalid-modifiers
 ||polink-static-contents.polarisoffice.com^$app=msedgewebview2.exe
 ||advert.estsoft.com/?event=$other
 ||v3contents.ahnlab.com/client/ad_toast.jsp

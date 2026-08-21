@@ -142,97 +142,185 @@ m.fmkorea.com##iframe[src*="//loader.fmkorea.com/"][src*="_loader/"]
 !
 ! DOMAIN-REFRESHER: START
 !
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/anilife[0-9]+\.tv/]##*[class^="partner-banner-"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/cokcok[0-9]+\.com/]###cpb-popup-banners
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/xtoon[0-9]+\.com/]##.container > div.row > div > a[target="_blank"] > picture
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/funbe[0-9]+\.com/]##.mobile-banner > div[class^="main_top_bann"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/funbe[0-9]+\.com/]##.mobile-banner div.banner_m
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/funbe[0-9]+\.com/]###bo_list div[class^="bancol"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/mingky[0-9]+\.net/]##.contents_wrap.column div[style="display: flex; flex-direction: column; align-items: center;"]
 nightofpeace.com,ilovebees.io##.e-con-full.e-flex.e-con:has(a[target="_blank"] img)
 nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_blank"] img)
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/lover[0-9]\.net/]##.div-over
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentqq[0-9]+.com/]##.at-banner
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/torrentpi[0-9]+\.com/]##.basic-post-gallery
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/tvwiki[0-9]+\.tv/]##a:has(> img[src^="https://static.wixstatic.com/media/"])
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/torrentzota[0-9]+\.com/]##a[href^="/adver-"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^tv[0-9]+\.wiki/]###cpb-popup-banners
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^tv[0-9]+\.wiki/]##.custom_banner_wra
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^tkor[0-9]+\.com/]##*[class*="top_bann"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^jusokorea[0-9]+\.com/]##div[class*="-ad-banner"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentnx[0-9]+\.com/]##a[href*="/bbs/link.php"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^tvwiki[0-9]+\.com/]##ul[class^="banner"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^sptv[0-9]+\.com/]##.modal_contents
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentpi[0-9]+\.com/]##style ~ .basic-post-gallery
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^avguri[0-9]+\.com/]##div[id$="_bn"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^avpink[0-9]+\.com/]###foogallery_widget-3
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^avpink[0-9]+\.com/]###foogallery_widget-12
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^avpink[0-9]+\.com/]###foogallery_widget-13
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentnx[0-9]+\.com/]##a[href*="/bbs/link.php"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^avguri[0-9]+\.com/]###hd_pop
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^ygy[0-9]+\.com/]##.popup_wrap
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^nolgoga[0-9]+\.com/]###hd_pop
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^bontv[0-9]+\.com/]##div[class$="_ban"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^bontv[0-9]+\.com/]##div[class^="popup_"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^tvzota[0-9]+\.com/]##div[class$="_ban"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^tvzota[0-9]+\.com/]##div[class^="popup_"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^opworlds1[0-9]+\.com/]##.basic-banner-gallery
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^jusoyo1[0-9]+\.net/]##.hd_pops
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^jusoyo1[0-9]+\.net/]##.basic-banner-gallery
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentdin[0-9]+\.com/]###hd_pop
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentdin[0-9]+\.com/]##div[class*="at-"] > .widget-box
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^tvchak[0-9]+\.com/]##div[style].border-shadow
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^tvchak[0-9]+\.com/]##.banner-box
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^agit[0-9]+\.com/]##.banner
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentqq[0-9]+\.com/]##.at-banner
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentqq[0-9]+\.com/]##.row-banner
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrenttip[0-9]+\.com/]##a[href*="/ad/"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrenttt[0-9]+\.com/]##a[href*="/ad/"][target="_blank"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^tvzota[0-9]+\.com/]##div[class^="popup_"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^tvzota[0-9]+\.com/]##.wid
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^jgmoa[0-9]+\.com/]##.popup
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrenttop[0-9]+\.com/]##a[href^="/adver-"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^yaburi[0-9]+\.com/]###popups
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^linkrand[0-9]+\.com/]##.is-hover a[href^="http"][target="_blank"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^linkrand[0-9]+\.com/]##div[id][class*=" "][data-interval] div[style*="/data/apms/background"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^tvbox[0-9]+\.xyz/]##div[class*="-banner"] div[class*=" "][style=" "]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^ydbox[0-9]+\.com/]##div[class*="-banner"] div[class*=" "][style=" "]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^linkeye[0-9]+\.com/]##div[class*="banner-"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^booktoki[0-9]+\.com/]##div[id*="-banner-"] > div[class*=" "] > div[class*=" "][style*=" "]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^spotv[0-9]+\.com/]##div[id$="-banner"]
 !#if !adguard_ext_android_cb
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^lover[0-9]+\.net/]##.xe_content span ~ div[style]
 !#endif
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^yagong[0-9]+\.com/]##div[x-data="popups()"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^redsun[0-9]+\.me/]##div[id*="ads"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^manamoa[0-9]+\.com/]##div[class*="banner"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentgram[0-9]+\.com/]##.panel-default ~ .row > .col-sm-6
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentgram[0-9]+\.com/]##.npia-board-gallery
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentgram[0-9]+\.com/]###body_text > .at-main.at-col[style]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentbam[0-9]+\.com/]##a[href*="/ad/"][target="_blank"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentbot[0-9]+\.[a-z]+/]##a[href^="/go/"][target="_blank"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentbot[0-9]+\.[a-z]+/]##div[id^="ad_"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^ktxtorrent[0-9]+\.com/]##img[src*=".imgbox.com/"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentsome[0-9]+\.com/]##a[href^="/go/"][target="_blank"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentrj[0-9]+\.com/]##a[href^="/go/"][target="_blank"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^bobaelink[0-9]+\.xyz/]##a[href^="/ad-"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^frtoon[0-9]+\.com/]##.ad-form > .row > div[class^="col-md-"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^manaboza[0-9]+\.com/]##.payment_fullbnr
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^manaboza[0-9]+\.com/]##.comic_bot_bnr
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^newtoon[0-9]+\.com/]##.ad-form > .row > div[class^="col-md-"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^blacktoon[0-9]+\.com/]##.banner.container > .row > .col-6
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^manatoki[0-9]+\.net/]###hd_pop
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^booktoki[0-9]+\.com/]###hd_pop
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^booktoki[0-9]+\.com/]##img[src^="/tokinbtoki/"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^manatoki[0-9]+\.net/]##[style="margin-bottom: 20px;"].row.row-15
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^manatoki[0-9]+\.net/]##.basic-banner.row.row-10
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^manatoki[0-9]+\.net/]##.board-tail-banner
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/blacktoon[0-9]+\.com/]##.toon-viewer .col-12[style^="padding:"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/majorlink[0-9]+\.com/]##.major_site_latest
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/newto[0-9]+\.com/]##div[class^="basic-banner-"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/bookto[0-9]+\.com/]##div[class^="basic-banner-"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/mato[0-9]+\.com/]##div[class^="basic-banner-"]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/sbxh[0-9]+\.com/]##[data-brs][data-br]
+! aglint-disable-next-line no-invalid-modifiers
 [$domain=/torrentsee[0-9]+\.com/]##.container > div[style^="z-index:999; "]
 !
 ! DOMAIN-REFRESHER: END

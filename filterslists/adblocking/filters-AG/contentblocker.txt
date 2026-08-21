@@ -38,7 +38,9 @@ cpsp.kr#@#.pub_300x250
 cpsp.kr#@#.pub_728x90
 cpsp.kr#@#.text-ad
 cpsp.kr#@#.text_ads
+! aglint-disable-next-line no-invalid-modifiers
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=cpsp.kr
+! aglint-disable-next-line no-invalid-modifiers
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=thelabyrinth.co.kr
 @@||windowsforum.kr/prebid.js
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=windowsforum.kr
@@ -47,21 +49,31 @@ windowsforum.kr#@#ins.adsbygoogle[data-ad-slot]
 windowsforum.kr#@#ins.adsbygoogle[data-ad-client]
 windowsforum.kr#@#.banner_header
 windowsforum.kr#@#div[class$="_banner"]
+! aglint-disable-next-line no-invalid-modifiers
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=etoland.co.kr,xmlhttprequest
+! aglint-disable-next-line no-invalid-modifiers
 @@||googleads.g.doubleclick.net/pagead/id$domain=etoland.co.kr,xmlhttprequest
+! aglint-disable-next-line no-invalid-modifiers
 @@||googleads.g.doubleclick.net|$domain=etoland.co.kr,xmlhttprequest
+! aglint-disable-next-line no-invalid-modifiers
 @@||googlesyndication.com|$domain=etoland.co.kr,xmlhttprequest
+! aglint-disable-next-line no-invalid-modifiers
 @@||doubleclick.net|$domain=etoland.co.kr,xmlhttprequest
+! aglint-disable-next-line no-invalid-modifiers
 @@||googletagservices.com/tag/js/gpt.js$domain=etoland.co.kr,xmlhttprequest
+! aglint-disable-next-line no-invalid-modifiers
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=etoland.co.kr,xmlhttprequest
+! aglint-disable-next-line no-invalid-modifiers
 @@||www.google-analytics.com|$domain=etoland.co.kr,xmlhttprequest
 ||ragmaya.kr/static/rm_adblock_wall.js
+! aglint-disable-next-line no-invalid-modifiers
 @@||bser-koroshi.vercel.app/_vercel/insights/script.js$domain=bser-koroshi.vercel.app,xmlhttprequest
 algumon.com##div[id^="deal-"].card ~ .bg-base-100:has(div[style] > div[class*=" svelte-"])
 @@||cheatdot.com^$generichide
 @@||tv.jtbc.co.kr^$generichide
 @@||mvod.jtbc.co.kr^$generichide
 @@||onair.jtbc.co.kr^$generichide
+! aglint-disable-next-line no-invalid-modifiers
 @@||api-v2.adrop.io/request$xmlhttprequest,domain=newneek.co
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mylocation.co.kr
 @@||mylocation.co.kr^$generichide
@@ -75,8 +87,11 @@ tabriz.kr#@##ad-lead
 tabriz.kr#@##homead
 @@||boardlife.co.kr^$generichide
 ||tistory1.daumcdn.net/tistory/3827361/skin/images/script3.js$domain=devjit.tistory.com
+! aglint-disable-next-line no-invalid-modifiers
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hub.weirdhost.xyz,xmlhttprequest
+! aglint-disable-next-line no-invalid-modifiers
 @@||adblockanalytics.com$domain=hub.weirdhost.xyz,xmlhttprequest
+! aglint-disable-next-line no-invalid-modifiers
 @@||adservice.google.com^|$xmlhttprequest,domain=klauncher.kr
 chmodi.tistory.com##.floatdiv
 @@||googletagmanager.com/gtag/js$domain=t.hi098123.com,script
@@ -85,6 +100,7 @@ t.hi098123.com#@#ins.adsbygoogle[data-ad-slot]
 @@||adxv.zum.com/view/targets?slots=$domain=zum.com
 svrforum.com##body > div[class][style*="box-shadow:"]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=t.hi098123.com
+! aglint-disable-next-line no-invalid-modifiers
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=luckyquiz3.blogspot.com
 @@||adimg.nate.com/img/*?n=$domain=tv.nate.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=sbs.co.kr
@@ -100,20 +116,25 @@ svrforum.com##body > div[class][style*="box-shadow:"]
 @@||advimg.ad-mapps.com/sdk/js/ver/200/ad_script.js$domain=maxmovie.com
 @@||advimg.ad-mapps.com/sdk/M_PLUS/JS/common/jquery-$domain=maxmovie.com
 @@||static.dable.io/dist/plugin.min.js$domain=maxmovie.com
+! aglint-disable-next-line no-invalid-modifiers
 @@||mtag.mman.kr/get_ad.mezzo/$xmlhttprequest,domain=maxmovie.com
+! aglint-disable-next-line no-invalid-modifiers
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=aagag.com,xmlhttprequest
 meeco.kr#@#.googleAd
 @@||cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js$script,domain=typing.works
+! aglint-disable-next-line no-invalid-modifiers
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$xmlhttprequest,domain=spotvnow.co.kr
 @@||ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js$script,domain=m.search.naver.com
 avdbs.com#@#.ad-btn
 @@||errornight.com^$generichide
 @@||ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js$script,domain=m.cafe.naver.com|nid.naver.com
+! aglint-disable-next-line no-invalid-modifiers
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=spotvnow.co.kr
 bera.world,sellas.ink,1412.live#@#.ads
 remiz.co.kr#@#ins.adsbygoogle[data-ad-slot]
 remiz.co.kr#@#.googleAd
 remiz.co.kr#@##googleAd
+! aglint-disable-next-line no-invalid-modifiers
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=tsuvod.com
 somenotes247.blogspot.com#@#.vertical-ads
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=bera.world|1412.live|sellas.ink
@@ -145,7 +166,9 @@ ilsangt.tistory.com#@#.adsense-area
 clickmon.co.kr##html *
 uda1004.tistory.com#@#ins.adsbygoogle[data-ad-slot]
 @@||ssl.pstatic.net/tveta/libs/ssp-video/prod/ssp.web.sdk_$script,domain=m.sports.naver.com
+! aglint-disable-next-line no-invalid-modifiers
 @@||fafan.kr^$genericblock
+! aglint-disable-next-line no-invalid-modifiers
 @@||poketory.com^$genericblock
 @@||sogirl.so/wp-content/plugins/dh-anti-adblocker/public/js/ads-prebid.js
 plankim.com##body > div:not([class]):not([id])
@@ -163,6 +186,7 @@ meeco.kr#@#.adsbygoogle
 stockinfo7.com#@#ins.adsbygoogle[data-ad-slot]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=stockinfo7.com
 ||cdn.kollhong.com/wp-content/custom-js/fuckadblock.min.js
+! aglint-disable-next-line no-invalid-modifiers
 @@||www3.doubleclick.net/|$xmlhttprequest,domain=blackkiwi.net
 @@||x86.co.kr^$generichide
 @@||tistory.com^$generichide
