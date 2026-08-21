@@ -59,9 +59,9 @@ sites:
     failed_days: 2
     potentially_dead: true
   TorrentQQ (torrentqq*.com):
-    last_known_mirror: torrentqq406.com
+    last_known_mirror: torrentqq407.com
     accept_antibot: true
-    success_since: 2026-08-21 13:39
+    success_since: 2026-08-21 19:20
   TorrentPi (torrentpi*.com):
     last_known_mirror: torrentpi160.com
     failed_since: 2026-08-20 06:59
