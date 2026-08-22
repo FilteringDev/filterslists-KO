@@ -11,6 +11,7 @@
   "scripts": {
     "build": "npm run build -w builder",
     "ci:decideDeploy": "npm run ci:decideDeploy -w devops",
+    "ci:deadDomainClean": "npm run ci:deadDomainClean -w devops",
     "lint:aglint": "npm run lint -w filterslists",
     "lint:builder": "npm run lint -w builder",
     "lint:devops": "npm run lint -w devops"

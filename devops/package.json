@@ -5,7 +5,9 @@
   "scripts": {
     "ci:decideDeploy": "tsx source/decide-deploy.ts",
     "ci:applyPackageJson": "tsx source/apply-packagejson.ts",
-    "lint": "eslint . --ext .ts"
+    "ci:deadDomainClean": "tsx source/dead-domain-cleanup.ts",
+    "lint": "eslint . --ext .ts",
+    "test": "ava"
   },
   "devDependencies": {
     "@types/node": "^24.12.4",
@@ -13,11 +15,13 @@
     "@types/semver": "^7.7.1",
     "@typescript-eslint/eslint-plugin": "^8.60.0",
     "@typescript-eslint/parser": "^8.60.0",
+    "ava": "^8.0.1",
     "eslint": "^10.4.1",
     "typescript-eslint": "^8.60.0"
   },
   "dependencies": {
     "@actions/core": "^3.0.1",
+    "@adguard/agtree": "^4.1.1",
     "@npmcli/package-json": "^8.0.0",
     "@octokit/rest": "^22.0.1",
     "@typescriptprime/securereq": "^2.0.0",
@@ -25,5 +29,16 @@
     "tsx": "^4.22.4",
     "typescript": "^6.0.3",
     "zod": "^4.4.3"
+  },
+  "ava": {
+    "extensions": [
+      "ts"
+    ],
+    "files": [
+      "test/**/*.test.ts"
+    ],
+    "nodeArguments": [
+      "--import=tsx"
+    ]
   }
 }

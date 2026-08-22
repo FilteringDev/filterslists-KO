@@ -1,0 +1,107 @@
+name: Dead Domain Cleanup
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Probe domains but do not write files or open a pull request'
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: dead-domain-clean
+  cancel-in-progress: false
+
+env:
+  STATE_ARTIFACT_NAME: dead-domain-state
+  STATE_DIRECTORY: .dead-domain-state
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: master
+          # git blame needs the whole history to rank domains by their last modification.
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: lts/*
+
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      - name: Install dependencies
+        run: pnpm install --no-lockfile
+
+      - name: Restore previous state
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p "$STATE_DIRECTORY"
+          PREVIOUS_RUN_ID="$(gh run list \
+            --workflow dead-domain-clean.yml \
+            --branch master \
+            --status success \
+            --limit 1 \
+            --json databaseId \
+            --jq '.[0].databaseId // empty')"
+          if [ -z "$PREVIOUS_RUN_ID" ]; then
+            echo "No previous successful run found, starting with an empty state."
+            exit 0
+          fi
+          gh run download "$PREVIOUS_RUN_ID" \
+            --name "$STATE_ARTIFACT_NAME" \
+            --dir "$STATE_DIRECTORY" \
+            || echo "No state artifact on run $PREVIOUS_RUN_ID, starting with an empty state."
+
+      - name: Check domains and clean filters lists
+        id: clean
+        env:
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+          STATE_DIRECTORY: ${{ env.STATE_DIRECTORY }}
+        run: npm run ci:deadDomainClean -w devops
+
+      - name: Upload state
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ env.STATE_ARTIFACT_NAME }}
+          path: ${{ env.STATE_DIRECTORY }}
+          retention-days: 90
+          if-no-files-found: warn
+
+      - name: Create pull request
+        if: steps.clean.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEAD_DOMAINS: ${{ steps.clean.outputs.dead_domains }}
+        run: |
+          BRANCH_NAME="dead-domain-clean/$(date -u +%Y%m%d)-${GITHUB_RUN_ID}"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git checkout -b "$BRANCH_NAME"
+          git add filterslists
+          git commit -m "chore(filterslists): remove dead domains"
+          git push origin "$BRANCH_NAME"
+          {
+            echo "Dead domains detected via Globalping (HTTP probes from KR) and removed from the filters lists."
+            echo
+            echo "Removed domains:"
+            echo "$DEAD_DOMAINS" | jq -r '.[] | "- `\(.)`"'
+            echo
+            echo "Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          } > /tmp/dead-domain-pr-body.md
+          gh pr create \
+            --base master \
+            --head "$BRANCH_NAME" \
+            --title "chore(filterslists): remove dead domains" \
+            --body-file /tmp/dead-domain-pr-body.md

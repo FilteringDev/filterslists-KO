@@ -7,7 +7,6 @@
     "skipLibCheck": true,
     "allowImportingTsExtensions": true,
     "noEmit": true,
-    "types": ["node"],
     "paths": {
       "@builder/*": ["./builder/source/*"],
       "@reporoot/*": ["./*"]
