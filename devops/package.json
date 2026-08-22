@@ -10,7 +10,7 @@
     "test": "ava"
   },
   "devDependencies": {
-    "@types/node": "^24.12.4",
+    "@types/node": "^26.2.0",
     "@types/npmcli__package-json": "^4.0.4",
     "@types/semver": "^7.7.1",
     "@typescript-eslint/eslint-plugin": "^8.60.0",
