@@ -7,6 +7,7 @@ import { BuildDomainCandidates, SelectOldestDomains } from './dead-domain/candid
 import { CollectDomainOccurrences } from './dead-domain/collect-domains.ts'
 import { ListFilterFiles } from './dead-domain/filter-files.ts'
 import { GlobalpingRateLimitError, MaxMeasurementsPerRun, ProbeDomain } from './dead-domain/globalping.ts'
+import { BuildPullRequestBody, BuildReportMarkdown, PullRequestBodyFileName, ReportFileName, type ReportInput } from './dead-domain/report.ts'
 import { RewriteFilterContent } from './dead-domain/rewrite-filters.ts'
 import { LoadState, RecordVerdict, SaveState, StateFileName } from './dead-domain/state.ts'
 import { EvaluateMeasurement } from './dead-domain/verdict.ts'
@@ -14,7 +15,7 @@ import type { DomainProbeResult, RuleChange } from './dead-domain/types.ts'
 
 const Env = await Zod.object({
   DRY_RUN: Zod.string().default('false').transform(Value => Value === 'true'),
-  STATE_DIRECTORY: Zod.string().nonempty().default('.dead-domain-state'),
+  STATE_DIRECTORY: Zod.string().nonempty().default('dead-domain-state'),
   MAX_CANDIDATES: Zod.string().default(String(MaxMeasurementsPerRun))
     .transform(Value => Number(Value))
     .refine(Value => Number.isInteger(Value) && Value > 0 && Value <= MaxMeasurementsPerRun,
@@ -22,7 +23,8 @@ const Env = await Zod.object({
 }).strip().parseAsync(Process.env)
 
 const WorkingDirectory = Path.resolve(import.meta.dirname, '../..')
-const StateFilePath = Path.resolve(WorkingDirectory, Env.STATE_DIRECTORY, StateFileName)
+const StateDirectory = Path.resolve(WorkingDirectory, Env.STATE_DIRECTORY)
+const StateFilePath = Path.resolve(StateDirectory, StateFileName)
 const CheckedAt = Math.floor(Date.now() / 1000)
 
 function FormatError(ErrorValue: unknown): string {
@@ -56,11 +58,15 @@ for (const Candidate of SelectedCandidates) {
 
   try {
     const Measurement = await ProbeDomain(Candidate.Domain)
-    const { Verdict, Reason } = EvaluateMeasurement(Measurement)
+    const { Verdict, Reason, Warnings } = EvaluateMeasurement(Candidate.Domain, Measurement)
 
-    ProbeResults.push({ Domain: Candidate.Domain, Verdict, Reason })
-    RecordVerdict(State, Candidate.Domain, Verdict, CheckedAt)
+    ProbeResults.push({ Domain: Candidate.Domain, Verdict, Reason, Warnings })
+    RecordVerdict(State, Candidate.Domain, Verdict, CheckedAt, Warnings)
     Core.info(`[dead-domain] ${Candidate.Domain}: ${Verdict} (${Reason})`)
+
+    for (const Warning of Warnings) {
+      Core.warning(`[dead-domain] ${Candidate.Domain}: ${Warning}`)
+    }
   } catch (ErrorValue) {
     if (ErrorValue instanceof GlobalpingRateLimitError) {
       RateLimited = true
@@ -68,7 +74,7 @@ for (const Candidate of SelectedCandidates) {
       break
     }
 
-    ProbeResults.push({ Domain: Candidate.Domain, Verdict: 'Unknown', Reason: FormatError(ErrorValue) })
+    ProbeResults.push({ Domain: Candidate.Domain, Verdict: 'Unknown', Reason: FormatError(ErrorValue), Warnings: [] })
     Core.warning(`[dead-domain] ${Candidate.Domain}: probe failed — ${FormatError(ErrorValue)}`)
   }
 }
@@ -106,40 +112,41 @@ for (const FilePath of [...AffectedFiles].sort((A, B) => A.localeCompare(B))) {
 
 SaveState(StateFilePath, State, KnownDomains)
 
+const RunUrl = Process.env.GITHUB_SERVER_URL && Process.env.GITHUB_REPOSITORY && Process.env.GITHUB_RUN_ID
+  ? `${Process.env.GITHUB_SERVER_URL}/${Process.env.GITHUB_REPOSITORY}/actions/runs/${Process.env.GITHUB_RUN_ID}`
+  : null
+
+const Report: ReportInput = {
+  DryRun: Env.DRY_RUN,
+  SelectedCount: SelectedCandidates.length,
+  ProbeResults,
+  RateLimited,
+  ChangedFiles,
+  ModifiedRules,
+  RemovedRules,
+  RunUrl
+}
+
+const ReportMarkdown = BuildReportMarkdown(Report)
+const ReportFilePath = Path.resolve(StateDirectory, ReportFileName)
+const PullRequestBodyFilePath = Path.resolve(StateDirectory, PullRequestBodyFileName)
+
+Fs.writeFileSync(ReportFilePath, `${ReportMarkdown}\n`, 'utf-8')
+Fs.writeFileSync(PullRequestBodyFilePath, `${BuildPullRequestBody(Report)}\n`, 'utf-8')
+
+const WarningCount = ProbeResults.reduce((Total, Result) => Total + Result.Warnings.length, 0)
 const HasChanges = ChangedFiles.length > 0
+
 Core.setOutput('has_changes', String(HasChanges && !Env.DRY_RUN))
 Core.setOutput('dead_domains', JSON.stringify([...DeadDomains]))
 Core.setOutput('changed_files', JSON.stringify(ChangedFiles))
 Core.setOutput('probed_count', String(ProbeResults.length))
 Core.setOutput('rate_limited', String(RateLimited))
+Core.setOutput('warning_count', String(WarningCount))
+Core.setOutput('pr_body_path', Path.relative(WorkingDirectory, PullRequestBodyFilePath))
 
-const SummaryLines = [
-  '## Dead domain cleanup',
-  '',
-  `- Dry run: \`${Env.DRY_RUN}\``,
-  `- Probed domains: ${ProbeResults.length} / ${SelectedCandidates.length}${RateLimited ? ' (stopped early: rate limited)' : ''}`,
-  `- Dead domains: ${DeadDomains.size}`,
-  `- Changed files: ${ChangedFiles.length}`,
-  `- Modified rules: ${ModifiedRules.length}`,
-  `- Removed rules: ${RemovedRules.length}`,
-  ''
-]
-
-if (DeadDomains.size > 0) {
-  SummaryLines.push('### Dead domains', '', ...[...DeadDomains].map(Domain => `- \`${Domain}\``), '')
-}
-
-for (const Change of RemovedRules) {
-  SummaryLines.push(`- removed \`${Change.Before}\` (${Change.FilePath}:${Change.LineNumber})`)
-}
-
-for (const Change of ModifiedRules) {
-  SummaryLines.push(`- changed \`${Change.Before}\` → \`${Change.After}\` (${Change.FilePath}:${Change.LineNumber})`)
-}
-
-const Summary = SummaryLines.join('\n')
-Core.info(Summary)
+Core.info(ReportMarkdown)
 
 if (Process.env.GITHUB_STEP_SUMMARY) {
-  Fs.appendFileSync(Process.env.GITHUB_STEP_SUMMARY, `${Summary}\n`, 'utf-8')
+  Fs.appendFileSync(Process.env.GITHUB_STEP_SUMMARY, `${ReportMarkdown}\n`, 'utf-8')
 }

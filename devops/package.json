@@ -24,6 +24,7 @@
     "@adguard/agtree": "^4.1.1",
     "@npmcli/package-json": "^8.0.0",
     "@octokit/rest": "^22.0.1",
+    "@structured-world/structured-public-domains": "^0.0.25",
     "@typescriptprime/securereq": "^2.0.0",
     "semver": "^7.8.1",
     "tsx": "^4.22.4",

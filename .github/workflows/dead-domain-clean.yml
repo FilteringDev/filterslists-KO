@@ -17,7 +17,8 @@ concurrency:
 
 env:
   STATE_ARTIFACT_NAME: dead-domain-state
-  STATE_DIRECTORY: .dead-domain-state
+  # Must not start with a dot: actions/upload-artifact skips hidden paths.
+  STATE_DIRECTORY: dead-domain-state
 
 jobs:
   clean:
@@ -77,29 +78,23 @@ jobs:
           name: ${{ env.STATE_ARTIFACT_NAME }}
           path: ${{ env.STATE_DIRECTORY }}
           retention-days: 90
-          if-no-files-found: warn
+          include-hidden-files: true
+          if-no-files-found: error
 
       - name: Create pull request
         if: steps.clean.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DEAD_DOMAINS: ${{ steps.clean.outputs.dead_domains }}
+          PR_BODY_PATH: ${{ steps.clean.outputs.pr_body_path }}
         run: |
           BRANCH_NAME="dead-domain-clean/$(date -u +%Y%m%d)-${GITHUB_RUN_ID}"
+          cp "$PR_BODY_PATH" /tmp/dead-domain-pr-body.md
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
           git checkout -b "$BRANCH_NAME"
           git add filterslists
           git commit -m "chore(filterslists): remove dead domains"
           git push origin "$BRANCH_NAME"
-          {
-            echo "Dead domains detected via Globalping (HTTP probes from KR) and removed from the filters lists."
-            echo
-            echo "Removed domains:"
-            echo "$DEAD_DOMAINS" | jq -r '.[] | "- `\(.)`"'
-            echo
-            echo "Run: ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
-          } > /tmp/dead-domain-pr-body.md
           gh pr create \
             --base master \
             --head "$BRANCH_NAME" \

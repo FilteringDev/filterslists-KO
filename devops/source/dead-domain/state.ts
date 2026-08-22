@@ -9,7 +9,8 @@ const StateSchema = Zod.object({
   Version: Zod.literal(1),
   Domains: Zod.record(Zod.string(), Zod.object({
     LastCheckedAt: Zod.number(),
-    LastVerdict: Zod.enum(['Alive', 'Dead', 'Unknown'])
+    LastVerdict: Zod.enum(['Alive', 'Dead', 'Unknown']),
+    LastWarnings: Zod.array(Zod.string()).optional()
   }))
 })
 
@@ -36,8 +37,12 @@ export function GetLastCheckedAt(State: DeadDomainState, Domain: string): number
   return State.Domains[Domain]?.LastCheckedAt ?? 0
 }
 
-export function RecordVerdict(State: DeadDomainState, Domain: string, Verdict: DomainVerdict, CheckedAt: number): void {
-  State.Domains[Domain] = { LastCheckedAt: CheckedAt, LastVerdict: Verdict }
+export function RecordVerdict(State: DeadDomainState, Domain: string, Verdict: DomainVerdict, CheckedAt: number, Warnings: string[]): void {
+  State.Domains[Domain] = {
+    LastCheckedAt: CheckedAt,
+    LastVerdict: Verdict,
+    ...(Warnings.length > 0 ? { LastWarnings: Warnings } : {})
+  }
 }
 
 /** Drops entries for domains that no longer exist in the filters lists, then persists the state. */

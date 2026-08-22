@@ -18,6 +18,7 @@ export type DomainProbeResult = {
   Domain: string
   Verdict: DomainVerdict
   Reason: string
+  Warnings: string[]
 }
 
 export type RuleChange = {

@@ -24,7 +24,14 @@ const MeasurementSchema = Zod.object({
       status: Zod.string().optional(),
       statusCode: Zod.number().nullish(),
       resolvedAddress: Zod.string().nullish(),
-      rawOutput: Zod.string().nullish()
+      rawOutput: Zod.string().nullish(),
+      rawHeaders: Zod.string().nullish(),
+      headers: Zod.record(Zod.string(), Zod.union([Zod.string(), Zod.array(Zod.string())])).nullish(),
+      tls: Zod.object({
+        authorized: Zod.boolean().nullish(),
+        error: Zod.string().nullish(),
+        authorizationError: Zod.string().nullish()
+      }).loose().nullish()
     }).loose()
   }).loose()).default([])
 }).loose()
