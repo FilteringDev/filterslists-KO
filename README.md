@@ -62,6 +62,21 @@ https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filtersli
 https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filterslist-uBlockOrigin-unified.txt
 ```
 
+**filterslists-KO Classic for DNS**:
+```
+https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filterslist-DNS-classic.txt
+```
+
+**filterslists-KO for DNS**:
+```
+https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filterslist-DNS.txt
+```
+
+**filterslists-KO Unified for DNS**:
+```
+https://cdn.jsdelivr.net/npm/@filteringdev/filterslists-ko@latest/dist/filterslist-DNS-unified.txt
+```
+
 ### 네이버 카페
 
 네이버 카페 내의 배너 구좌에 설치된 광고는 열매 1 이상 랭킹인 경우에만 차단됩니다.
