@@ -36,7 +36,7 @@ Test('FilterForDns strips cosmetic rules', T => {
   T.deepEqual(RawTexts(Builder.FilterForDns(FiltersList)), ['||example.com^'])
 })
 
-Test('FilterForDns strips network rules with DNS-incompatible modifiers', T => {
+Test('FilterForDns strips network rules with modifiers', T => {
   const FiltersList = ParseFilterList([
     '||example.com^$script',
     '||example.com/ads.css^$stylesheet',
@@ -48,31 +48,27 @@ Test('FilterForDns strips network rules with DNS-incompatible modifiers', T => {
   T.deepEqual(RawTexts(Builder.FilterForDns(FiltersList)), ['||example.net^'])
 })
 
-Test('FilterForDns keeps network rules with DNS-compatible modifiers', T => {
+Test('FilterForDns strips exception rules', T => {
   const FiltersList = ParseFilterList([
-    '||example.com^$important',
-    '@@||example.com^$third-party',
-    '||example.com^$dnsrewrite=127.0.0.1',
-    '||example.com^$client=192.168.0.1'
+    '@@||example.com^',
+    '@@||example.org^$third-party',
+    '||example.net^'
   ].join('\n'))
 
-  T.deepEqual(RawTexts(Builder.FilterForDns(FiltersList)), [
-    '||example.com^$important',
-    '@@||example.com^$third-party',
-    '||example.com^$dnsrewrite=127.0.0.1',
-    '||example.com^$client=192.168.0.1'
-  ])
+  T.deepEqual(RawTexts(Builder.FilterForDns(FiltersList)), ['||example.net^'])
 })
 
-Test('FilterForDns keeps host rules and plain domain-blocking rules', T => {
+Test('FilterForDns keeps only plain domain-blocking rules', T => {
   const FiltersList = ParseFilterList([
     '0.0.0.0 example.com',
     '||example.com^',
-    '||example.org^'
+    '||example.org^',
+    '||example.com/ads^',
+    '||*.example.net^',
+    '/ads[0-9]+/'
   ].join('\n'))
 
   T.deepEqual(RawTexts(Builder.FilterForDns(FiltersList)), [
-    '0.0.0.0 example.com',
     '||example.com^',
     '||example.org^'
   ])

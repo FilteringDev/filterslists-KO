@@ -15,26 +15,23 @@ type WorkerData = {
   OutputDirectory: string
 }
 
-// Modifiers that still carry meaning for DNS-level (client-agnostic, no request context) filtering.
-const DnsCompatibleModifierNames = new Set([
-  'important',
-  'badfilter',
-  'third-party',
-  'match-case',
-  'denyallow',
-  'dnstype',
-  'dnsrewrite',
-  'client',
-  'ctag'
-])
-
 export class BuildBundledDnsFiltersList extends BuildBundledFiltersLists {
-  protected IsNetworkRule(Filter: AGTree.AnyRule): Filter is AGTree.NetworkRule {
-    return Filter.category === AGTree.RuleCategory.Network && Filter.type === AGTree.NetworkRuleType.NetworkRule
-  }
+  protected IsPlainDomainBlockingRule(Filter: AGTree.AnyRule): Filter is AGTree.NetworkRule {
+    if (Filter.category !== AGTree.RuleCategory.Network || Filter.type !== AGTree.NetworkRuleType.NetworkRule) {
+      return false
+    }
 
-  protected HasDnsIncompatibleModifier(Filter: AGTree.NetworkRule): boolean {
-    return (Filter.modifiers?.children ?? []).some(Modifier => !DnsCompatibleModifierNames.has(Modifier.name.value))
+    if (Filter.exception || (Filter.modifiers?.children.length ?? 0) > 0) {
+      return false
+    }
+
+    const Pattern = Filter.pattern.value
+    if (!Pattern.startsWith(AGTree.ADBLOCK_URL_START) || !Pattern.endsWith(AGTree.ADBLOCK_URL_SEPARATOR)) {
+      return false
+    }
+
+    const Domain = Pattern.slice(AGTree.ADBLOCK_URL_START.length, -AGTree.ADBLOCK_URL_SEPARATOR.length)
+    return !Domain.includes('*') && AGTree.DomainUtils.isValidDomainOrHostname(Domain)
   }
 
   FilterForDns(FiltersList: AGTree.FilterList): AGTree.FilterList {
@@ -42,11 +39,7 @@ export class BuildBundledDnsFiltersList extends BuildBundledFiltersLists {
     const FiltersChildren: AGTree.AnyRule[] = []
 
     for (const Filter of FiltersList.children) {
-      if (Filter.category === AGTree.RuleCategory.Cosmetic) {
-        continue
-      }
-
-      if (this.IsNetworkRule(Filter) && this.HasDnsIncompatibleModifier(Filter)) {
+      if (!this.IsPlainDomainBlockingRule(Filter)) {
         continue
       }
 
