@@ -24,10 +24,11 @@ Test('A redirect to a different registrable domain is dead', T => {
   }))
 
   T.is(Result.Verdict, 'Dead')
+  T.deepEqual(Result.SameDomainRedirects, [])
   T.true(Result.Warnings.some(Warning => Warning.includes('example.org')))
 })
 
-Test('A redirect inside the same registrable domain is only a warning', T => {
+Test('A redirect inside the same registrable domain is detected and kept', T => {
   const Result = EvaluateMeasurement('sub.example.com', Measurement({
     statusCode: 301,
     resolvedAddress: '1.2.3.4',
@@ -35,11 +36,11 @@ Test('A redirect inside the same registrable domain is only a warning', T => {
   }))
 
   T.not(Result.Verdict, 'Dead')
-  T.is(Result.Warnings.length, 1)
-  T.true(Result.Warnings[0].includes('example.com'))
+  T.deepEqual(Result.SameDomainRedirects, ['example.com'])
+  T.deepEqual(Result.Warnings, [])
 })
 
-Test('A relative redirect produces no warning', T => {
+Test('A relative redirect is not treated as a redirect', T => {
   const Result = EvaluateMeasurement('example.com', Measurement({
     statusCode: 302,
     resolvedAddress: '1.2.3.4',
@@ -47,6 +48,7 @@ Test('A relative redirect produces no warning', T => {
   }))
 
   T.not(Result.Verdict, 'Dead')
+  T.deepEqual(Result.SameDomainRedirects, [])
   T.deepEqual(Result.Warnings, [])
 })
 

@@ -14,7 +14,7 @@ export function GetLineAuthorTimes(WorkingDirectory: string, FilePath: string): 
     BlameOutput = ChildProcess.execFileSync(
       'git',
       ['blame', '--line-porcelain', '--', FilePath],
-      { cwd: WorkingDirectory, encoding: 'utf-8', maxBuffer: BlameMaxBuffer }
+      { cwd: WorkingDirectory, encoding: 'utf-8', maxBuffer: BlameMaxBuffer, stdio: ['ignore', 'pipe', 'ignore'] }
     )
   } catch {
     return AuthorTimes

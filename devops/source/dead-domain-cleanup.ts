@@ -58,11 +58,19 @@ for (const Candidate of SelectedCandidates) {
 
   try {
     const Measurement = await ProbeDomain(Candidate.Domain)
-    const { Verdict, Reason, Warnings } = EvaluateMeasurement(Candidate.Domain, Measurement)
+    const { Verdict, Reason, Warnings, SameDomainRedirects } = EvaluateMeasurement(Candidate.Domain, Measurement)
 
-    ProbeResults.push({ Domain: Candidate.Domain, Verdict, Reason, Warnings })
-    RecordVerdict(State, Candidate.Domain, Verdict, CheckedAt, Warnings)
+    // A kept redirect means the domain moved on its own; treat it as freshly modified so it
+    // does not stay at the front of the oldest-first queue forever.
+    const ModifiedAtOverride = SameDomainRedirects.length > 0 && Verdict !== 'Dead' ? CheckedAt : null
+
+    ProbeResults.push({ Domain: Candidate.Domain, Verdict, Reason, Warnings, SameDomainRedirects, ModifiedAtOverride })
+    RecordVerdict(State, Candidate.Domain, Verdict, CheckedAt, Warnings, ModifiedAtOverride ?? undefined)
     Core.info(`[dead-domain] ${Candidate.Domain}: ${Verdict} (${Reason})`)
+
+    if (ModifiedAtOverride !== null) {
+      Core.notice(`[dead-domain] ${Candidate.Domain}: redirects to ${SameDomainRedirects.join(', ')} within the same registrable domain — kept, last-modified date overridden to ${new Date(ModifiedAtOverride * 1000).toISOString()}`)
+    }
 
     for (const Warning of Warnings) {
       Core.warning(`[dead-domain] ${Candidate.Domain}: ${Warning}`)
@@ -74,7 +82,14 @@ for (const Candidate of SelectedCandidates) {
       break
     }
 
-    ProbeResults.push({ Domain: Candidate.Domain, Verdict: 'Unknown', Reason: FormatError(ErrorValue), Warnings: [] })
+    ProbeResults.push({
+      Domain: Candidate.Domain,
+      Verdict: 'Unknown',
+      Reason: FormatError(ErrorValue),
+      Warnings: [],
+      SameDomainRedirects: [],
+      ModifiedAtOverride: null
+    })
     Core.warning(`[dead-domain] ${Candidate.Domain}: probe failed — ${FormatError(ErrorValue)}`)
   }
 }

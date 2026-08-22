@@ -8,6 +8,8 @@ export type DomainCandidate = {
   Domain: string
   LatestModifiedAt: number
   LastCheckedAt: number
+  /** Replaces the git history date once a same-domain redirect has been detected. */
+  ModifiedAtOverride: number
   SortKey: number
   Occurrences: DomainOccurrence[]
 }
@@ -19,6 +21,8 @@ export type DomainProbeResult = {
   Verdict: DomainVerdict
   Reason: string
   Warnings: string[]
+  SameDomainRedirects: string[]
+  ModifiedAtOverride: number | null
 }
 
 export type RuleChange = {

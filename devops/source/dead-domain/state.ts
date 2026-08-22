@@ -10,7 +10,8 @@ const StateSchema = Zod.object({
   Domains: Zod.record(Zod.string(), Zod.object({
     LastCheckedAt: Zod.number(),
     LastVerdict: Zod.enum(['Alive', 'Dead', 'Unknown']),
-    LastWarnings: Zod.array(Zod.string()).optional()
+    LastWarnings: Zod.array(Zod.string()).optional(),
+    ModifiedAtOverride: Zod.number().optional()
   }))
 })
 
@@ -37,11 +38,27 @@ export function GetLastCheckedAt(State: DeadDomainState, Domain: string): number
   return State.Domains[Domain]?.LastCheckedAt ?? 0
 }
 
-export function RecordVerdict(State: DeadDomainState, Domain: string, Verdict: DomainVerdict, CheckedAt: number, Warnings: string[]): void {
+/** Timestamp that supersedes the git history date of a domain, if one was recorded. */
+export function GetModifiedAtOverride(State: DeadDomainState, Domain: string): number {
+  return State.Domains[Domain]?.ModifiedAtOverride ?? 0
+}
+
+export function RecordVerdict(
+  State: DeadDomainState,
+  Domain: string,
+  Verdict: DomainVerdict,
+  CheckedAt: number,
+  Warnings: string[],
+  ModifiedAtOverride?: number
+): void {
+  // A previously recorded override is carried forward so the domain does not resurface.
+  const Override = ModifiedAtOverride ?? GetModifiedAtOverride(State, Domain)
+
   State.Domains[Domain] = {
     LastCheckedAt: CheckedAt,
     LastVerdict: Verdict,
-    ...(Warnings.length > 0 ? { LastWarnings: Warnings } : {})
+    ...(Warnings.length > 0 ? { LastWarnings: Warnings } : {}),
+    ...(Override > 0 ? { ModifiedAtOverride: Override } : {})
   }
 }
 

@@ -35,6 +35,8 @@ export type MeasurementEvaluation = {
   Verdict: DomainVerdict
   Reason: string
   Warnings: string[]
+  /** Redirect targets sharing the probed domain's registrable domain — detected, never removed. */
+  SameDomainRedirects: string[]
 }
 
 export function NormalizeHost(Host: string): string {
@@ -130,9 +132,10 @@ function GetTlsFailureDetail(Result: GlobalpingProbeResult): string {
 export function EvaluateMeasurement(Domain: string, Measurement: GlobalpingMeasurement): MeasurementEvaluation {
   const Results = Measurement.results.map(Entry => Entry.result)
   const Warnings: string[] = []
+  const SameDomainRedirects: string[] = []
 
   if (Results.length === 0) {
-    return { Verdict: 'Unknown', Reason: 'No probe results were returned', Warnings }
+    return { Verdict: 'Unknown', Reason: 'No probe results were returned', Warnings, SameDomainRedirects }
   }
 
   const RedirectTargets = Results
@@ -141,7 +144,7 @@ export function EvaluateMeasurement(Domain: string, Measurement: GlobalpingMeasu
 
   for (const Target of new Set(RedirectTargets)) {
     if (AreDomainsRelated(Domain, Target) && NormalizeHost(Domain) !== Target) {
-      Warnings.push(`redirects to \`${Target}\`, which shares its registrable domain — kept, please review manually`)
+      SameDomainRedirects.push(Target)
     }
   }
 
@@ -151,7 +154,8 @@ export function EvaluateMeasurement(Domain: string, Measurement: GlobalpingMeasu
     return {
       Verdict: 'Dead',
       Reason: `TLS certificate validation failed on every probe (${GetTlsFailureDetail(Results[0])})`,
-      Warnings
+      Warnings,
+      SameDomainRedirects
     }
   }
 
@@ -162,23 +166,24 @@ export function EvaluateMeasurement(Domain: string, Measurement: GlobalpingMeasu
     return {
       Verdict: 'Dead',
       Reason: `Redirects to a different registrable domain (${ForeignRedirectTargets.join(', ')})`,
-      Warnings
+      Warnings,
+      SameDomainRedirects
     }
   }
 
   if (Results.some(IsSuccessfulStatusCode)) {
-    return { Verdict: 'Alive', Reason: 'HTTP 2xx response', Warnings }
+    return { Verdict: 'Alive', Reason: 'HTTP 2xx response', Warnings, SameDomainRedirects }
   }
 
   if (Results.some(IsTimeout)) {
-    return { Verdict: 'Alive', Reason: 'HTTP request timed out', Warnings }
+    return { Verdict: 'Alive', Reason: 'HTTP request timed out', Warnings, SameDomainRedirects }
   }
 
   if (Results.every(IsDnsFailure)) {
-    return { Verdict: 'Dead', Reason: 'DNS name resolution failed on every probe', Warnings }
+    return { Verdict: 'Dead', Reason: 'DNS name resolution failed on every probe', Warnings, SameDomainRedirects }
   }
 
   const StatusCodes = Results.map(Result => Result.statusCode ?? 'n/a').join(', ')
 
-  return { Verdict: 'Unknown', Reason: `Inconclusive probe outcome (status codes: ${StatusCodes})`, Warnings }
+  return { Verdict: 'Unknown', Reason: `Inconclusive probe outcome (status codes: ${StatusCodes})`, Warnings, SameDomainRedirects }
 }

@@ -1,5 +1,5 @@
 import type { DomainCandidate, DomainOccurrence } from './types.ts'
-import { GetLastCheckedAt, type DeadDomainState } from './state.ts'
+import { GetLastCheckedAt, GetModifiedAtOverride, type DeadDomainState } from './state.ts'
 import { GetLineAuthorTimes } from './git-blame-age.ts'
 
 export type BuildCandidatesOptions = {
@@ -30,12 +30,14 @@ export function BuildDomainCandidates(Options: BuildCandidatesOptions): DomainCa
 
     if (!Existing) {
       const LastCheckedAt = GetLastCheckedAt(Options.State, Occurrence.Domain)
+      const ModifiedAtOverride = GetModifiedAtOverride(Options.State, Occurrence.Domain)
 
       CandidatesByDomain.set(Occurrence.Domain, {
         Domain: Occurrence.Domain,
         LatestModifiedAt: ModifiedAt,
         LastCheckedAt,
-        SortKey: Math.max(ModifiedAt, LastCheckedAt),
+        ModifiedAtOverride,
+        SortKey: Math.max(ModifiedAt, LastCheckedAt, ModifiedAtOverride),
         Occurrences: [Occurrence]
       })
       continue
@@ -44,7 +46,7 @@ export function BuildDomainCandidates(Options: BuildCandidatesOptions): DomainCa
     Existing.Occurrences.push(Occurrence)
     // The most recent mention of a domain decides how "fresh" that domain is.
     Existing.LatestModifiedAt = Math.max(Existing.LatestModifiedAt, ModifiedAt)
-    Existing.SortKey = Math.max(Existing.LatestModifiedAt, Existing.LastCheckedAt)
+    Existing.SortKey = Math.max(Existing.LatestModifiedAt, Existing.LastCheckedAt, Existing.ModifiedAtOverride)
   }
 
   return [...CandidatesByDomain.values()].sort((A, B) => {
