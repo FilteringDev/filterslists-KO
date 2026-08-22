@@ -65,13 +65,7 @@ export class BuildBundledDnsFiltersList extends BuildBundledFiltersLists {
     const ResolvedFiltersList = this.ResolveForPlatform(BundledFiltersList, { adguard: true })
     const DnsFiltersList = this.FilterForDns(ResolvedFiltersList)
     const HeaderFilterList = this.BuildHeaderFilterList(FiltersListDefinition)
-    const OutputFileName = FiltersListDefinition.DnsOutputFileName
-    if (!OutputFileName) {
-      ActionCore.debug(`[bundle-dns pid=${Process.pid} threadid=${WorkerThread.threadId}] Skipped ${FiltersListDefinition.DefinitionFileName} (no DnsOutputFileName)`)
-      return
-    }
-
-    const OutputFilePath = Path.resolve(this.OutputDirectory, OutputFileName)
+    const OutputFilePath = Path.resolve(this.OutputDirectory, FiltersListDefinition.DefinitionFileName)
 
     Fs.mkdirSync(this.OutputDirectory, { recursive: true })
     Fs.writeFileSync(
@@ -88,12 +82,9 @@ export class BuildBundledDnsFiltersList extends BuildBundledFiltersLists {
 }
 
 export default function WorkerBundleDns(FiltersListDefinition: FiltersListsConfigWithVersion[number]): void {
-  if (!FiltersListDefinition.DnsOutputFileName) {
-    return
-  }
-
   const WorkerData = Piscina.workerData as WorkerData
-  const FiltersListDefPath = Path.resolve(WorkerData.FiltersListDirectory, FiltersListDefinition.DefinitionFileName)
+  const SourceDefinitionFileName = FiltersListDefinition.SourceDefinitionFileName ?? FiltersListDefinition.DefinitionFileName
+  const FiltersListDefPath = Path.resolve(WorkerData.FiltersListDirectory, SourceDefinitionFileName)
   const FiltersListDef = AGTree.FilterListParser.parse(Fs.readFileSync(FiltersListDefPath, 'utf-8'), { parseUboSpecificRules: true })
 
   new BuildBundledDnsFiltersList(WorkerData).Build(FiltersListDef, FiltersListDefinition)

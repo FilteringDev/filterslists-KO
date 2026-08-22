@@ -33,7 +33,10 @@ const FiltersListsConfigWithVersion = await LoadFiltersListsConfig(FiltersListsC
   DefaultVersion: NextPackageVersion,
   DefinitionVersionMap
 })
-if (!FiltersListsConfigWithVersion.every(Def => Def.DefinitionFileName && FiltersListDefinitionFiles.includes(Path.resolve(FiltersListDirectory, Def.DefinitionFileName)))) {
+if (!FiltersListsConfigWithVersion.every(Def => {
+  const SourceDefinitionFileName = Def.SourceDefinitionFileName ?? Def.DefinitionFileName
+  return Def.DefinitionFileName && FiltersListDefinitionFiles.includes(Path.resolve(FiltersListDirectory, SourceDefinitionFileName))
+})) {
   throw new Error('No filters list defined in the config file.')  
 }
 
@@ -71,10 +74,11 @@ const FiltersBuildDnsWorkerpool = new Piscina.Piscina({
 })
 const FiltersBuildResults: Promise<void>[] = []
 for (const FiltersListDefinition of FiltersListsConfigWithVersion) {
-  FiltersBuildResults.push(FiltersBuildResolvedWorkerpool.run(FiltersListDefinition))
-  FiltersBuildResults.push(FiltersBuildWorkerpool.run(FiltersListDefinition))
-  if (FiltersListDefinition.DnsOutputFileName) {
+  if (FiltersListDefinition.OutputType === 'Dns') {
     FiltersBuildResults.push(FiltersBuildDnsWorkerpool.run(FiltersListDefinition))
+  } else {
+    FiltersBuildResults.push(FiltersBuildResolvedWorkerpool.run(FiltersListDefinition))
+    FiltersBuildResults.push(FiltersBuildWorkerpool.run(FiltersListDefinition))
   }
 }
 await Promise.all(FiltersBuildResults)

@@ -13,7 +13,8 @@ const FiltersListsConfigSchema = Zod.array(Zod.strictObject({
   AdblockType: Zod.enum(['AdGuard', 'uBlockOrigin']),
   UnifiedDomainListFileName: Zod.string().optional(),
   UnifiedPreservePatterns: Zod.array(Zod.string()).optional(),
-  DnsOutputFileName: Zod.string().optional()
+  SourceDefinitionFileName: Zod.string().optional(),
+  OutputType: Zod.enum(['Adblock', 'Dns']).default('Adblock')
 }))
 
 export type FiltersListsConfigWithVersion = (Zod.infer<typeof FiltersListsConfigSchema>[number] & { Version: string })[]
