@@ -57,6 +57,7 @@ eegosa.com##section[id*="_ads_"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+fin.land.naver.com##div[class^="ComplexTopAdvertisement-module-"]
 land.naver.com###presale_news_list
 aladin.co.kr###Ere_prod_allwrap > .Ere_prod_bannerwrap
 chimhaha.net##div[id^="slot-"][name]
