@@ -1144,7 +1144,6 @@ te31.com###bbs > table[style^="color:#"] ~ div[style*="padding:"][style*="border
 mksports.co.kr###container_right > div[id^="slot"]
 pping.kr##.HAdLine
 pping.kr##iframe[src*="//ad.pping.kr/"]
-sumpic.com##section.content .thumbnail-area
 h5.dcinside.com##.side .login-box ~ .img-wrap
 m.heraldpop.com,mbiz.heraldcorp.com##a[class^="ad_"]
 techrecipe.co.kr##div[id*="_adsense_"]
@@ -1164,7 +1163,6 @@ search.daum.net##iframe[src*="//ad.search.nate.com/"]
 www.nate.com###news_area ~ div[class*="_shopping"]
 www.nate.com###breakingNews.overlay_break
 shoppinghow.kakao.com###contEtc > #nativeAdWrap
-pubg.game.daum.net##.ggb-bnr
 webtoon.kakao.com##div > a[href^="/event?event_id="][style]
 webtoon.kakao.com##div[id^="kakao_ad_"]
 filecity.co.kr##form#head_search > li[style][class]
@@ -1274,8 +1272,6 @@ dogdrip.net##div[class^="ddnad"]
 epnc.co.kr,hellot.net##ins.dcmads
 bizwatch.co.kr##[class*="ad_bizwatch_"]
 autopostkorea.com##div[class^="floating_ad_"]
-newreop.com##.app-layout-content > #app-board > .app-board-section > .app-board-container > div[style]:not([class])
-newreop.com##main.app-main > .app-layout-container > .app-layout-content > #app-board > div > div[style]:not([class])
 cuonet.com##div[style~="background-image:"][style*=".cuonet.com/data/apms/background/"].item
 newsfeed.dispatch.co.kr,soxak.com,itwind.co.kr,koreatimes.net##div[id$="-ad"]
 minelist.kr##.content.ad
@@ -1466,7 +1462,6 @@ app.dcinside.com,m.dcinside.com##.detail-top-lst li:has(a[href*="//link.coupang.
 gall.dcinside.com##.gall_list .ub-content:not(.us-post):has(a[href*="//link.coupang.com/"])
 orbi.kr##div.panel.class-event-wrap
 orbi.kr##a[href^="https://ads.orbi.kr/"]
-osen.mt.co.kr##div#close_mask
 www.erdcloud.com##.erd-ads-area
 gall.dcinside.com##tr.list_trend
 dcinside.com##div.dctrend_ranking
@@ -1548,7 +1543,6 @@ filetender.com###banner
 filetender.com##iframe[src="https://filetender.com/mobon.html"]
 moviepang.net##.sidebar[style] > aside[id^="text-"][class] ~ aside[id^="text-"][class]
 toon123.com##main > section[style]:not([class])
-torrentmode.com##a[href^="https://torrentmode.com/bbs/bannerhit.php"]
 103.204.13.68##.product-banner
 103.204.13.68##div[class^="mobile-m ad720_"]
 !
