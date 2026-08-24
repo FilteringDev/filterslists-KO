@@ -6,6 +6,8 @@ tinyShield 유저스크립트와 NamuLink 유저스크립트 관련해서는 [ti
 
 AdGuard 필터 리스트 이슈라면 [AdguardFilters](https://github.com/AdguardTeam/AdguardFilters/issues) 이슈 트래커 또는 [Adguard 익명 제보 시스템](https://reports.adguard.com/ko/new_issue.html)을 이용해주세요.
 
+이 필터 리스트(classic)은 uBlock Origin/uBlock Origin Lite에 [이 commit](https://github.com/gorhill/uBlock/commit/20d3c5b9d041f4c89834b2f0ff466a18f5e154f5) 이후 부터 사용되고 있으며, AdGuard에 사전 탑재되어 있습니다.
+
 ---
 
 [![jsDelivr Stats](https://data.jsdelivr.com/v1/package/npm/@filteringdev/filterslists-ko/badge)](https://www.jsdelivr.com/package/npm/@filteringdev/filterslists-ko)
