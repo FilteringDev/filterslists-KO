@@ -50,16 +50,18 @@ sites:
     potentially_dead: true
   Yako (yako*.com):
     last_known_mirror: yako23.com
-    success_since: 2026-08-20 06:59
+    failed_since: 2026-08-24 13:43
+    failed_days: 0
+    potentially_dead: true
   Lover (lover*.net):
     last_known_mirror: lover946.net
     failed_since: 2026-08-20 06:59
     failed_days: 5
     potentially_dead: true
   TorrentQQ (torrentqq*.com):
-    last_known_mirror: torrentqq413.com
+    last_known_mirror: torrentqq415.com
     accept_antibot: true
-    success_since: 2026-08-24 07:51
+    success_since: 2026-08-24 13:43
   TorrentPi (torrentpi*.com):
     last_known_mirror: torrentpi160.com
     failed_since: 2026-08-20 06:59
