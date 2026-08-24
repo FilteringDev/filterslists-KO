@@ -56,6 +56,8 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+eomisae.co.kr##div[style^="float:"].rhymix_content
+eomisae.co.kr##div[class^="col-md-"] > div[style^="width:"]:not([class])
 osen.co.kr##div[itemprop="articleBody"] div[style^="width:"].center
 osen.co.kr##.part-line:has(+ div[class$="_banner"])
 osen.co.kr##div[id^="banner-"]
