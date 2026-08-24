@@ -718,7 +718,7 @@ mobile.newsis.com##div[style~="padding:10px"][style~="10px;"] > div[style^="heig
 starnewskorea.com##div[itemprop="articleBody"] > div[style^="float:"]
 m.slrclub.com,m.sportschosun.com,m.starnewskorea.com##div[id$="ad"][style]:not(#menu-head)
 heraldpop.com##.article_area .list_r
-heraldpop.com##div[id*="_ad"]
+mydaily.co.kr,heraldpop.com##div[id*="_ad"]
 heraldpop.com##.article_wrap div[class^="ad"]
 m.news.nate.com##.divAdv
 m.clien.net##.content_list.search > div[class^="list_center_"]
