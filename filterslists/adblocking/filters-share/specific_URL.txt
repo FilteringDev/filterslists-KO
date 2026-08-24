@@ -1,3 +1,4 @@
+||breaknews.com/data/breaknews_com/banner/
 ||beautywiki.net/banners/
 ||fin.land.naver.com/front-api/*/realtor/advertisement
 ||resources.chimhaha.net/app/*/naverPowerLink.
