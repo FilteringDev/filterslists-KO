@@ -1,3 +1,4 @@
+||singleskorea.com/api/campaign-ads
 ||breaknews.com/data/breaknews_com/banner/
 ||beautywiki.net/banners/
 ||fin.land.naver.com/front-api/*/realtor/advertisement
