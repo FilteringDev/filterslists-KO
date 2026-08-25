@@ -56,6 +56,7 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+mediapen.com##.article-side-right
 newdaily.co.kr##div[itemprop="articleBody"] div[style^="margin-top: "].display-md-block
 etoland.co.kr##section[class^="my-"] .divide-y .items-center.gap-1:has(img[alt="etoAD"])
 etoland.co.kr##section[class^="my-"] .divide-y .py-2.gap-3:has(> a[data-inouts-click="true"])

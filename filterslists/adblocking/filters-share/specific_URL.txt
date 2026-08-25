@@ -1,3 +1,5 @@
+||mediapen.com//banner/load/
+||image.mediapen.com/etc/*/*_banner.
 ||singleskorea.com/api/campaign-ads
 ||breaknews.com/data/breaknews_com/banner/
 ||beautywiki.net/banners/
