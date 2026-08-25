@@ -11,8 +11,8 @@ sites:
     last_known_mirror: manatoki477.net
     success_since: 2026-08-20 06:59
   TVWiki (tvwiki*.com):
-    last_known_mirror: tvwiki36.com
-    success_since: 2026-08-24 07:51
+    last_known_mirror: tvwiki41.com
+    success_since: 2026-08-25 19:25
   Hoohoo TV (hoohootv*.xyz):
     last_known_mirror: hoohootv341.xyz
     accept_antibot: true
