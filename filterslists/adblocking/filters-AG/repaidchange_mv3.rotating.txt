@@ -19,9 +19,9 @@ lover937.net,lover938.net,lover939.net,lover940.net,lover941.net,lover942.net,lo
 ||torrentpi*.com/data/file/ad/$domain=torrentpi150.com|torrentpi151.com|torrentpi152.com|torrentpi153.com|torrentpi154.com|torrentpi155.com|torrentpi156.com|torrentpi157.com|torrentpi158.com|torrentpi159.com|torrentpi160.com
 torrentbot258.site##a[href^="/go/"][target="_blank"]
 torrentbot258.site##div[id^="ad_"]
-||i.imgur.com^$domain=torrentqq414.com
-torrentqq414.com##.row-banner
-torrentqq414.com##.at-banner
+||i.imgur.com^$domain=torrentqq415.com
+torrentqq415.com##.row-banner
+torrentqq415.com##.at-banner
 tvwiki36.com##div[id] > ul:has(a[href] > img[src^="/AD/"])
 tvwiki36.com##ul[class^="banner"]
 /https:\/\/tvwiki[0-9]+\.com\/AD\//$domain=tvwiki36.com
