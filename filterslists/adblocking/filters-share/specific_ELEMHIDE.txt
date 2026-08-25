@@ -961,7 +961,6 @@ kyobobook.co.kr##main div[id*="_banner"][id^="welcome_"][class$="_area"]
 steptohealth.co.kr##div[class*="-grey-"][style]
 sir.kr,steptohealth.co.kr##div[class*="-ads"]
 lawnb.com##aside[class^="banner_"]
-m.thesingle.co.kr##div[class*="Advertisement_"]
 lawtalk.co.kr##[ng-if^="premiumLawyers"]
 lawtalk.co.kr##div[class^="premium-lawyer"]
 kookje.co.kr##.box_skitter
