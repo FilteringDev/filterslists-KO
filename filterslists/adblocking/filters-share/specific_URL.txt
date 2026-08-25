@@ -1,3 +1,4 @@
+||mediawatch.kr/data/banner/
 ||mediapen.com//banner/load/
 ||image.mediapen.com/etc/*/*_banner.
 ||singleskorea.com/api/campaign-ads
