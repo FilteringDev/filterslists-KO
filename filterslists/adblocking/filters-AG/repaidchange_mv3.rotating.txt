@@ -22,9 +22,9 @@ torrentbot258.site##div[id^="ad_"]
 ||i.imgur.com^$domain=torrentqq418.com
 torrentqq418.com##.row-banner
 torrentqq418.com##.at-banner
-tvwiki36.com##div[id] > ul:has(a[href] > img[src^="/AD/"])
-tvwiki36.com##ul[class^="banner"]
-/https:\/\/tvwiki[0-9]+\.com\/AD\//$domain=tvwiki36.com
-/https:\/\/tvwiki[0-9]+\.com\/data\/banner\//$domain=tvwiki36.com
+tvwiki41.com##div[id] > ul:has(a[href] > img[src^="/AD/"])
+tvwiki41.com##ul[class^="banner"]
+/https:\/\/tvwiki[0-9]+\.com\/AD\//$domain=tvwiki41.com
+/https:\/\/tvwiki[0-9]+\.com\/data\/banner\//$domain=tvwiki41.com
 /^https:\/\/cdn[a-z0-9]+\.site\/data\/banner\//$domain=tvwik20.net|tvwik21.net|tvwik22.net|tvwik23.net|tvwik24.net|tvwik25.net|tvwik26.net|tvwiki88.net
 /^https:\/\/nooo[0-9]+\.tv\/theme\/renew\/img\/banner\//$domain=nooo31.tv
