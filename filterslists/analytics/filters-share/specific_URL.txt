@@ -1,1 +1,2 @@
+||mediawatch.kr/weblog/gtracker.php
 ||litt.ly/api/blockevents
