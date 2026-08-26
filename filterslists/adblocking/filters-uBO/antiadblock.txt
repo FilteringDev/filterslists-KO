@@ -159,7 +159,6 @@ remiz.co.kr#@#.googleAd
 remiz.co.kr#@##googleAd
 bera.world,sellas.ink,1412.live#@##google_ads
 ! aglint-disable-next-line no-invalid-modifiers
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=tsuvod.com
 somenotes247.blogspot.com#@#.vertical-ads
 mnews.jtbc.co.kr#@#.ad_bottom
 @@||kpanews.co.kr^$generichide

@@ -289,7 +289,6 @@ somenotes247.blogspot.com#@#.vertical-ads
 @@||sysnet.pe.kr^$generichide
 !#endif
 ! aglint-disable-next-line no-invalid-modifiers
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=tsuvod.com
 mnews.jtbc.co.kr#@#.ad_bottom
 @@||kpanews.co.kr^$generichide
 ilsangt.tistory.com##.adblock-on

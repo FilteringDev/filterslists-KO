@@ -764,7 +764,6 @@ m.sedaily.com##div[class^="mythiell-mid-container"]
 theguru.co.kr##div[itemprop="articleBody"] > div[style*="margin-"]:not([class])
 news2day.co.kr##div[data-layout-area*="_AD"]
 m.beyondpost.co.kr##.wrap * + div[style*=";margin"]
-cnews.beyondpost.co.kr##.wr2_lt > div[class^="pcbview"][style*="margin-bottom:"]
 coronaita.com##.MuiGrid-item button[style^="background-color:"].MuiButtonBase-root
 news.heraldcorp.com##.article_area > .article_right
 m.health.chosun.com,news.heraldcorp.com###_popIn_recommend
@@ -1217,7 +1216,6 @@ happymoney.co.kr###topBnrWrap
 happymoney.co.kr###content > .mainBanner
 cultureland.co.kr##.slider > div[id$="_popup"]
 cultureland.co.kr##.main-evn > .main-visual
-tcafe2a.com##.side-event-img
 m-i.kr,goodgag.net,m.inven.co.kr,nownews.seoul.co.kr,ksg.co.kr,paxnet.co.kr,chosun.com##div[class$="Ad"]
 game.dcinside.com,gall.dcinside.com##.con_banner
 game.naver.com##div[class^="styles_Banner"]
