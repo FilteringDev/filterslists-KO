@@ -1,3 +1,4 @@
+||infoloop.co.kr/wp-content/themes/*/local/ad.css
 ||mediawatch.kr/data/banner/
 ||mediapen.com//banner/load/
 ||image.mediapen.com/etc/*/*_banner.
