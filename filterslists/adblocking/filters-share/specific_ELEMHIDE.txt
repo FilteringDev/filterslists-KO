@@ -647,10 +647,6 @@ m.10000recipe.com##.recipe_list > div[style*="height:"]
 m.10000recipe.com##div[id^="obx_foodname_goods"]
 quasarzone.com##.custom-cont-page.custom-cont-page-head
 hungryapp.co.kr##div[style] > a[onclick*="_banner("]
-semoi.kr###bo_v_top ~ section[style*="height:"]
-semoi.kr,deliverypoint.co.kr###bo_list + div[style*="height:"]
-semoi.kr,deliverypoint.co.kr###hd_qnb
-semoi.kr,deliverypoint.co.kr###aside .noticea
 m.daum.net##div[data-slot-type="IMAGE_BIG_BANNER"].box_bnr
 m.nate.com##.issueBn
 m.cgv.co.kr##.videoAdWrap
@@ -1022,7 +1018,7 @@ japanout.kr##.widget-side-box > div[class^="main-box main-"]
 cjlogistics.com##a[target="_blank"][href][onclick][class*="Banner"]
 alltimelegend.net##ul > a[href*="/0ad"].visittag
 alltimelegend.net##a[href][target="_blank"][referrerpolicy="unsafe-url"]
-coolenjoy.net,genshin.gamedot.org,itworld.co.kr,ciokorea.com##div[class*="-banner"]
+coolenjoy.net,genshin.gamedot.org,itworld.co.kr##div[class*="-banner"]
 newsworker.co.kr##.user-content > .user-aside
 m.pann.nate.com##iframe[src^="/da/"]
 m.search.daum.net##body.nate .section_cont [disp-attr] > div[style*="height:"]
@@ -1229,7 +1225,7 @@ coinpan.com##img[class^="banner_"]
 blackkiwi.net##div[class^="style__GoogleAdSenseContainer-"]
 kimpga.com##div.max-w-screen-lg > .relative > div > div[class=""]:nth-child(1)
 m.danawa.com##.goods-list__ad
-ombudsmannews.com,kpja.kr,hungryapp.co.kr,usjournal.kr,socialvalue.kr,happycampus.com,chimhaha.net##div[id^="banner"]
+ombudsmannews.com,hungryapp.co.kr,usjournal.kr,socialvalue.kr,happycampus.com,chimhaha.net##div[id^="banner"]
 happycampus.com##div[id^="power_link_"]
 sportalkorea.com###Contents > #sideBox > div[style]
 sportalkorea.com##p[class^="ad_"]
@@ -1525,7 +1521,6 @@ save-1.net##div[id^="float"]
 save-1.net##div[class^="header-banner-"]
 save-1.net##.at-main > .widget-box
 save-1.net##.w-banner
-etorrentro.net##div[id^="banner"]
 1004girl.com##.page-content > .row.no-gap.no-space > .col-33
 linkkf.app###banner
 hellven.net##a[href^="http"][target="_blank"].thumbnail

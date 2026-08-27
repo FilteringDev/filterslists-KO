@@ -79,16 +79,10 @@ yes24.com#$##mbnRoll_001 > .mbnRollUnit > .pagen_3 { width: 239px !important; le
 yes24.com#$##mbnRoll_001 > .mbnRollUnit > .pagen_4 { width: 240px !important; left: 717px !important; }
 www.naver.com#$#div[class^="Layout-module_"] #newsstand { margin-top: 0px !important; }
 ktestone.com#$#.article-adCover-div { height: 100% !important; }
-semoi.kr#$##bo_ad { display: none !important; }
 chchclub.com#$#.content.partners-wrap { max-height: 100% !important; }
 chchclub.com#$#.partners-wrap #partners { display: none !important; }
-thepumpkin.io#$#.bottomPop { display: none !important; }
-thepumpkin.io#$#.social-after-title { height: auto !important; }
-withcast.co.kr#$##SirenDiv { display: block !important; }
-withcast.co.kr#$##no_pages.bg_w { display: none !important; }
 3.37.104.109#$#.body.mwcphide { height: 100% !important; }
 3.37.104.109#$#.mwcphideBtn { display: none !important; }
-donthellgo.com#$##contentBody.bodyHide { height: 100% !important; }
 marupost.mycafe24.com#$#.content-preview { display: none !important; }
 marupost.mycafe24.com#$#.content-full { height: auto !important; }
 ktestone.com,dodot.cafe24.com,loapost.cafe24.com,jiavr.xyz,ohohz.cafe24.com#$#div[class^="article-adCover-div-"] { display: none !important; }
@@ -142,8 +136,8 @@ web.humoruniv.com#$##wrap_cnts td[valign="top"] #wrap_ctgr_new > div[id] { width
 haninvegas.com#$#body[data-elementor-device-mode="desktop"] div[itemprop="mainContentOfPage"] { width: 100% !important; }
 news.jtbc.co.kr#$#.news_doc #footer { position: static !important; }
 sundaynewsusa.com#$#.td-is-sticky > .wpb_wrapper { top: 0px !important; }
-donthellgo.com,instructivehumility.com,news.oasisfeed.com#$#.hideBtn { display: none !important; }
-instructivehumility.com,news.oasisfeed.com#$##newsBody { height: auto !important; }
+news.oasisfeed.com#$#.hideBtn { display: none !important; }
+news.oasisfeed.com#$##newsBody { height: auto !important; }
 ydailynewsis.blogspot.com#$#a[href*="//link.coupang.com/"][type] { display: none !important; }
 ydailynewsis.blogspot.com#$##hidden1 { display: block !important; }
 aladin.co.kr#$##popupBody #nonmember_all .button_login2 { width: 100% !important; }
