@@ -56,6 +56,7 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+search.naver.com##.type_whale_banner .ban_whale_wrap
 m.ohmynews.com##body > div[style^="margin:"][style*="height:"]
 m.sports.naver.com###sports_lnb_sub > ul > li[data-menu-id="fconline"]
 m.sports.naver.com###sports_placard_top
