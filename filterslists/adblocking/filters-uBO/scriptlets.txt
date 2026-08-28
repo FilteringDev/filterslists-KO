@@ -21,7 +21,6 @@ m.humoruniv.com##+js(acis, $.prototype.html, /\/images\/[A-z0-9-_]+\.?(jpg|gif)/
 ! m.fmkorea.com
 m.fmkorea.com##+js(json-prune, tpl apply, tpl.[].c)
 ! chzzk.naver.com
-chzzk.naver.com##+js(trusted-replace-outbound-text, TextDecoder.prototype.decode, '/{"head" *: *{ *"version" *: *"[0-9.]+" *, *"description" *: *"[A-Za-z 0-9]+" *} *, *"requestId" *: *"vas-[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}" *, *"videoAdScheduleId" *: *"[A-Z_]+" *, *"adBreaks" *: *\[{[\[{\]},:" a-z0-9A-Z_-]+\\n?/', '{"head":{"version":"0.0.1","description":"GFP Video Ad Schedule"},"requestId":"vas-00000000-0000-0000-0000-000000000000","videoAdScheduleId":"","adBreaks":[}\n')
 chzzk.naver.com##+js(trusted-set-local-storage-item, homeSkinCollapsedUntil, 9999999999999)
 !
 loawa.com##+js(set-cookie, ad_popup_hide_36, 1)
