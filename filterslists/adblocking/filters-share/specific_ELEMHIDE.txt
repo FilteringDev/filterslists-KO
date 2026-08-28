@@ -56,6 +56,7 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+asiae.co.kr##.article-body__aside__wrap > .article-aside__section:has(i.ad)
 search.naver.com##.type_whale_banner .ban_whale_wrap
 m.ohmynews.com##body > div[style^="margin:"][style*="height:"]
 m.sports.naver.com###sports_lnb_sub > ul > li[data-menu-id="fconline"]
@@ -557,7 +558,7 @@ cafe.naver.com##div.ArticleFormBanner:has(> a[href^="https://link.coupang.com"])
 m.yna.co.kr##.hidden-obj ~ aside[class^="aside-box"].bg11
 m.yna.co.kr##section[class^="box-type"].bg11 ul[class^="list"] > li[class^="aside-box"]
 www.coupang.com###srp-bottom-carousel-dco-contaner
-newdaily.co.kr##[class^="ad-"]
+asiae.co.kr,newdaily.co.kr##[class^="ad-"]
 eanews.kr,lifedesk.co.kr##.coupang-box
 lifedesk.co.kr##.bxslider
 donga.com###dongawrap > #view + div[class*="ad_"]
