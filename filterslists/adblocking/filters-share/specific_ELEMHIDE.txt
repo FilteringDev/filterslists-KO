@@ -15,7 +15,7 @@ m.gamechosun.co.kr,hub.zum.com,news.heraldcorp.com,lalawin.com,badayak.com,ujnew
 ! ##div[class^="banner_"]
 m.cafe.daum.net,biz.sbs.co.kr,metroseoul.co.kr,m.hub.zum.com,gqkorea.co.kr,beyondpost.co.kr,m.fomos.kr,m.kin.naver.com,jjan.kr,m.sports.naver.com,newspic.kr,www.ebs.co.kr,prod.danawa.com,auth.danawa.com,socialvalue.kr,news.jtbc.co.kr,ajunews.com,mk.co.kr##div[class^="banner_"]
 ! ##div[class$="Banner"]
-mimint.co.kr,economist.co.kr,dailian.co.kr,bigkinds.or.kr,hungryapp.co.kr,rhythmer.net##div[class$="Banner"]
+mimint.co.kr,economist.co.kr,dailian.co.kr,bigkinds.or.kr,hungryapp.co.kr##div[class$="Banner"]
 ! ##div[class$="banner"]
 dcinside.com##div[class$="banner"]
 ! ##div[class$="-banner"]
@@ -603,7 +603,6 @@ ygosunews.com##.rangking_wrap
 m.ygosu.com###levbar_info ~ .container ~ div[style^="height:"]
 ygosu.com###contain > div[style^="height:"]
 maxmovie.com##div[id^="ad"][class^="ad"][style]
-mrealfoods.heraldcorp.com##.wrap > div[id^="AD_MOBILE_VIEW"] ~ div[style^="width:"]
 app.dcinside.com,m.dcinside.com##.power-tit
 kormedi.com##.articleTxtAD
 dt.co.kr##center + .bk20
@@ -639,7 +638,6 @@ yes24.com##div[id$="_Ad"]
 yes24.com###yWelMid .yWelPubBook
 munhwa.com,kpanews.co.kr##section[class*="_ad"]
 mimint.co.kr###MiMintBottomViewLayer
-jellinggame.com##.popup
 m.ilbe.com##article[id$="_banner"]
 m.inven.co.kr##div[class^="mobileDaNs"]
 atlantak.com###home-sidebar > a[target="_blank"]
@@ -1231,7 +1229,7 @@ coinpan.com##img[class^="banner_"]
 blackkiwi.net##div[class^="style__GoogleAdSenseContainer-"]
 kimpga.com##div.max-w-screen-lg > .relative > div > div[class=""]:nth-child(1)
 m.danawa.com##.goods-list__ad
-ombudsmannews.com,kpja.kr,hungryapp.co.kr,usjournal.kr,socialvalue.kr,happycampus.com,chimhaha.net##div[id^="banner"]
+kpja.kr,hungryapp.co.kr,usjournal.kr,socialvalue.kr,happycampus.com,chimhaha.net##div[id^="banner"]
 happycampus.com##div[id^="power_link_"]
 sportalkorea.com###Contents > #sideBox > div[style]
 sportalkorea.com##p[class^="ad_"]

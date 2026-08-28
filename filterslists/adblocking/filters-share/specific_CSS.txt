@@ -91,8 +91,8 @@ withcast.co.kr#$##no_pages.bg_w { display: none !important; }
 donthellgo.com#$##contentBody.bodyHide { height: 100% !important; }
 marupost.mycafe24.com#$#.content-preview { display: none !important; }
 marupost.mycafe24.com#$#.content-full { height: auto !important; }
-ktestone.com,dodot.cafe24.com,loapost.cafe24.com,jiavr.xyz,ohohz.cafe24.com#$#div[class^="article-adCover-div-"] { display: none !important; }
-dodot.cafe24.com,loapost.cafe24.com,jiavr.xyz,ohohz.cafe24.com#$##adNotice { display: none !important; }
+ktestone.com,dodot.cafe24.com,loapost.cafe24.com,ohohz.cafe24.com#$#div[class^="article-adCover-div-"] { display: none !important; }
+dodot.cafe24.com,loapost.cafe24.com,ohohz.cafe24.com#$##adNotice { display: none !important; }
 lottoen.com#$#.content_body > div[class^="lotto_"] { filter: none !important; -webkit-filter: none !important; }
 lottoen.com#$#.content_body > div[class$="_coupang_wrap"] { display: none !important; }
 lottoen.com#$#.content_more_div > .cmd_block_layer { display: none !important; }
@@ -102,7 +102,7 @@ simcong.com#$#.result_wrap { display: block !important; }
 simcong.com#$#.quiz_list:not([style]) ~ .result_wrap .restart { display: none !important; }
 gorani.kr#$#.column_content { margin-top: 50px !important; }
 www.naver.com#$##topSearchWrap { padding-bottom: 50px !important; }
-dodot.cafe24.com,loapost.cafe24.com,jiavr.xyz,ohohz.cafe24.com#$##content .ad_parent { height: 100% !important; overflow: auto !important; }
+dodot.cafe24.com,loapost.cafe24.com,ohohz.cafe24.com#$##content .ad_parent { height: 100% !important; overflow: auto !important; }
 marupost.mycafe24.com#$##welcome-ad { display: none !important; }
 bloter.net#$#.respons-edit > div[style].float-left { width: 100% !important; }
 news.unn.net#$#header > .header-body { width: 100% !important; }
