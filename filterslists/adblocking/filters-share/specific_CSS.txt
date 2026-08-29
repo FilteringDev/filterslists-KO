@@ -50,16 +50,8 @@ m.hub.zum.com#$#.banner_slot_top + #container .article_cover { top: 100px !impor
 mlbpark.donga.com#$#div[id^="SmartPhone_"][id$="_today"] .lists > li::before { padding-top: 0px !important; border-bottom: none !important; }
 enterdiary.com,hotplacehunter.co.kr,mystylezip.com,carandmore.co.kr,maxmovieen.com,tenbizt.com,mobilitytv.co.kr,thehousemagazine.kr,tminews.co.kr,capress.kr,youtu.co,dfast.kr,mememedia.co.kr,newautopost.co.kr#$#.news-view-wrap { padding-top: 0px !important; }
 gall.dcinside.com#$##zzbang_img { display: block !important; }
-atlantachosun.com#$#article > div[class^="sc-"] > aside[class*=" "] { display: none !important; }
-atlantachosun.com#$#article > div[class^="sc-"] { grid-template-columns: none !important; }
-atlantachosun.com#$##popup-root { display: none !important; }
-atlantachosun.com#$#body[style] { overflow: auto !important; }
-issueclick.kr#$#html[style] { overflow: auto !important; }
-curiosityblog.co.kr,issueclick.kr#$#.hideBtn { display: none !important; }
-curiosityblog.co.kr,issueclick.kr#$#.bodyHide { height: auto !important; }
 m.shop.interpark.com#$#.topBannerWrapper * { height: 1px !important; }
 shopping.interpark.com#$#.depthContentsWrap .productListWrap .searchList { margin-top: 0px !important; }
-ygosunews.com#$#body { padding-top: 0px !important; }
 www.auction.co.kr#$##allKillItemList > .item_list_wrap { width: 100% !important; }
 yes24.com#$##ySContent .loginCont { margin-left: 200px !important; }
 yes24.com#$#.mContRT .mbnZone { left: 94.5px !important; }
@@ -126,7 +118,7 @@ lotteon.com#$#.productDetailWrap > .contentsWrap { padding-bottom: 0px !importan
 evape.kr#$##hotPlace.myBox { margin-left: calc(50% - 65px) !important; }
 fomos.kr#$#.board_view .related_area { height: 300px !important; }
 focus.daum.net#$#div[data-tiara-layer]:not([id]) { margin-top: 0px !important; position: relative !important; }
-ygosunews.com,autopostkorea.com#$#.td-pb-span8 { width: 100% !important; }
+autopostkorea.com#$#.td-pb-span8 { width: 100% !important; }
 autopostkorea.com#$#body .td-header-wrap { margin-top: 0px !important; }
 newdaily.co.kr#$#div[style].clearfix > .nd-by-line { width: 100% !important; }
 mk.co.kr#$#.news_synthesis_sec .col.col_4 { width: 100% !important; }
@@ -190,7 +182,7 @@ bigkinds.or.kr#$#.news-cate + .news-box { padding-right: 0px !important; }
 modoodoc.com#$#div[class~="hospital-images-box"] ~ .row > .col-8 { max-width: 100% !important; flex: none !important; }
 noteforum.co.kr#$#table[style][width][cellspacing][cellpadding] tr[valign] > td[style] > div[style] { width: 100% !important; }
 miraetv.net#$#.gdl-page-item { width: 100% !important; }
-funnyissue.com,googlewph.com,gyeomipang.co.kr#$##primary { width: 100% !important }
+funnyissue.com,googlewph.com#$##primary { width: 100% !important }
 www.ebs.co.kr#$#.ebs_item .inner > div[class] { width: 50% !important; }
 megabox.co.kr#$#header.main-header { top: 0px !important; }
 quasarzone.com#$#.bot-content-area .mid-util-wrap > div { width: calc(50% - 5px) !important; }
