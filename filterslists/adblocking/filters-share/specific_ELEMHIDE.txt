@@ -15,7 +15,7 @@ m.gamechosun.co.kr,hub.zum.com,news.heraldcorp.com,lalawin.com,badayak.com,ujnew
 ! ##div[class^="banner_"]
 m.cafe.daum.net,biz.sbs.co.kr,metroseoul.co.kr,m.hub.zum.com,gqkorea.co.kr,beyondpost.co.kr,m.fomos.kr,m.kin.naver.com,jjan.kr,m.sports.naver.com,newspic.kr,www.ebs.co.kr,prod.danawa.com,auth.danawa.com,socialvalue.kr,news.jtbc.co.kr,ajunews.com,mk.co.kr##div[class^="banner_"]
 ! ##div[class$="Banner"]
-mimint.co.kr,economist.co.kr,dailian.co.kr,bigkinds.or.kr,hungryapp.co.kr,rhythmer.net##div[class$="Banner"]
+economist.co.kr,dailian.co.kr,bigkinds.or.kr,hungryapp.co.kr,rhythmer.net##div[class$="Banner"]
 ! ##div[class$="banner"]
 dcinside.com##div[class$="banner"]
 ! ##div[class$="-banner"]
@@ -503,7 +503,6 @@ chzzk.naver.com##a[class*="banner_link_"][target="_blank"] > img[class*="banner_
 buly.kr##.modal > #pop_modal
 search.danawa.com##li[style][id^="ad"]
 quasarzone.com##div[id^="bidrich_"][style*=" "]
-mobile.missyusa.com##.div_banner
 app.dcinside.com,m.dcinside.com##*[class^="adv-group"]
 app.dcinside.com,m.dcinside.com##li.adv-inner
 url.kr##form[method="post"] > #maskLayer
@@ -596,7 +595,6 @@ wiki1.kr##table:has(.noresize img[alt*="배너"])
 mlbpark.donga.com##.left_cont > div[style^="width:"]
 ruliweb.com##.adrr
 forwarder.kr###aside > div[style^="background-color:"]
-fun-iyagi.co.kr,timecoffee.co.kr###custom_html-8
 m.sedaily.com###contentArea > div[style^="width:"][id]
 ygosunews.com##.recommended_wrap
 ygosunews.com##.rangking_wrap
@@ -638,7 +636,6 @@ yes24.com##div[style^="margin-left:"].yPartnerPop
 yes24.com##div[id$="_Ad"]
 yes24.com###yWelMid .yWelPubBook
 munhwa.com,kpanews.co.kr##section[class*="_ad"]
-mimint.co.kr###MiMintBottomViewLayer
 jellinggame.com##.popup
 m.ilbe.com##article[id$="_banner"]
 m.inven.co.kr##div[class^="mobileDaNs"]
@@ -781,7 +778,6 @@ comic.sportsseoul.com##div[id][style] > div[style*="margin-top:"]
 m.mbn.co.kr##div[itemprop="articleBody"].article_info > div[id^="slot"][style^="text-align:"]
 star.mbn.co.kr###newsViewArea div[style^="width:"]:not([originw])
 star.mbn.co.kr###article > div[id^="slot"] table[style^="margin-bottom:"]
-itwind.co.kr###sidebar > div[data-version="2"]#Image5
 segyebiz.com##article > div[id^="wps_layout"] > div[style*="height:"]
 hellot.net##.wrapper > div[style*=" "]#container > div:not([class])
 meeco.kr###cCon + aside.sidebar2
@@ -909,7 +905,6 @@ web.humoruniv.com##div[id*="_right_list_"] ~ div[style]
 m.idsn.co.kr###viewConts div[style][id^="articleBody"] + p ~ center
 idsn.co.kr###viewConts div[style][id^="articleBody"]
 fntoday.co.kr##aside.user-aside div[data-direction]#side-scroll-in > .float-center
-fafan.kr###container > div#rightContents > div[style*="height:"]
 haninvegas.com##div[itemprop="mainContentOfPage"].theme-content + aside
 cineaste.co.kr##.container > div[style][id]
 ohmynews.com,m.cafe.daum.net,shopping.naver.com,isplus.com##div[id$="Ad"]
@@ -1117,7 +1112,6 @@ newsis.com##table[class*="Ad"]
 m.etoday.co.kr##section > div[style*="height:250px"]
 jootc.com,funissu.com##aside[id^="ai_widget-"]
 poro.gg##div[class^="flex"][class$="h-[250px]"]
-bada.io##div[id*="amazon_shopping"]
 quasarzone.com##.mid-content-area .left-util-wrap .bot-util-area
 quasarzone.com##.bot-content-area .mid-util-wrap .right-util-area
 m.inven.co.kr##section.mo-top-nav ~ div[style]:not([id])
@@ -1241,7 +1235,7 @@ ppomppu.co.kr##body .contents .container .topSub-nav
 prod.danawa.com###powerClickListArea
 entertainpost.com##body > div[style]:not([class])
 www.naver.com##div[id^="veta_"]
-newautopost.co.kr,munhwa.com,ppomppu.co.kr,starnewskorea.com,mimint.co.kr,bada.io,arca.live##div.ad
+newautopost.co.kr,munhwa.com,ppomppu.co.kr,starnewskorea.com,arca.live##div.ad
 ohmynews.com###div10Sticky
 ohmynews.com##div[class^="AD-"]
 ohmynews.com##div[class^="new_ad"]
@@ -1271,7 +1265,7 @@ epnc.co.kr,hellot.net##ins.dcmads
 bizwatch.co.kr##[class*="ad_bizwatch_"]
 autopostkorea.com##div[class^="floating_ad_"]
 cuonet.com##div[style~="background-image:"][style*=".cuonet.com/data/apms/background/"].item
-newsfeed.dispatch.co.kr,soxak.com,itwind.co.kr,koreatimes.net##div[id$="-ad"]
+soxak.com,koreatimes.net##div[id$="-ad"]
 minelist.kr##.content.ad
 koreapas.com##img[src^="athe/"]
 koreapas.com##img[src*="koreapas.com/bbs/data/"]
