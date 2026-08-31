@@ -1,2 +1,4 @@
+! aglint-disable-next-line no-invalid-modifiers
 ||a-bly.com^$cookie=AMP_
+! aglint-disable-next-line no-invalid-modifiers
 ||a-bly.com^$cookie=device-id
