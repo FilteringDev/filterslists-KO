@@ -56,6 +56,8 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+iloa.gg##main[vaul-drawer-wrapper] .max-w-screen-lg.py-4.max-md\:hidden
+iloa.gg##main[vaul-drawer-wrapper] .bg-neutral-950\/90:has(.max-sm\:hidden)
 asiae.co.kr##.article-body__aside__wrap > .article-aside__section:has(i.ad)
 search.naver.com##.type_whale_banner .ban_whale_wrap
 m.ohmynews.com##body > div[style^="margin:"][style*="height:"]
