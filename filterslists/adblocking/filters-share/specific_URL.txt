@@ -1,3 +1,4 @@
+||search.danawa.com/js/elevenStAd.min.js
 ||image.iloa.gg/ad/%
 ||img.z-pro.co.kr/ad/
 ||infoloop.co.kr/wp-content/themes/*/local/ad.css
