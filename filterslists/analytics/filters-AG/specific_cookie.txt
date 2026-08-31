@@ -1,0 +1,2 @@
+||a-bly.com^$cookie=AMP_
+||a-bly.com^$cookie=device-id

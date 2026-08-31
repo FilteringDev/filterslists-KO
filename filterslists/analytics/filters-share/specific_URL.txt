@@ -1,3 +1,5 @@
+||api.a-bly.com/api/*/retail_ad/display-event
+||api.a-bly.com/api/*/ad/events/
 ||static.danawa.com/globaljs/static/bdl/dsas_client.min.js
 ||mediawatch.kr/weblog/gtracker.php
 ||litt.ly/api/blockevents

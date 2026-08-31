@@ -70,6 +70,7 @@
 !#include analytics/filters-share/javascript.txt
 !#include analytics/filters-AG/javascript.txt
 !#include analytics/filters-AG/antiadblock.txt
+!#include analytics/filters-AG/specific_cookie.txt
 
 !#include annoyance/filters-share/specific_CSS.txt
 !#include annoyance/filters-AG/specific_CSS.txt

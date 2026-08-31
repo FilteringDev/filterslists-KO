@@ -42,6 +42,7 @@
 !#include analytics/filters-share/removeparam.txt
 !#include analytics/filters-uBO/allowlist.txt
 !#include analytics/filters-uBO/specific_URL.txt
+!#include analytics/filters-uBO/specific_cookie.txt
 
 !#include annoyance/filters-share/3rd_domains.txt
 !#include annoyance/filters-share/1st_domains.txt

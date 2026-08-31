@@ -1,0 +1,2 @@
+a-bly.com##+js(remove-cookie, AMP_)
+a-bly.com##+js(remove-cookie, device-id)
