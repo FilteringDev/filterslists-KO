@@ -1,11 +1,11 @@
 sites:
   WFWF (wfwf*.com):
-    last_known_mirror: wfwf486.com
-    success_since: 2026-08-30 21:45
+    last_known_mirror: wfwf487.com
+    success_since: 2026-08-31 23:04
   Yasyadong (yasyadong*.tv):
     last_known_mirror: yasyadong09.tv
     failed_since: 2026-08-20 06:59
-    failed_days: 11
+    failed_days: 12
     potentially_dead: true
   Manatoki (manatoki*.net):
     last_known_mirror: linkbbg7.com
@@ -26,7 +26,7 @@ sites:
   CokCok (cokcok*.com):
     last_known_mirror: cokcok23.com
     failed_since: 2026-08-20 06:59
-    failed_days: 11
+    failed_days: 12
     potentially_dead: true
   Mato (mato*.com):
     last_known_mirror: mato110.com
@@ -41,12 +41,12 @@ sites:
     pattern_changed: true
     non_pattern_mirror: t.me
     failed_since: 2026-08-20 19:27
-    failed_days: 11
+    failed_days: 12
     potentially_dead: true
   SBXH (sbxh*.com):
     last_known_mirror: sbxh12.com
     failed_since: 2026-08-20 06:59
-    failed_days: 11
+    failed_days: 12
     potentially_dead: true
   Yako (yako*.com):
     last_known_mirror: yako24.com
@@ -54,7 +54,7 @@ sites:
   Lover (lover*.net):
     last_known_mirror: lover946.net
     failed_since: 2026-08-20 06:59
-    failed_days: 11
+    failed_days: 12
     potentially_dead: true
   TorrentQQ (torrentqq*.com):
     last_known_mirror: torrentqq418.com
@@ -63,7 +63,7 @@ sites:
   TorrentPi (torrentpi*.com):
     last_known_mirror: torrentpi160.com
     failed_since: 2026-08-20 06:59
-    failed_days: 11
+    failed_days: 12
     potentially_dead: true
   TorrentBot (torrentbot*.site):
     last_known_mirror: torrentbot264.site
