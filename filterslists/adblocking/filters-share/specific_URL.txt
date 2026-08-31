@@ -1,3 +1,4 @@
+||api.a-bly.com/api/*/retail_ad/
 ||search.danawa.com/js/elevenStAd.min.js
 ||image.iloa.gg/ad/%
 ||img.z-pro.co.kr/ad/
