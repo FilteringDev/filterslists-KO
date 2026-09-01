@@ -56,6 +56,10 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+kyobobook.co.kr##.z-notification.fixed
+kyobobook.co.kr##a[href^="http://imac.kyobobook.co.kr/click/"]
+kyobobook.co.kr##main > section:has(> a[href^="http://imac.kyobobook.co.kr/click/"])
+kyobobook.co.kr##main > section:has(> div[class] > div[class] > .swiper .swiper-slide a[href^="http://imac.kyobobook.co.kr/click/"])
 fmkorea.com##.fm_vote ~ div[style^="margin:"]
 iloa.gg##main[vaul-drawer-wrapper] .max-w-screen-lg.py-4.max-md\:hidden
 iloa.gg##main[vaul-drawer-wrapper] .bg-neutral-950\/90:has(.max-sm\:hidden)
