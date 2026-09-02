@@ -1,3 +1,5 @@
+||graynews.co.kr/api/*/ads/imp
+||graynews.co.kr/img/cms/*PC.$image
 ||img*.quasarzone.com/banner/
 ||api.a-bly.com/api/*/retail_ad/
 ||search.danawa.com/js/elevenStAd.min.js
