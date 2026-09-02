@@ -1,3 +1,4 @@
+joinsmediacanada.com#$##container.highChk { width: 100% !important; }
 quasarzone.com#$#.sponsor-banner-layer-container { width: 0px !important; }
 quasarzone.com#$#.sponsor-banner-layer-container * { width: 0px !important; padding: 0px !important; border: none !important; }
 mediapen.com#$#.article-content { width: 100% !important; }

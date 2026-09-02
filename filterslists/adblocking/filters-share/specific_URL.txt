@@ -1,3 +1,4 @@
+||joinsmedia.sfo2.digitaloceanspaces.com/ad/
 ||graynews.co.kr/api/*/ads/imp
 ||graynews.co.kr/img/cms/*PC.$image
 ||img*.quasarzone.com/banner/
