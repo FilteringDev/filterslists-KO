@@ -1,3 +1,5 @@
+quasarzone.com#$#.sponsor-banner-layer-container { width: 0px !important; }
+quasarzone.com#$#.sponsor-banner-layer-container * { width: 0px !important; padding: 0px !important; border: none !important; }
 mediapen.com#$#.article-content { width: 100% !important; }
 bosik.kr#$#div[class*="padright-"] ~ .float-right { width: 100% !important; }
 m.megabox.co.kr#$#.ad-popup2 { display: none !important }

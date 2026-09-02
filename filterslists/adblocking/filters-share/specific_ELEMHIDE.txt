@@ -56,7 +56,6 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
-quasarzone.com##div[class^="sponsor-banner-"]
 quasarzone.com##body > div[style^="min-height:"]
 kyobobook.co.kr##.z-notification.fixed
 kyobobook.co.kr##a[href^="http://imac.kyobobook.co.kr/click/"]
