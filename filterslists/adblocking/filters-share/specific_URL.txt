@@ -309,7 +309,6 @@
 ||heye.kr/wysiwyg/
 ||i.ibb.co^$domain=heye.kr
 ||api.smartbaedal.com/web/site/*/ad/
-||quasarzone.com/banner/display
 ||pennmike.com/script/bannerpop.js
 ||jjang0u.com/img/banner_ad_
 ||ssl.pstatic.net/static*/comic/im*/txt_ads_v
@@ -880,7 +879,6 @@
 ||arca.live/static/ad/
 ||kukinews.com/data/kuk/banner/
 ||mmzone.co.kr/menu/top_ad.php
-||img*.quasarzone.com/banner/
 ||img*.quasarzone.co.kr/banner/
 ||arca.live/static/assets/js/pagead.min.js
 ||nstatic.dcinside.com/ad/
