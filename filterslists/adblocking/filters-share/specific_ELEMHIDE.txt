@@ -56,7 +56,7 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
-
+busan.com###container > div[style^="width:"]
 joinsmediacanada.com###popupNoticeWrap
 joinsmediacanada.com###aside.highChk
 graynews.co.kr##div[data-component="AdBanner"]
