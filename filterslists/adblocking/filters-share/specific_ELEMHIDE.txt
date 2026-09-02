@@ -56,6 +56,8 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+quasarzone.com##div[class^="sponsor-banner-"]
+quasarzone.com##body > div[style^="min-height:"]
 kyobobook.co.kr##.z-notification.fixed
 kyobobook.co.kr##a[href^="http://imac.kyobobook.co.kr/click/"]
 kyobobook.co.kr##main > section:has(> a[href^="http://imac.kyobobook.co.kr/click/"])
@@ -1092,7 +1094,7 @@ noteforum.co.kr##table[width][cellspacing][cellpadding][border] tr:not([height])
 esuwon.net###r_aside center > div[class="bn"]
 smartfn.co.kr##.mt30 .con_rt > style + div[style]:not([class])
 cmobile.g-enews.com,dailypharm.com,m.g-enews.com,smartfn.co.kr##div[class*="Ad"]
-miraetv.net##div[id*="-banner-"]
+quasarzone.com,miraetv.net##div[id*="-banner-"]
 miraetv.net##.gdl-left-sidebar
 ddengle.com###content > .article > div[class][style]
 ggjil.com##iframe[id^="happy_banner_scroll_"]
@@ -1431,7 +1433,7 @@ mmzone.co.kr###main_premium_spon_block
 v.daum.net,boannews.com,edu.donga.com,m.etoday.co.kr,mnews.sbs.co.kr,mbn.co.kr,cgv.co.kr,mmzone.co.kr##div[id$="_ad"]
 2cpu.co.kr##a[href*="./bbs/banner_link.php?"]
 mlbpark.donga.com##div[class*="naver_power"]
-khan.co.kr,lolchess.gg,koreatimes.net,phdkim.net,nongmin.com,hankookilbo.com##div[class^="banner-"]
+quasarzone.com,khan.co.kr,lolchess.gg,koreatimes.net,phdkim.net,nongmin.com,hankookilbo.com##div[class^="banner-"]
 m.ppomppu.co.kr##.google-ad
 m.ppomppu.co.kr##section.shopping-board
 ppomppu.co.kr##tbody > tr[id^="page_show_ad_"]
