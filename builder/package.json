@@ -23,7 +23,7 @@
     "piscina": "^5.1.4",
     "semver": "^7.8.1",
     "tsx": "^4.22.4",
-    "typescript": "^6.0.3",
+    "typescript": "^7.0.2",
     "typescript-eslint": "^8.60.0",
     "zod": "^4.4.3"
   },
