@@ -19,6 +19,7 @@ m.fmkorea.com#%#//scriptlet('json-prune', 'tpl apply', 'tpl.[].c')
 ! chzzk.naver.com
 chzzk.naver.com#%#//scriptlet('trusted-set-local-storage-item', 'homeSkinCollapsedUntil', '9999999999999')
 !
+chuchu.gg#%#//scriptlet('set-cookie', 'daily_ad_closed', 'true')
 loawa.com#%#//scriptlet('set-cookie', 'ad_popup_hide_36', '1')
 goodmorningcc.com#%#//scriptlet('prevent-window-open', 'bannerpop/popup.html')
 m.danawa.com#%#//scriptlet('set-cookie', 'hideMainBottomSheet', 'Y')

@@ -23,6 +23,7 @@ m.fmkorea.com##+js(json-prune, tpl apply, tpl.[].c)
 ! chzzk.naver.com
 chzzk.naver.com##+js(trusted-set-local-storage-item, homeSkinCollapsedUntil, 9999999999999)
 !
+chuchu.gg##+js(set-cookie, daily_ad_closed, true)
 loawa.com##+js(set-cookie, ad_popup_hide_36, 1)
 goodmorningcc.com##+js(no-window-open-if, bannerpop/popup.html)
 m.danawa.com##+js(set-cookie, hideMainBottomSheet, Y)
