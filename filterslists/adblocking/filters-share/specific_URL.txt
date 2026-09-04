@@ -1087,7 +1087,6 @@
 ||cdnbuzz.buzz/banner/
 /^https:\/\/(www\.)?todawa[0-9]+\.asia\/ad\//
 /^https:\/\/(www\.)?bngame[0-9]+\.com\/data\/files\/banner\//
-/^https:\/\/today-sports\.io\/img\/.*(?=(evolution|banner|\.gif))/$domain=today-sports.io
 /^https:\/\/tvmoa[0-9]+\.com\/data\/apms\/background\//
 ||save-1.net/data/apms/background/
 ||save-1.net/thema/Save1/widget/miso-top-banner/topbar.js
@@ -1106,7 +1105,6 @@
 /^https:\/\/image\.yaburi[0-9]+\.com\/image-storage\/banners\//
 ! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/w[0-9]+\.torrentnx[0-9]+\.com\/data\/file\/notice\//$domain=/^torrentnx[0-9]+\.com/
-||i.imgur.com^$domain=etorrentro.net
 ! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/imgcloud[0-9]+\.net\//$domain=/^wftoon[0-9]+\.com/
 /^https:\/\/torrentten[0-9]+\.com\/thema\/Basic\/assets\/img\/.+\.gif$/

@@ -20,12 +20,12 @@ jootc.com,ehpub.co.kr#%#//scriptlet('abort-current-inline-script', 'ai_run_scrip
 ! Kakao TV
 !#if (adguard_app_ios || adguard_ext_safari)
 v.daum.net#@#div[class$="_ad"]
-@@||videoads.kakao.com/adserver/api/v*/vmap|$domain=kakao.com|daum.net|namu.wiki
-@@/embed/player/image/ads.png$domain=kakao.com|daum.net|namu.wiki
-daum.net,kakao.com,namu.wiki#@##adContainer
-daum.net,kakao.com,namu.wiki#@#ins.kakao_ad_area
-daum.net,kakao.com,namu.wiki#@##adBlockPixelTag
-daum.net,kakao.com,namu.wiki#@#.banner_ad
+@@||videoads.kakao.com/adserver/api/v*/vmap|$domain=daum.net|namu.wiki
+@@/embed/player/image/ads.png$domain=daum.net|namu.wiki
+daum.net,namu.wiki#@##adContainer
+daum.net,namu.wiki#@#ins.kakao_ad_area
+daum.net,namu.wiki#@##adBlockPixelTag
+daum.net,namu.wiki#@#.banner_ad
 !#endif
 ! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/videoads\.kakao\.com\/adserver\/api\/v[0-9]+\/vmap/$redirect=nooptext,domain=tv.kakao.com|play-tv.kakao.com|kakaotv.daum.net
@@ -268,9 +268,7 @@ avdbs.com#@#.ad-btn
 genshin.gamedot.org#%#//scriptlet('prevent-setTimeout', 'blockCheck2022')
 !#if (adguard_app_ios)
 @@||errornight.com^$generichide
-errornight.com#$#ins.adsbygoogle { display: none !important; }
 !#endif
-errornight.com#%#//scriptlet('abort-on-stack-trace', 'alert', 'chk_adBlock')
 ! aglint-disable-next-line no-invalid-modifiers
 ||ssl.pstatic.net/tveta/libs/ssp-video/prod/ssp.web.sdk_$script,redirect=noopjs,domain=m.sports.naver.com
 !#if (adguard_app_ios || adguard_ext_safari)
