@@ -551,14 +551,11 @@ busan.com##.wcms_side div[style^="padding-top:"].aside div[class$="_ad"] + .h20 
 boannews.com##iframe[src^="/media/include/media_view_banner.asp"]
 healtho.co.kr##.doc03_wrap > .doc03
 search.naver.com##div:is(._pl_section, ._bz_section, .sc_new).ad_section
-wadiz.kr##div[class^="RecommendationMobile_cardWrapper_"] > a[class^="MainBannerV2_container_"][data-promo-name]
-wadiz.kr##div[class^="KeyVisualBanner_container_"]
 ppss.kr##ad-shield-ads
 web.humoruniv.com###wrap_cnts > div[style*="margin:"][style^="width:"].box
 m.mydaily.co.kr##.article_view ~ div[style^="width:"].clean_banner ~ .wcms_banner ~ .h50
 m.mydaily.co.kr##.article_view ~ div[style^="text-align:"].clean_banner ~ .wcms_banner + .h45
 m.mydaily.co.kr##.article_view ~ div[style^="text-align:"].clean_banner +.h50
-emmaru.com##.SubInforDiv_article table ~ div[style^="padding:"][align="center"]
 koreatimes.com##div[class^="bn_"]:not([class*=" "])
 a-ha.io##div[class^="teads-"]
 t32.torrentpi150.com##div.col-sm-12:has(> div.widget-box)
@@ -605,8 +602,6 @@ ruliweb.com##.adrr
 forwarder.kr###aside > div[style^="background-color:"]
 fun-iyagi.co.kr,timecoffee.co.kr###custom_html-8
 m.sedaily.com###contentArea > div[style^="width:"][id]
-ygosunews.com##.recommended_wrap
-ygosunews.com##.rangking_wrap
 m.ygosu.com###levbar_info ~ .container ~ div[style^="height:"]
 ygosu.com###contain > div[style^="height:"]
 maxmovie.com##div[id^="ad"][class^="ad"][style]
@@ -853,7 +848,6 @@ mongri.net###sidebartop
 ruliweb.com##div[class^="nbp_container"]
 fomos.kr##.board_view .related_content > ul > a
 tailstar.net###wrap_right > #right
-m.yakup.com##.news_view_con ~ div[style]
 yakup.com##a[style*="background-image"][style*="/data/banner/"]
 enjoytaiwan.co.kr##.widget-box > div[style*="min-height:"]
 osmanias.com##.taboola
@@ -878,8 +872,8 @@ humoruniv.com###wrap_mdd ~ div[style*="height:"]
 humoruniv.com###wrap_cnts > div[style^="margin:"]
 ibabynews.com###article-view-content-div div[class$="-banner"]
 autopostkorea.com##.tagdiv-type .best_news_wrap_mo
-ygosunews.com,autopostkorea.com##.td-pb-span4.td-main-sidebar
-ygosunews.com,autopostkorea.com##div[class^="adsense_"]
+autopostkorea.com##.td-pb-span4.td-main-sidebar
+autopostkorea.com##div[class^="adsense_"]
 m.boannews.com##section[class^="banner-"]
 newdaily.co.kr###article_conent > div[style].clearfix
 time.navyism.com###navyismMainContainer > div[style] + div:not([style*=" "]):not([id])j
@@ -1103,7 +1097,7 @@ miraetv.net##.gdl-left-sidebar
 ddengle.com###content > .article > div[class][style]
 ggjil.com##iframe[id^="happy_banner_scroll_"]
 cadgraphics.co.kr##header > div[style].wrap
-funnyissue.com,googlewph.com,gyeomipang.co.kr###right-sidebar
+funnyissue.com,googlewph.com###right-sidebar
 club.pdpop.com##div[id^="lftwing"]
 www.ebs.co.kr##div[class^="codad_ban"]
 www.ebs.co.kr##.evt_area
@@ -1424,7 +1418,7 @@ now.rememberapp.co.kr##.now_content_ads__wrapper
 kinolights.com,m.ilbe.com##.banner-wrap
 clien.net###coupangAd
 ppomppu.co.kr##tr > td div.bridge
-sedaily.com,news2day.co.kr,m.yakup.com,ypbooks.co.kr,asiatime.co.kr,www.ebs.co.kr,news.nate.com,boribori.co.kr##div[class*="_banner"]
+sedaily.com,news2day.co.kr,ypbooks.co.kr,asiatime.co.kr,www.ebs.co.kr,news.nate.com,boribori.co.kr##div[class*="_banner"]
 boribori.co.kr##.bFloatingBanner
 ondisk.co.kr##div[id^="wingBanner-"]
 coupang.com##.srp-top-banner-container
