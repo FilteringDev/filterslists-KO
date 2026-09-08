@@ -902,6 +902,8 @@
 ! DOMAIN-REFRESHER: START
 !
 ! aglint-disable-next-line no-invalid-modifiers
+/w[0-9]+\.apiapi[0-9]+\.com\/data\/banner\//$domain=/tvwiki[0-9]+\.net/
+! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/anilife[0-9]+\.tv\/tvwiki-banners\//$domain=/anilife[0-9]+\.tv/
 ! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/cdn[0-9]+\.cokcok\.[a-z0-9]+\/assets\/images\//$domain=/cokcok[0-9]+\.com/
