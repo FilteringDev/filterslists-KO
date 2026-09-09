@@ -1,13 +1,5 @@
 ! fundingchoicesmessages.google.com
 ||fundingchoicesmessages.google.com^$domain=damoang.net|maplescouter.com|vivatv.cc|singingdalong.blogspot.com|goodgag.net|bera.world|sellas.ink|hunigo.com|iteastory.com|snskeyboard.com|rdsong.com|mongri.net|meeco.kr|poketory.com|youthassembly.kr|kr.jugomobile.com|1412.live|pyrasis.com|oceansabyss.com|yongtj.com|dora-guide.com|tailstar.net|creativestudio.kr|gamejay.net|mksports.co.kr|sisamagazine.co.kr|dreamrail.co.kr|tistory.com|gukjenews.com|issuelink.co.kr|webtool.cusis.net|koreaminecraft.net
-! Kakao TV
-@@||kakaotv.daum.net/embed/player/image/ads.png$domain=tv.kakao.com|play-tv.kakao.com|kakaotv.daum.net
-kakaotv.daum.net,play-tv.kakao.com,tv.kakao.com#@##adContainer
-kakaotv.daum.net,play-tv.kakao.com,tv.kakao.com#@#ins.kakao_ad_area
-kakaotv.daum.net,play-tv.kakao.com,tv.kakao.com#@##adBlockPixelTag
-kakaotv.daum.net,play-tv.kakao.com,tv.kakao.com#@#.banner_ad
-@@||tv.kakao.com/embed/player/image/ads.png$domain=tv.kakao.com|play-tv.kakao.com|kakaotv.daum.net
-@@||videoads.kakao.com/adserver/api/v2/vmap$domain=tv.kakao.com|play-tv.kakao.com|kakaotv.daum.net
 ! Umanle S.R.L
 @@||arca.live^$generichide,domain=arca.live
 @@||newliweb.com/$subdocument,script,domain=namu.wiki|~board.namu.wiki
@@ -193,4 +185,3 @@ stockinfo7.com#@#ins.adsbygoogle[data-ad-slot]
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=noonnu.cc
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=ff14angler.com
 ff14angler.com#@#ins.adsbygoogle[data-ad-slot]
-@@||videoads.kakao.com/adserver/api/v2/vmap$domain=tv.kakao.com|play-tv.kakao.com|entertain.daum.net
