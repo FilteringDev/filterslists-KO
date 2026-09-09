@@ -1,3 +1,4 @@
+||amazing.today/_next/image?url=%2Fads%2F2
 ||image.gamechosun.co.kr/ad_banner/
 ||file.chuchu.gg/*/pop_up_ad/
 /^https:\/\/(www\.)?busan\.com\/nas\/wcms\/public\/m\/images\/new\/[0-9]{6}[a-z]{2,3}\./$domain=busan.com
