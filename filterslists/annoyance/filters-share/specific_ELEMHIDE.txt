@@ -1,3 +1,5 @@
+bananamall.co.kr###banner_spot_txt
+bananamall.co.kr###vue-pc-popup-app
 m.bunjang.co.kr##header div[class^="_top-banner-large_"]:has(> button[class^="_top-banner-large-content_"] > img[src="https://static.bunjang.co.kr/web/ui/logo-icon.svg"])
 m.bunjang.co.kr##footer > a[href="https://go.bgzt.link/app"]
 m.bunjang.co.kr##header section[class*="_top-banner_"]:has(> section > a[href="https://go.bgzt.link/app"])
