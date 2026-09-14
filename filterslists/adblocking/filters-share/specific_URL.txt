@@ -952,14 +952,14 @@
 ||img.mingk.xyz/data/file/passfree/
 ! aglint-disable-next-line no-invalid-modifiers
 ||mingk*.net/theme/BS4-Basic/js/pf-loader.js$domain=/^mingky[0-9]+\.net/
-||yasyadong.*/?_Action=adv&_Method$domain=yasyadong.*
+||yasyadong.*/?_Action=adv&_Method$domain=yasyadong.*|/yasyadong[0-9]+\.tv/
 ! aglint-disable-next-line no-invalid-modifiers
 /https:\/\/tvwiki[0-9]+\.com\/data\/banner\//$domain=/tvwiki[0-9]+\.com/
 /^https:\/\/(www\.)?aniya24\.com\/wp-content\/uploads\/[0-9]+\/[0-9]+\/[a-z]+[0-9]+x[0-9]+\./$domain=aniya24.com
 ||aniya24.com/wp-content/uploads/*.gif
 ||sutom.org/wp-content/uploads/*.webp
 ||nooo*.tv/theme/basic_player/img/banner/
-||blogger.googleusercontent.com/img/$domain=yasyadong.*
+||blogger.googleusercontent.com/img/$domain=yasyadong.*|/yasyadong[0-9]+\.tv/
 .gif^$image,domain=itrulli.com
 ||365tvda.com/data/file/bojng/
 ||xn--hy1bm2ltmr.com/img/banner/
