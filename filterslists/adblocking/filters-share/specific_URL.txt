@@ -1,3 +1,4 @@
+ipokergosu.com/banner/$domain=pokergosu.com
 ||amazing.today/_next/image?url=%2Fads%2F2
 ||image.gamechosun.co.kr/ad_banner/
 ||file.chuchu.gg/*/pop_up_ad/
