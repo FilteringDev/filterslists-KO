@@ -952,6 +952,7 @@
 ||img.mingk.xyz/data/file/passfree/
 ! aglint-disable-next-line no-invalid-modifiers
 ||mingk*.net/theme/BS4-Basic/js/pf-loader.js$domain=/^mingky[0-9]+\.net/
+! aglint-disable-next-line no-invalid-modifiers
 ||yasyadong.*/?_Action=adv&_Method$domain=yasyadong.*|/yasyadong[0-9]+\.tv/
 ! aglint-disable-next-line no-invalid-modifiers
 /https:\/\/tvwiki[0-9]+\.com\/data\/banner\//$domain=/tvwiki[0-9]+\.com/
@@ -959,6 +960,7 @@
 ||aniya24.com/wp-content/uploads/*.gif
 ||sutom.org/wp-content/uploads/*.webp
 ||nooo*.tv/theme/basic_player/img/banner/
+! aglint-disable-next-line no-invalid-modifiers
 ||blogger.googleusercontent.com/img/$domain=yasyadong.*|/yasyadong[0-9]+\.tv/
 .gif^$image,domain=itrulli.com
 ||365tvda.com/data/file/bojng/
