@@ -56,6 +56,7 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+maple.gg##body > div[data-pam-popup="main-popup"]:has(> div[role="dialog"][aria-label="애니모"])
 lec.co.kr##aside.user-aside > div[style^="height:"]
 bananamall.co.kr###banner_header
 bananamall.co.kr##.banner_fan_meeting_review
