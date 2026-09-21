@@ -1,3 +1,4 @@
+||ds-cdn.inicis.com/ad/$image
 ||scripts.mediavine.com/creativeBlocks
 ||pam-assets.dak.gg/creatives/
 ipokergosu.com/banner/$domain=pokergosu.com
