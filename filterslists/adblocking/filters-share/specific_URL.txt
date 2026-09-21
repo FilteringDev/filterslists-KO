@@ -905,6 +905,8 @@ ipokergosu.com/banner/$domain=pokergosu.com
 !
 ! DOMAIN-REFRESHER: START
 !
+||lover*.net/staticwrite/vmplayer0.js
+||lover*.net/staticwrite/videoplaymasterfile.js
 ! aglint-disable-next-line no-invalid-modifiers
 /w[0-9]+\.apiapi[0-9]+\.com\/data\/banner\//$domain=/tvwiki[0-9]+\.net/
 ! aglint-disable-next-line no-invalid-modifiers
