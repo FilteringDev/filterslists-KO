@@ -1,13 +1,13 @@
 /w[0-9]+\.apiapi[0-9]+\.com\/data\/banner\//$domain=tvwiki88.net
 /^https:\/\/[a-z0-9-]+\.[a-z0-9-]+\/[a-z0-9-_]+\./$image,domain=wfwf492.com
 ||i.imgur.com^$domain=yasyadong01.tv|yasyadong02.tv|yasyadong03.tv|yasyadong04.tv|yasyadong05.tv|yasyadong06.tv|yasyadong07.tv|yasyadong08.tv|yasyadong09.tv
-linkbbg7.com##[style="margin-bottom: 20px;"].row.row-15
-linkbbg7.com##.basic-banner.row.row-10
-linkbbg7.com##.board-tail-banner
+linkbbg8.com##[style="margin-bottom: 20px;"].row.row-15
+linkbbg8.com##.basic-banner.row.row-10
+linkbbg8.com##.board-tail-banner
 tvwiki41.com##div[id] > ul:has(a[href] > img[src^="/AD/"])
 tvwiki41.com##ul[class^="banner"]
 /https:\/\/tvwiki[0-9]+\.com\/AD\//$domain=tvwiki41.com
 /https:\/\/tvwiki[0-9]+\.com\/data\/banner\//$domain=tvwiki41.com
 ||hoohootv*.*/static/bnner/$domain=hoohootv341.xyz
 /^https:\/\/cdn[a-z0-9]+\.site\/data\/banner\//$domain=tvwik20.net|tvwik21.net|tvwik22.net|tvwik23.net|tvwik24.net|tvwik25.net|tvwik26.net|tvwiki88.net
-/^https:\/\/nooo[0-9]+\.tv\/theme\/renew\/img\/banner\//$domain=nooo32.tv
+/^https:\/\/nooo[0-9]+\.tv\/theme\/renew\/img\/banner\//$domain=nooo34.tv
