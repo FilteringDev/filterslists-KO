@@ -56,6 +56,7 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+m.dcinside.com##section.clkhigh
 jejuair.net###main > .reflash-pay-banner
 jejuair.net###partnerBanner
 stdpay.inicis.com###leftBnr
