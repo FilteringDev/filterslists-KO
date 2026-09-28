@@ -56,6 +56,8 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+danawa.com###danawa_menubar > .main-header__nav > .link_nav--internet
+prod.danawa.com###auto_area2 > .auto_product_list
 m.dcinside.com##.brick-wid .grid:has(> div[style^="min-height:"])
 jejuair.net###main > .reflash-pay-banner
 jejuair.net###partnerBanner
@@ -137,7 +139,7 @@ hankookilbo.com##.sm\:pt-80 .md\:min-h-\[290px\]
 hankookilbo.com##div[style^="bottom:"].duration-400.transition-discrete
 bntnews.co.kr##.googleBanner
 m.danawa.com##.banner_ajungdang
-m.danawa.com##.box__tooltip-internet
+search.danawa.com,m.danawa.com##.box__tooltip-internet
 m.bunjang.co.kr##main > div[class^="_container_"] + section:has(> span[class*="_adTitle_"])
 m.bunjang.co.kr##div[data-grid-size] > div:has(> a[href^="https://link.coupang.com/"])
 m.bunjang.co.kr##div[data-grid-size] > div:has(> a[href^="https://ader.naver.com/"])
@@ -156,7 +158,7 @@ lottecinema.co.kr###mainBottom
 lottecinema.co.kr##.section__mainbanner__mid
 lottecinema.co.kr##.movie_detail_btm_banner
 lottecinema.co.kr###quick_outline > .inner_top
-m.danawa.com###bottomTabBar-item-internetJoin
+search.danawa.com,m.danawa.com###bottomTabBar-item-internetJoin
 coucounews.com##div[class$="continue_coupang"] div.mb-4.text-center:has(> img.inline-block[loading="lazy"][alt^="_"][src^="https://cdn.zigcou.com/"])
 coucounews.com##div[class$="continue_coupang"] div.mb-4.text-center:has(> img.inline-block[loading="lazy"][alt^="_"][src^="https://cdn.zigcou.com/"]) + div.cursor-pointer
 coucounews.com##main > div.px-2 > div:not([class]):not([style]) > div.text-left > div.grid > div:has(a[href^="https://blog.naver.com/byolla/"])
