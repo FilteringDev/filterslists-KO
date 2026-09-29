@@ -233,7 +233,6 @@ damoang.net##div[data-position="side-image-text-banner"]
 damoang.net##.md\:rounded-lg.divide-y > div[style^="contain: "]
 damoang.net##.md\:rounded-lg.divide-y > .py-2
 stock.naver.com##div[class^="AdvertisementArea_advertisement-"]
-prod.danawa.com##.ad-floating-banner
 prod.danawa.com##.dnw-ad-slot
 www.algumon.com##.deal-content .deal-2col:is(:has(div[style^="display: flex; justify-content: center;"] p[class^="fb-desc svelte-"]), :has(> div[style^="display:flex;"] > .adsbygoogle))
 damoang.net##div[data-slot="board-list-promotion"]
@@ -537,7 +536,6 @@ inven.co.kr##article > div[style].banner
 m.comic.naver.com##.band_banner
 chzzk.naver.com##a[class*="banner_link_"][target="_blank"] > img[class*="banner_image_"][src*="/Banner_"]
 buly.kr##.modal > #pop_modal
-search.danawa.com##li[style][id^="ad"]
 mobile.missyusa.com##.div_banner
 app.dcinside.com,m.dcinside.com##*[class^="adv-group"]
 app.dcinside.com,m.dcinside.com##li.adv-inner
@@ -610,7 +608,6 @@ m.slrclub.com##.comment_inbox ul > li[style^="padding:"]
 slrclub.com###slrcf > .cl_spc
 www.instiz.net##div[class$="ad_area"]
 instiz.net##div[class^="powerlink_"]
-danawa.com###danawa_wrap > .ttop_banner
 ppomppu.co.kr##.together_goods
 slrclub.com##div[style^="height"]#slrclub
 mnews.imaeil.com##div[class$="_ad"][style] + .h20
@@ -956,7 +953,6 @@ m.etoday.co.kr##.containerWrap > section[style^="padding"]:not([class])
 m.etoday.co.kr##body > div[style]:not([class]):not([id])
 m.etoday.co.kr##.contents_body > div[style]
 etoday.co.kr##ul[class^="bn_"]
-prod.danawa.com###naverPowerShoppingArea
 cosinkorea.com##.con_primary hr.skin_margin
 cosinkorea.com##div[style] > div[class^="ban_"]
 cosinkorea.com##div[style] > hr.spc
@@ -1175,7 +1171,6 @@ m.heraldpop.com,mbiz.heraldcorp.com##a[class^="ad_"]
 edufindkorea.com###body_wrap > #body_main > div[style]:nth-child(2)
 junggi.co.kr##img[src^="/data/__banner/"]
 junggi.co.kr##img[src^="/image/banner/"]
-danawa.com##.main__grid.main__grid--line .main__grid__right
 maxmovie.com,dcnewsj.joins.com,news.heraldcorp.com,biz.chosun.com,place.naver.com,styleup.gameangel.com,wowtv.co.kr,news.naver.com##div[id*="_ad_"]
 thelec.kr##div[onclick^="wcs.event("]
 m.starnewskorea.com###content > div[style^="background:"][class]
@@ -1264,7 +1259,6 @@ sportalkorea.com##p[class^="ad_"]
 soccerline.kr,sportalkorea.com##div[class][data-ad][style]
 sportalkorea.com##div[id^="topAd"]
 ppomppu.co.kr##body .contents .container .topSub-nav
-prod.danawa.com###powerClickListArea
 entertainpost.com##body > div[style]:not([class])
 www.naver.com##div[id^="veta_"]
 newautopost.co.kr,munhwa.com,ppomppu.co.kr,starnewskorea.com,mimint.co.kr,bada.io,arca.live##div.ad
@@ -1308,7 +1302,6 @@ m.fpn119.co.kr##div[id^="mobitree"]
 dispatch.co.kr###dpArticleBlocksWrapper
 dispatch.co.kr##div[id^="ADOP_"][style]
 m.clien.net##div[id^="naverAd"]
-search.danawa.com###powerClickListArea
 danawa.com###danawa_main_container > .main-top > .main-top__center > .main-middlebnr
 entertain.daum.net##.aside_g.aside_ad
 entertain.daum.net##.aside_g.aside_shopping
@@ -1436,7 +1429,6 @@ pcmap.place.naver.com###_pcmap_list_scroll_container > ul > li[data-laim-exp-id=
 map.kakao.com##ul[id="info.search.place.list"] > li.AdItem
 dcnewsj.joins.com##div[class^="ab_ad"]
 kyeongin.com,sir.kr,catnews.net,m.coupang.com,kidkids.net,elle.co.kr,pushoong.com,epnc.co.kr,all-mice.co.kr,hwbattle.com,mbn.co.kr##div[id$="_banner"]
-prod.danawa.com##div[class$="_ad_prodlist"]
 epnc.co.kr##div[id^="floating_banner_"]
 epnc.co.kr##div[onmousedown*="'event_label': 'AD'"]
 news.v.daum.net##ul.list_column > li.item_ad
