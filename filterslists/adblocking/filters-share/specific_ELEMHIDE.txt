@@ -76,6 +76,9 @@ dpg.danawa.com###danawa-gnb-banner
 m.danawa.com##.goods-list__ad
 danawa.com###danawa_main_container > .main-top > .main-top__center > .main-middlebnr
 !
+m.lotteimall.com##.swiper_wrapper > .swiper_slide:has(> a[class] .txt_ad)
+m.lotteimall.com##.swiper-wrapper > .swiper-slide:has(> a[class] .ad_flag)
+m.lotteimall.com###randomPopup .swiper_wrap > .swiper_slide:has(> .ad)
 m.dcinside.com##.brick-wid .grid:has(> div[style^="min-height:"])
 jejuair.net###main > .reflash-pay-banner
 jejuair.net###partnerBanner
