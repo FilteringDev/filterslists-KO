@@ -336,6 +336,7 @@ play.aidungeon.io,tamrieltradecentre.com,downloads.descendant.me,html5.gamedistr
 !
 ! DOMAIN-REFRESHER: START
 !
+||avsee.*/player/ad-gate.js?v=
 hasha.in#%#//scriptlet('prevent-fetch', 'adManager.js')
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=hasha.in
 ! aglint-disable-next-line no-invalid-modifiers
