@@ -28,6 +28,7 @@
 ||prod.danawa.com/info/ajax/getPowerClickProductList.ajax.php
 ||prod.danawa.com/bridge/loadingBridgePowerClick.php$document
 !
+||api.bunjang.co.kr/api/pms/v1/external-ads/
 ||ds-cdn.inicis.com/ad/$image
 ||scripts.mediavine.com/creativeBlocks
 ||pam-assets.dak.gg/creatives/
