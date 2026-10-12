@@ -76,6 +76,8 @@ dpg.danawa.com###danawa-gnb-banner
 m.danawa.com##.goods-list__ad
 danawa.com###danawa_main_container > .main-top > .main-top__center > .main-middlebnr
 !
+search.naver.com###shp_dig_root ul[class] > li[data-slog-content]:has(a[href^="https://ader.naver.com/"])
+search.naver.com###rbp-main-section-root ul[class] > li:has(a[href^="https://ader.naver.com/"])
 aniweek.com,ani.ohli24.com##.banner-area-main
 linkani.tv##.linktv-banners
 ssg.com##ul > li:has(> div[data-react-advert-yn="Y"])
