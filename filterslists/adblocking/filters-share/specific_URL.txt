@@ -28,6 +28,8 @@
 ||prod.danawa.com/info/ajax/getPowerClickProductList.ajax.php
 ||prod.danawa.com/bridge/loadingBridgePowerClick.php$document
 !
+||kkutugame.kr/api/ad-config
+||kkutugame.kr/css/site-ads.css
 /storage/banners/$image,domain=ani.ohli24.com|aniweek.com
 ||linkani.tv/tvwiki-banners/$image
 ||api.bunjang.co.kr/api/pms/v1/external-ads/
