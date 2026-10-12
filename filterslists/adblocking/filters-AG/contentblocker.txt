@@ -23,6 +23,7 @@ dicoall.com#@##homead
 dicoall.com#@##ad-lead
 dicoall.com#@##rightAd
 !
+||kkutugame.kr/*/adblock-gate.
 cpsp.kr#@#.adsbox
 cpsp.kr#@#.ad-banner
 cpsp.kr#@#.ad-unit:not(.textads)

@@ -145,6 +145,7 @@ cpsp.kr#@#.text_ads
 cpsp.kr#%#//scriptlet('prevent-constructor', 'Promise', 'width: 1px !important')
 cpsp.kr#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
 !
+||kkutugame.kr/*/adblock-gate.
 thelabyrinth.co.kr#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com method:HEAD')
 etoland.co.kr#%#//scriptlet('prevent-fetch', '/pagead2.googlesyndication.com|googleads.g.doubleclick.net|googletagservices.com|securepubads.g.doubleclick.net|googleads.g.doubleclick.net|google-analytics.com|googlesyndication.com|doubleclick.net/')
 !#if (adguard_app_ios || adguard_ext_safari)
