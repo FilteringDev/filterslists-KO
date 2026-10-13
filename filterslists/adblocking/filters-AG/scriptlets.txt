@@ -96,6 +96,7 @@ banhub.xyz#%#//scriptlet('remove-class', 'backdrop-blur-lg')
 !
 ! DOMAIN-REFRESHER: START
 !
+watchfreejavonline.co#%#//scriptlet('prevent-window-open', '!watchfreejavonline.co')
 cokcok.stream#%#//scriptlet('trusted-replace-node-text', 'script', '/const *_[a-z0-9]+ *= *{ *"media_file" *: *" *https:\\\/\\\/cdn[0-9]+\.cokcok\.[a-z0-9]+\\\/assets\\\/videos\\\/.+"click_through" *:.+};/', 'media_file', '')
 ! aglint-disable-next-line no-invalid-modifiers
 [$domain=/lover[0-9]\.net/]#%#//scriptlet('prevent-addEventListener', 'click', 'popMagic')

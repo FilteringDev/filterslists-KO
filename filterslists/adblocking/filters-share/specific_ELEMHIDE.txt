@@ -1504,6 +1504,7 @@ kio.ac##main > div:has(> div > div > a > img)
 !
 ! DOMAIN-REFRESHER: START
 !
+1465544.xyz###overlay
 tvchak.live##.banner-box
 aniya24.com##.popup-container
 sutom.org##div[data-id="9429d5d"]
