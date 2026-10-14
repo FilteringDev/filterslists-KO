@@ -56,6 +56,7 @@ jobkorea.co.kr##div[id^="Banner"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 ! danawa.com
+danawa.com###danawa_main_container .main__grid__right:has(#eventNowPage)
 danawa.com###sectionLayer > .category__list__row > .category_hover_layer > .category__2depth__banner
 prod.danawa.com###DnwListContents aside div:not([class]):has(> .relative > .swiper):has(> div + ._flex-between > button[aria-label="이전 배너"])
 prod.danawa.com###DnwListContents > .list-main-content div.border:has(> div:not([class]) > ul[aria-label="파워쇼핑 광고 목록"])
