@@ -1,3 +1,4 @@
+fin.land.naver.com##div#content[class^="PCLayout-"] div[data-sentry-component="FloatingCenterBanner"]:has(a[href^="https://blog.naver.com/land_admin/"])
 danawa.com##a[href^="https://prod.danawa.com/bridge/loadingBridgeDf.html?"]
 danawa.com###sectionLayer > .category__list__row > .category_hover_layer > .category__2depth__right > .category__finance
 danawa.com###sectionLayer > .category__list__row > .category_hover_layer > .category__2depth__right > .category__plan > .item:has(a[href="https://plan.danawa.com/info/?nPlanSeq=12942"])
