@@ -1,3 +1,5 @@
+! naver.com
+||ssl.pstatic.net/sstatic/fe/sfe/whale-dl-banner/$script,domain=search.naver.com
 ! danawa.com
 ||search.danawa.com/js/elevenStAd.min.js
 ||img.danawa.com/img/m/prod/ajungdang_banner/

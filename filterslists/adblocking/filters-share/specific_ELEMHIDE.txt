@@ -62,7 +62,6 @@ pre.land.naver.com##.mapContainer > div[class^="home-module__"] > div[class$="__
 search.naver.com###place-main-section-root ul[class] > li[data-laim-exp-id]:has(a[href^="https://ader.naver.com/"])
 search.naver.com###shp_dig_root ul[class] > li[data-slog-content]:has(a[href^="https://ader.naver.com/"])
 search.naver.com###rbp-main-section-root ul[class] > li:has(a[href^="https://ader.naver.com/"])
-search.naver.com###header_wrap.type_whale_banner > .api_floating_header > .ban_whale_wrap
 m.sports.naver.com###sports_lnb_sub > ul > li[data-menu-id="fconline"]
 m.sports.naver.com###sports_placard_top
 land.naver.com###presale_news_list
