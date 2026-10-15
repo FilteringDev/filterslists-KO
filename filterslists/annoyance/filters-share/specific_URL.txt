@@ -1,1 +1,2 @@
-!
+! naver.com
+||fin.land.naver.com/front-api/v1/data-service/banner/propertyCommon$xmlhttprequest
