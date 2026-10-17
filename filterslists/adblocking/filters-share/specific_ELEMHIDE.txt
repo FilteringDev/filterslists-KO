@@ -59,6 +59,7 @@ sports.donga.com##div[id*="_AD"]
 fin.land.naver.com###main_map .mapboxgl-canvas-container .marker-root:has(svg[data-sentry-component="BadgeAD"])
 pre.land.naver.com###SYmap .mapboxgl-canvas-container div[aria-label="suppProcStep"]:has(> div[class$="__adWrap"])
 pre.land.naver.com##.mapContainer > div[class^="home-module__"] > div[class$="__homeContentsWrap"] > div[class$="__shortClipWrap"]
+search.naver.com##.ban_whale_wrap
 search.naver.com###place-main-section-root ul[class] > li[data-laim-exp-id]:has(a[href^="https://ader.naver.com/"])
 search.naver.com###shp_dig_root ul[class] > li[data-slog-content]:has(a[href^="https://ader.naver.com/"])
 search.naver.com###rbp-main-section-root ul[class] > li:has(a[href^="https://ader.naver.com/"])
