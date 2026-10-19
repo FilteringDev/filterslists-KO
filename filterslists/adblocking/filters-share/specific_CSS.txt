@@ -8,7 +8,6 @@ chzzk.naver.com#$##layout-body > div[class^="_container_"] > section > div[class
 chzzk.naver.com#$##layout-body > div[class^="_container_"] > section > main > div[class^="_wrapper_"] { top: 124px !important; }
 chzzk.naver.com#$##layout-body > div[class^="_container_"] > section > div[class^="_area_"] > div[role="tabpanel"] > header { top: 94px !important; }
 !
-danawa.com#$##sectionLayer > .category__list__row > .category_hover_layer { width: 380px !important; }
 joinsmediacanada.com#$##container.highChk { width: 100% !important; }
 quasarzone.com#$#.sponsor-banner-layer-container { width: 0px !important; }
 quasarzone.com#$#.sponsor-banner-layer-container * { width: 0px !important; padding: 0px !important; border: none !important; }
