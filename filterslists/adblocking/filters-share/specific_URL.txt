@@ -30,6 +30,7 @@
 ||prod.danawa.com/info/ajax/getPowerClickProductList.ajax.php
 ||prod.danawa.com/bridge/loadingBridgePowerClick.php$document
 !
+||rest.memic.at/*/ad-campaigns/banners
 ||kkutugame.kr/api/ad-config
 ||kkutugame.kr/css/site-ads.css
 /storage/banners/$image,domain=ani.ohli24.com|aniweek.com
