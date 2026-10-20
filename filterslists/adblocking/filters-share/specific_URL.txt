@@ -914,6 +914,8 @@ ipokergosu.com/banner/$domain=pokergosu.com
 !
 ! DOMAIN-REFRESHER: START
 !
+! aglint-disable-next-line no-invalid-modifiers
+||v1-0-0.pages.dev^$domain=/lover[0-9]+\.net/
 ||lover*.net/staticwrite/vmplayer0.js
 ||lover*.net/staticwrite/videoplaymasterfile.js
 ! aglint-disable-next-line no-invalid-modifiers
@@ -949,11 +951,11 @@ ipokergosu.com/banner/$domain=pokergosu.com
 ! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/(www\.)?yako[0-9]+\.com\/upload\/banner\//$domain=/yako[0-9]+\.com/
 ! aglint-disable-next-line no-invalid-modifiers
-/lover[0-9]\.net\/file\/tohotv\/.*\.gif$domain=/lover[0-9]\.net/
+/lover[0-9]\.net\/file\/tohotv\/.*\.gif$domain=/lover[0-9]+\.net/
 ! aglint-disable-next-line no-invalid-modifiers
-/lover[0-9]\.net\/file\/1bet\/.*\.gif$domain=/lover[0-9]\.net/
+/lover[0-9]\.net\/file\/1bet\/.*\.gif$domain=/lover[0-9]+\.net/
 ! aglint-disable-next-line no-invalid-modifiers
-/lover[0-9]\.net\/file\/eve\/.*\.png$domain=/lover[0-9]\.net/
+/lover[0-9]\.net\/file\/eve\/.*\.png$domain=/lover[0-9]+\.net/
 ! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/cdn[a-z0-9]+\.site\/data\/banner\//$domain=/tvwiki[0-9]+\.net/
 ||wdwd*.com/data/banner/
