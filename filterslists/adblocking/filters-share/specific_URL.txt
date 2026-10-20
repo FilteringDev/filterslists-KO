@@ -445,8 +445,6 @@ ipokergosu.com/banner/$domain=pokergosu.com
 ||daumcdn.net/tistory/2120872/skin/images/adsense_
 ||bikesell.co.kr/site/images/ban/
 ||yakup.com/data/banner/
-! aglint-disable-next-line no-invalid-modifiers
-/^https?:\/\/(m\.)?humoruniv\.com\/.+\?[a-z0-9]+=/$xmlhttprequest,domain=humoruniv.com
 ||cliimage.commutil.kr/phpwas/restmb_allidxmake.php
 ||daumcdn.net/tistory/1999484/skin/images/bal.jpg
 ||ibric.org/upload/board/files/enterprise/
