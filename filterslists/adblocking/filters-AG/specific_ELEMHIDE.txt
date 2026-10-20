@@ -161,7 +161,7 @@ m.fmkorea.com##iframe[src*="//loader.fmkorea.com/"][src*="_loader/"]
 nightofpeace.com,ilovebees.io##.e-con-full.e-flex.e-con:has(a[target="_blank"] img)
 nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_blank"] img)
 ! aglint-disable-next-line no-invalid-modifiers
-[$domain=/lover[0-9]\.net/]##.div-over
+[$domain=/lover[0-9]+\.net/]##.div-over
 ! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^torrentqq[0-9]+.com/]##.at-banner
 ! aglint-disable-next-line no-invalid-modifiers
