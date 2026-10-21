@@ -71,6 +71,7 @@ chzzk.naver.com###layout-body > div[class^="_container_"] > div[class^="_section
 section.blog.naver.com##.area_advertisement
 stock.naver.com##div[class^="AdvertisementArea_advertisement-"]
 ! danawa.com
+search.danawa.com##.border.border-dnw-gray-250.bg-dnw-white.px-5.py-4.my-5
 danawa.com###danawa_main_container .main__grid__right:has(#eventNowPage)
 danawa.com###sectionLayer > .category__list__row > .category_hover_layer > .category__2depth__banner
 prod.danawa.com###DnwListContents aside div:not([class]):has(> .relative > .swiper):has(> div + ._flex-between > button[aria-label="이전 배너"])
