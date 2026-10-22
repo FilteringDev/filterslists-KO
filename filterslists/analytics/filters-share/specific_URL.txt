@@ -1,3 +1,8 @@
+||assets.011st.com/js/analytics/$script
+||c.m.011st.com/MW/js/statistics/$script
+||m.11st.co.kr/MW/js/statistics/$script
+||search-monitor.11st.co.kr^
+||search.11st.co.kr/js/searchWebFront/search/public/rakeLog-mobile-search.js
 ||tcafe21.com/plugin/perf/
 ||api.a-bly.com/api/*/retail_ad/display-event
 ||api.a-bly.com/api/*/ad/events/
