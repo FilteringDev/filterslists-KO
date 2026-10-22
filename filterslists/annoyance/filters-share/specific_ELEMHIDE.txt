@@ -1,3 +1,4 @@
+11st.co.kr##.c-reward-info__cta
 11st.co.kr##.c-fixed-bottom:has(a[href^="http://m.11st.co.kr/MW/Gate/executeApp.tmall?"])
 danawa.com##a[href^="https://prod.danawa.com/bridge/loadingBridgeDf.html?"]
 danawa.com###sectionLayer > .category__list__row > .category_hover_layer > .category__2depth__right > .category__finance
