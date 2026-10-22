@@ -94,6 +94,8 @@ dpg.danawa.com###danawa-gnb-banner
 m.danawa.com##.goods-list__ad
 danawa.com###danawa_main_container > .main-top > .main-top__center > .main-middlebnr
 !
+search.11st.co.kr##div[data-ui-type="ProductScroll_BrandAd"]
+search.11st.co.kr##ul#arChipPaneldefault > li.c-card-item--ad
 search.11st.co.kr##ul[data-ui-type="Product_List_Search"]:has(> li[id^="topAdArea1-"])
 search.11st.co.kr##div[data-ui-type="Cap_Box_SearchTitle"]:has(button.c-ad__btn)
 search.11st.co.kr###section_officialSellerAd
@@ -750,7 +752,6 @@ search.zum.com##.naver_power_shopping
 search.zum.com##[class*="sponsor"]
 bloter.net##.respons-edit > div[style^="width:"].float-right
 newspim.com###news-contents div[style*="margin:"]
-11st.co.kr##[data-log-actionid-area^="focus_"]
 search.11st.co.kr##.search_content > section[data-log-actionid-area="power"]
 11st.co.kr##div[data-log-actionid-area="adplusling"]
 11st.co.kr##.review_list_element > .c_review_recommend
