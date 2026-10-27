@@ -31,6 +31,7 @@
 ||prod.danawa.com/info/ajax/getPowerClickProductList.ajax.php
 ||prod.danawa.com/bridge/loadingBridgePowerClick.php$document
 !
+||deeplol.gg/images/ad/
 ||tokenpost.kr/index/ajax/getLogClickBanner
 ||foapi.teescanner.com/v1/homemenu/getHomeIntroList
 ||rest.memic.at/*/ad-campaigns/banners
