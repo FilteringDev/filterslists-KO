@@ -94,6 +94,7 @@ dpg.danawa.com###danawa-gnb-banner
 m.danawa.com##.goods-list__ad
 danawa.com###danawa_main_container > .main-top > .main-top__center > .main-middlebnr
 !
+coolenjoy.net##div[class$="-banner"] div[id^="carousel_"]
 deeplol.gg###champion_content_bottom_ad_box
 deeplol.gg##a[target="_blank"] > img[src^="./images/ad/"]
 deeplol.gg###billboard
