@@ -96,11 +96,11 @@ danawa.com###danawa_main_container > .main-top > .main-top__center > .main-middl
 !
 coolenjoy.net##div[class$="-banner"] div[id^="carousel_"]
 deeplol.gg###champion_content_bottom_ad_box
-deeplol.gg##a[target="_blank"] > img[src^="./images/ad/"]
+deeplol.gg###summoner_content_box > div:not([class]) div[class]:has(> a[target="_blank"] > img[src^="./images/ad/"])
 deeplol.gg###billboard
 deeplol.gg###desktop-takeover
 deeplol.gg###content-container > div[class*=" "] > div > div[class*=" "] > div[class*=" "] > div[class*=" "]:has(> div:not([class]):only-child:empty)
-deeplol.gg##.p__info > div[style]
+deeplol.gg##.p__info > div[class]:has(> div:not([class]):only-child:empty)
 tokenpost.kr##.v3_ad_slot
 search.11st.co.kr##div[data-ui-type="ProductScroll_BrandAd"]
 search.11st.co.kr##ul#arChipPaneldefault > li.c-card-item--ad
