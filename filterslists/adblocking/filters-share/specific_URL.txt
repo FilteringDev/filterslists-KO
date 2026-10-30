@@ -31,6 +31,7 @@
 ||prod.danawa.com/info/ajax/getPowerClickProductList.ajax.php
 ||prod.danawa.com/bridge/loadingBridgePowerClick.php$document
 !
+||pam.dakgg.io/sdk/pam.js
 ||cdn.mania.kr/wepoll/file/ad/
 ||deeplol.gg/images/ad/
 ||tokenpost.kr/index/ajax/getLogClickBanner
