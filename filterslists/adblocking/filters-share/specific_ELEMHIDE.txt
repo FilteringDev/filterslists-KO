@@ -94,6 +94,7 @@ dpg.danawa.com###danawa-gnb-banner
 m.danawa.com##.goods-list__ad
 danawa.com###danawa_main_container > .main-top > .main-top__center > .main-middlebnr
 !
+maple.gg###content-container > header[class] > div[class]:has(> #venatus-top-banner-desktop_takeover)
 coolenjoy.net##div[class$="-banner"] div[id^="carousel_"]
 tokenpost.kr##.v3_ad_slot
 search.11st.co.kr##div[data-ui-type="ProductScroll_BrandAd"]
