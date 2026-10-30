@@ -6,3 +6,5 @@ msn.com
 google.com
 reddit.com
 finance.yahoo.com
+deeplol.gg
+op.gg
