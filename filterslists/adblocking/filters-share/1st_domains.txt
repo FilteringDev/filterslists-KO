@@ -1,3 +1,4 @@
+||ads-api.daum.net^
 ||serv.ds.kakao.com^
 ||cafe-ads-api.daum.net^
 ||worker.gsr-ads.co.kr^
