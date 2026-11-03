@@ -94,6 +94,7 @@ dpg.danawa.com###danawa-gnb-banner
 m.danawa.com##.goods-list__ad
 danawa.com###danawa_main_container > .main-top > .main-top__center > .main-middlebnr
 !
+nate.com##.area_ranking .content li.commercial
 zum.com##.shopping_links
 zum.com##.favorite_site
 zum.com##.gnb li:has(.badge_ad)
