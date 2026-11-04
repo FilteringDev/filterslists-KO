@@ -111,7 +111,6 @@ pedia.watcha.com#?#div[class*="-ContentSections"] div[class^="css-"] section:has
 shoppinghow.kakao.com#?##contEtc > #rightContentbox:has(#SearchRightAdWrap)
 coocha.co.kr#?#.group-deal .list > div:has(span.ad:matches-css(background-image: /images\/deal\/ad\.png/))
 10000recipe.com#?#body .view_sp_banner .swipe-slide:has(img[src^="https://recipe1.ezmember.co.kr/cache/shop/"])
-m.moneys.co.kr#?#.one_line_article > ul.list > li.item:not(:has(a[href^="/article.html?no="]))
 kr-weathernews.com#?#body > article#content > article.block:has(ul#life_slider)
 everytime.kr#?#div.banners:has(> a[href*="//ad.everytime.kr/"])
 everytime.kr#?#.card:has( > .banner > a[href*="//ad.everytime.kr/"])
