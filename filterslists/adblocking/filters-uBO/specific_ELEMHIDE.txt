@@ -94,9 +94,7 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 !
 ! DOMAIN-REFRESHER: START
 !
-/yasyadong[0-9]+\.tv/##.top-ad-padding
 /anilife[0-9]+\.tv/##*[class^="partner-banner-"]
-/cokcok[0-9]+\.com/###cpb-popup-banners
 /xtoon[0-9]+\.com/##.container > div.row > div > a[target="_blank"] > picture
 /funbe[0-9]+\.com/##.mobile-banner > div[class^="main_top_bann"]
 /funbe[0-9]+\.com/##.mobile-banner div.banner_m
@@ -104,19 +102,14 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 /mingky[0-9]+\.net/##.contents_wrap.column div[style="display: flex; flex-direction: column; align-items: center;"]
 nightofpeace.com,ilovebees.io##.e-con-full.e-flex.e-con:has(a[target="_blank"] img)
 nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_blank"] img)
-/lover[0-9]+\.net/##.div-over
 /^torrentqq[0-9]+.com/##.at-banner
-/torrentpi[0-9]+\.com/##.basic-post-gallery
-/tvwiki[0-9]+\.tv/##a:has(> img[src^="https://static.wixstatic.com/media/"])
 /torrentzota[0-9]+\.com/##a[href^="/adver-"]
 /^tv[0-9]+\.wiki/###cpb-popup-banners
 /^tv[0-9]+\.wiki/##.custom_banner_wra
 /^tkor[0-9]+\.com/##*[class*="top_bann"]
 /^jusokorea[0-9]+\.com/##div[class*="-ad-banner"]
 /^torrentnx[0-9]+\.com/##a[href*="/bbs/link.php"]
-/^tvwiki[0-9]+\.com/##ul[class^="banner"]
 /^sptv[0-9]+\.com/##.modal_contents
-/^torrentpi[0-9]+\.com/##style ~ .basic-post-gallery
 /^avguri[0-9]+\.com/##div[id$="_bn"]
 /^avpink[0-9]+\.com/###foogallery_widget-3
 /^avpink[0-9]+\.com/###foogallery_widget-12
@@ -153,9 +146,6 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 /^linkeye[0-9]+\.com/##div[class*="banner-"]
 /^booktoki[0-9]+\.com/##div[id*="-banner-"] > div[class*=" "] > div[class*=" "][style*=" "]
 /^spotv[0-9]+\.com/##div[id$="-banner"]
-!#if !adguard_ext_android_cb
-/^lover[0-9]+\.net/##.xe_content span ~ div[style]
-!#endif
 /^yagong[0-9]+\.com/##div[x-data="popups()"]
 /^redsun[0-9]+\.me/##div[id*="ads"]
 /^manamoa[0-9]+\.com/##div[class*="banner"]
@@ -185,7 +175,6 @@ nightofpeace.com,ilovebees.io##.e-grid.e-con-full.e-con.e-child:has(a[target="_b
 /newto[0-9]+\.com/##div[class^="basic-banner-"]
 /bookto[0-9]+\.com/##div[class^="basic-banner-"]
 /mato[0-9]+\.com/##div[class^="basic-banner-"]
-/sbxh[0-9]+\.com/##[data-brs][data-br]
 /torrentsee[0-9]+\.com/##.container > div[style^="z-index:999; "]
 !
 ! DOMAIN-REFRESHER: END
