@@ -628,7 +628,6 @@ m.mydaily.co.kr##.article_view ~ div[style^="text-align:"].clean_banner +.h50
 emmaru.com##.SubInforDiv_article table ~ div[style^="padding:"][align="center"]
 koreatimes.com##div[class^="bn_"]:not([class*=" "])
 a-ha.io##div[class^="teads-"]
-t32.torrentpi150.com##div.col-sm-12:has(> div.widget-box)
 cafe.naver.com##div.ArticleFormBanner:has(> a[href^="https://link.coupang.com"])
 m.yna.co.kr##.hidden-obj ~ aside[class^="aside-box"].bg11
 m.yna.co.kr##section[class^="box-type"].bg11 ul[class^="list"] > li[class^="aside-box"]
@@ -1536,8 +1535,6 @@ avjoa69.com##.happy-header
 ntnt4.tv##a[data-testid="linkElement"][href^="http"][target="_blank"]:has(> wow-image)
 aniwolf.*##.banner-area
 anilife.*##div[class] > a[class][href^="http"][target="_blank"]
-! aglint-disable-next-line no-invalid-modifiers
-[$domain=/^tvwiki[0-9]+\.com/]##div[id] > ul:has(a[href] > img[src^="/AD/"])
 hoduhodu.com##.w-full > a[target="_blank"] > img
 ! aglint-disable-next-line no-invalid-modifiers
 [$domain=/^kktv[0-9]+\.com/]##.modal_contents
