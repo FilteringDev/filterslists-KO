@@ -97,6 +97,10 @@ dpg.danawa.com###danawa-gnb-banner
 m.danawa.com##.goods-list__ad
 danawa.com###danawa_main_container > .main-top > .main-top__center > .main-middlebnr
 !
+news.jtbc.co.kr##div.MuiBox-root:has( > div[id$="_AD"])
+news.jtbc.co.kr##div.MuiBox-root:has(> div.MuiTypography-body-md + div.MuiBox-root > div[id$="_AD"])
+news.jtbc.co.kr##div[data-sentry-source-file="ArticleTaboolaAdLoadingWrapper.tsx"]
+news.jtbc.co.kr##div[data-sentry-component="TextTopAd"]
 nate.com##.area_ranking .content li.commercial
 zum.com##.shopping_links
 zum.com##.favorite_site
@@ -315,7 +319,6 @@ chzzkban.xyz##div[class*=" "]:is([style^="height:"], [style^="pointer-events:"],
 cgv.co.kr##button[class^="mems01010_phoneLogin__"]
 asked.kr##div[class^="qnaBanner_"]
 asked.kr##div[class^="realclickInner_"]
-news.jtbc.co.kr##.videoPlayerContainer > .print-hide:has(> .e1ecreks0 > .MuiBox-root)
 viewership.softc.one##.container.px-4 > .box-border.gap-8 > .rounded-md.min-h-\[140px\]:has(ins.adsbygoogle)
 m.inven.co.kr##div[class^="ad-bbs-view-"]
 bada.us##.google_sense
@@ -443,7 +446,6 @@ chaoscube.co.kr##div[ad-size]
 chaoscube.co.kr##.venatus-container
 news.jtbc.co.kr##.MuiBox-root > .MuiBox-root > .swiper-initialized.swiper-backface-hidden:has([target="_blank"])
 news.jtbc.co.kr###ednp_wrap
-news.jtbc.co.kr##aside div[class*="my-"].e1ecreks0.MuiBox-root:has(> .MuiBox-root > div[id$="_AD"])
 kimpga.com##.ad-slot-vertical
 theddari.com##div[class]:has(> a[aria-label="side-ads"])
 isplus.com##.rightEnd > .section_inner > div[style]
