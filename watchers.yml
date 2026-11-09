@@ -2,34 +2,16 @@ sites:
   WFWF (wfwf*.com):
     last_known_mirror: wfwf492.com
     success_since: 2026-09-08 21:31
-  Yasyadong (yasyadong*.tv):
-    last_known_mirror: yasyadong09.tv
-    failed_since: 2026-08-20 06:59
-    failed_days: 62
-    potentially_dead: true
   Manatoki (manatoki*.net):
     last_known_mirror: linkbbg8.com
     success_since: 2026-09-27 21:45
-  TVWiki (tvwiki*.com):
-    last_known_mirror: tvwiki41.com
-    success_since: 2026-08-25 19:25
   Hoohoo TV (hoohootv*.xyz):
     last_known_mirror: hoohootv341.xyz
     accept_antibot: true
     success_since: 2026-08-20 19:27
-  TVWiki (tvwiki*.net):
-    last_known_mirror: tvwiki88.net
-    failed_since: 2026-09-27 21:45
-    failed_days: 23
-    potentially_dead: true
   Nooo (nooo*.tv):
-    last_known_mirror: nooo37.tv
-    success_since: 2026-10-20 17:39
-  CokCok (cokcok*.com):
-    last_known_mirror: cokcok23.com
-    failed_since: 2026-08-20 06:59
-    failed_days: 62
-    potentially_dead: true
+    last_known_mirror: nooo39.tv
+    success_since: 2026-11-03 23:49
   Mato (mato*.com):
     last_known_mirror: mato110.com
     success_since: 2026-08-20 06:59
@@ -43,31 +25,16 @@ sites:
     pattern_changed: true
     non_pattern_mirror: t.me
     failed_since: 2026-08-20 19:27
-    failed_days: 61
-    potentially_dead: true
-  SBXH (sbxh*.com):
-    last_known_mirror: sbxh12.com
-    failed_since: 2026-08-20 06:59
-    failed_days: 62
+    failed_days: 76
     potentially_dead: true
   Yako (yako*.com):
-    last_known_mirror: yadongkorea5.com
-    success_since: 2026-10-20 17:39
-  Lover (lover*.net):
-    last_known_mirror: lover946.net
-    failed_since: 2026-08-20 06:59
-    failed_days: 62
-    potentially_dead: true
+    last_known_mirror: yadongkorea12.com
+    success_since: 2026-11-03 23:49
   TorrentQQ (torrentqq*.com):
     last_known_mirror: torrentqq418.com
     accept_antibot: true
     success_since: 2026-08-25 13:42
-  TorrentPi (torrentpi*.com):
-    last_known_mirror: torrentpi160.com
-    failed_since: 2026-08-20 06:59
-    failed_days: 62
-    potentially_dead: true
   TorrentBot (torrentbot*.site):
-    last_known_mirror: torrentbot267.site
+    last_known_mirror: torrentbot268.site
     accept_antibot: true
-    success_since: 2026-10-20 17:39
+    success_since: 2026-11-03 23:49

@@ -921,15 +921,7 @@ ipokergosu.com/banner/$domain=pokergosu.com
 ! DOMAIN-REFRESHER: START
 !
 ! aglint-disable-next-line no-invalid-modifiers
-||v1-0-0.pages.dev^$domain=/lover[0-9]+\.net/
-||lover*.net/staticwrite/vmplayer0.js
-||lover*.net/staticwrite/videoplaymasterfile.js
-! aglint-disable-next-line no-invalid-modifiers
-/w[0-9]+\.apiapi[0-9]+\.com\/data\/banner\//$domain=/tvwiki[0-9]+\.net/
-! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/anilife[0-9]+\.tv\/tvwiki-banners\//$domain=/anilife[0-9]+\.tv/
-! aglint-disable-next-line no-invalid-modifiers
-/^https:\/\/cdn[0-9]+\.cokcok\.[a-z0-9]+\/assets\/images\//$domain=/cokcok[0-9]+\.com/
 /^https:\/\/tkor[0-9]+\.com\/bann\//
 /^https:\/\/tkor[0-9]+\.com\/images\//
 *$image,denyallow=tvchak.live|smartnote.blog|wiselife.blog,domain=tvchak.live
@@ -956,34 +948,18 @@ ipokergosu.com/banner/$domain=pokergosu.com
 ||mingk*.net/data/file/passfree/$domain=/mingky[0-9]+\.net/
 ! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/(www\.)?yako[0-9]+\.com\/upload\/banner\//$domain=/yako[0-9]+\.com/
-! aglint-disable-next-line no-invalid-modifiers
-/lover[0-9]\.net\/file\/tohotv\/.*\.gif$domain=/lover[0-9]+\.net/
-! aglint-disable-next-line no-invalid-modifiers
-/lover[0-9]\.net\/file\/1bet\/.*\.gif$domain=/lover[0-9]+\.net/
-! aglint-disable-next-line no-invalid-modifiers
-/lover[0-9]\.net\/file\/eve\/.*\.png$domain=/lover[0-9]+\.net/
-! aglint-disable-next-line no-invalid-modifiers
-/^https:\/\/cdn[a-z0-9]+\.site\/data\/banner\//$domain=/tvwiki[0-9]+\.net/
 ||wdwd*.com/data/banner/
 ||static.tzstatic.top/z/*.gif
 ||ddal.xyz/project/mc/js/nuevo.min.js
-! aglint-disable-next-line no-invalid-modifiers
-*$image,domain=/tvwiki[0-9]+\.tv/
 ! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/tv[0-9]+\.wiki\/wp-content\/uploads\/[0-9]+\/[0-9]+\/.+\.gif/$domain=/^tv[0-9]+\.wiki/
 ||img.mingk.xyz/data/file/passfree/
 ! aglint-disable-next-line no-invalid-modifiers
 ||mingk*.net/theme/BS4-Basic/js/pf-loader.js$domain=/^mingky[0-9]+\.net/
-! aglint-disable-next-line no-invalid-modifiers
-||yasyadong.*/?_Action=adv&_Method$domain=yasyadong.*|/yasyadong[0-9]+\.tv/
-! aglint-disable-next-line no-invalid-modifiers
-/https:\/\/tvwiki[0-9]+\.com\/data\/banner\//$domain=/tvwiki[0-9]+\.com/
 /^https:\/\/(www\.)?aniya24\.com\/wp-content\/uploads\/[0-9]+\/[0-9]+\/[a-z]+[0-9]+x[0-9]+\./$domain=aniya24.com
 ||aniya24.com/wp-content/uploads/*.gif
 ||sutom.org/wp-content/uploads/*.webp
 ||nooo*.tv/theme/basic_player/img/banner/
-! aglint-disable-next-line no-invalid-modifiers
-||blogger.googleusercontent.com/img/$domain=yasyadong.*|/yasyadong[0-9]+\.tv/
 .gif^$image,domain=itrulli.com
 ||365tvda.com/data/file/bojng/
 ||xn--hy1bm2ltmr.com/img/banner/
@@ -992,9 +968,6 @@ ipokergosu.com/banner/$domain=pokergosu.com
 ||hoduhodu.com/_next/image?url=https%3A*.hoduhodu.com%2Fbanner%2F%
 ||mzgtoon.com/_next/image?url=https%*.mzgtoon.com%2Fbanner%2F%
 ||cdn.ksportscdn.com/data/popup/
-||tvwiki*.com/AD
-! aglint-disable-next-line no-invalid-modifiers
-/https:\/\/tvwiki[0-9]+\.com\/AD\//$domain=/tvwiki[0-9]+\.com/
 ||rj.filesbest.xyz/r/
 ! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/torrentrj[0-9]+\.com\/uploadfile\/up[0-9a-z]+\.gif/$domain=/^torrentrj[0-9]+\.com/
@@ -1006,8 +979,6 @@ ipokergosu.com/banner/$domain=pokergosu.com
 ||moeni.net/img/a/lula.gif
 ! aglint-disable-next-line no-invalid-modifiers
 /theme/basic/img/banner/*$domain=/nunu[0-9]+\.tv/
-! aglint-disable-next-line no-invalid-modifiers
-||torrentpi*.com/data/file/ad/$domain=/torrentpi[0-9]+\.com/
 ! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/avpink[0-9]+\.com\/wp-content\/uploads\/[0-9]+\/[0-9]+\/[0-9-%A-Z]+x[0-9]+/$domain=/^avpink[0-9]+\.com/
 ! aglint-disable-next-line no-invalid-modifiers
@@ -1065,8 +1036,6 @@ ipokergosu.com/banner/$domain=pokergosu.com
 /^https:\/\/jusoyo[0-9]+\.(net|com)\/data\/apms\/background\//
 /^https:\/\/jusoyo[0-9]+\.(net|com)\/.+\.webp$/
 /^https:\/\/yadong[0-9]+\.net\/Uploads\/images\/\d{4}-\d{2}-\d{2}/
-! aglint-disable-next-line no-invalid-modifiers
-||i.imgur.com^$domain=yasyadong.*|/yasyadong[0-9]+\.tv/
 ! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/iabn[0-9]+\.net\//$domain=/^fxfx[0-9]+\.com/
 /^https:\/\/mkmk[0-9]+\.com\/img\/[a-z]+[0-9]+x[0-9]+\//
