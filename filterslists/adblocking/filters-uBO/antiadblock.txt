@@ -75,6 +75,8 @@ cpsp.kr#@#.text-ad
 cpsp.kr#@#.text_ads
 cpsp.kr##+js(no-fetch-if, pagead2.googlesyndication.com/pagead/js/adsbygoogle.js)
 !
+0gichul.com##+js(nostif, loadGichulAdScripts)
+0gichul.com##+js(aeld, load, loadGichulAdScripts)
 ||kkutugame.kr/*/adblock-gate.
 thelabyrinth.co.kr##+js(no-fetch-if, pagead2.googlesyndication.com method:HEAD)
 windowsforum.kr##+js(aeld, load, 'banner.offsetHeight')
