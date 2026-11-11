@@ -98,7 +98,7 @@ m.danawa.com##.goods-list__ad
 danawa.com###danawa_main_container > .main-top > .main-top__center > .main-middlebnr
 !
 news.jtbc.co.kr##div.MuiBox-root:has( > div[id$="_AD"])
-news.jtbc.co.kr##div.MuiBox-root:has(> div.MuiTypography-body-md + div.MuiBox-root > div[id$="_AD"])
+news.jtbc.co.kr##div.MuiBox-root:has(> p.MuiTypography-body-md + div.MuiBox-root > div[id$="_AD"])
 news.jtbc.co.kr##div[data-sentry-source-file="ArticleTaboolaAdLoadingWrapper.tsx"]
 news.jtbc.co.kr##div[data-sentry-component="TextTopAd"]
 nate.com##.area_ranking .content li.commercial
