@@ -1519,6 +1519,7 @@ kio.ac##main > div:has(> div > div > a > img)
 !
 ! DOMAIN-REFRESHER: START
 !
+v2.ohli365.org##section[aria-label="상단 배너 광고"]
 1465544.xyz###overlay
 tvchak.live##.banner-box
 aniya24.com##.popup-container
