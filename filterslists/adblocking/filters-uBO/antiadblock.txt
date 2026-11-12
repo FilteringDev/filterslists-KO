@@ -74,6 +74,9 @@ cpsp.kr#@#.pub_728x90
 cpsp.kr#@#.text-ad
 cpsp.kr#@#.text_ads
 cpsp.kr##+js(no-fetch-if, pagead2.googlesyndication.com/pagead/js/adsbygoogle.js)
+! ads.coupang.com
+! aglint-disable-next-line no-invalid-modifiers
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$redirect=googlesyndication_adsbygoogle.js,domain=ads.coupang.com
 !
 0gichul.com##+js(nostif, loadGichulAdScripts)
 0gichul.com##+js(aeld, load, loadGichulAdScripts)

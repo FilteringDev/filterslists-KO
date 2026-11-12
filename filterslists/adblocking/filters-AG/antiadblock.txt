@@ -144,6 +144,8 @@ cpsp.kr#@#.text_ads
 !#endif
 cpsp.kr#%#//scriptlet('prevent-constructor', 'Promise', 'width: 1px !important')
 cpsp.kr#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
+! ads.coupang.com
+ads.coupang.com#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')
 !
 0gichul.com#%#//scriptlet('prevent-setTimeout', 'loadGichulAdScripts')
 0gichul.com#%#//scriptlet('prevent-addEventListener', 'load', 'loadGichulAdScripts')
