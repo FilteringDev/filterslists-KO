@@ -16,6 +16,7 @@ m.humoruniv.com#%#//scriptlet('abort-on-stack-trace', '$.prototype.html', '_boom
 m.humoruniv.com#%#//scriptlet('abort-current-inline-script', '$.prototype.html', '/\/images\/[A-z0-9-_]+\.?(jpg|gif)/')
 ! m.fmkorea.com
 m.fmkorea.com#%#//scriptlet('json-prune', 'tpl apply', 'tpl.[].c')
+m.fmkorea.com#%#//scriptlet('json-prune', '$..[?(@.c && @.h && @.d && @.u || @ =~ /aHR0cDovL20uc2VhcmNoYWQubmF2ZXIuY29tLw/)]')
 ! chzzk.naver.com
 chzzk.naver.com#%#//scriptlet('trusted-set-local-storage-item', 'homeSkinCollapsedUntil', '9999999999999')
 !
