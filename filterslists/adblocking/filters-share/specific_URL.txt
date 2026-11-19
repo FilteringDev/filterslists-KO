@@ -921,6 +921,7 @@ ipokergosu.com/banner/$domain=pokergosu.com
 !
 ! DOMAIN-REFRESHER: START
 !
+||tvwiki*.net/data/banner/
 ! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/anilife[0-9]+\.tv\/tvwiki-banners\//$domain=/anilife[0-9]+\.tv/
 /^https:\/\/tkor[0-9]+\.com\/bann\//
