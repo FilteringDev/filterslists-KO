@@ -1524,6 +1524,7 @@ kio.ac##main > div:has(> div > div > a > img)
 !
 ! DOMAIN-REFRESHER: START
 !
+toonkor.net##.col-md-12.mobile-banner
 v2.ohli365.org##section[aria-label="상단 배너 광고"]
 1465544.xyz###overlay
 tvchak.live##.banner-box
@@ -1531,7 +1532,6 @@ aniya24.com##.popup-container
 sutom.org##div[data-id="9429d5d"]
 sutom.org###sutom-pro
 blacktoon1.info##div[data-mesh-id="comp-m8jy31rninlineContent"]
-toonkor.wiki##.banner
 yako.gg##.banner_grid
 v119.com##.zone-right > *:has(~ .no-pd):not(:has(> .tabbox))
 v119.com##.at-boxed .zone-center > .widget-box ~ *
