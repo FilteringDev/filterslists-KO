@@ -921,6 +921,10 @@ ipokergosu.com/banner/$domain=pokergosu.com
 !
 ! DOMAIN-REFRESHER: START
 !
+! aglint-disable-next-line no-invalid-modifiers
+/^https:\/\/diksds\.speedwebgo\.com\/[0-9]+\/[0-9]+\/[0-9]+\/[0-9]+\.gif/$domain=/blacktoon[0-9]+\.com/
+! aglint-disable-next-line no-invalid-modifiers
+/^https:\/\/diksds\.speedwebgo\.com\/[0-9]+\/[0-9]+\/[0-9]+\.gif/$domain=/blacktoon[0-9]+\.com/
 ||tvwiki*.net/data/banner/
 ! aglint-disable-next-line no-invalid-modifiers
 /^https:\/\/anilife[0-9]+\.tv\/tvwiki-banners\//$domain=/anilife[0-9]+\.tv/
