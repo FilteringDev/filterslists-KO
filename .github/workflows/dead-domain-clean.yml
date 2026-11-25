@@ -26,6 +26,8 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+    outputs:
+      pull_request_number: ${{ steps.create_pr.outputs.pull_request_number }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -82,6 +84,7 @@ jobs:
           if-no-files-found: error
 
       - name: Create pull request
+        id: create_pr
         if: steps.clean.outputs.has_changes == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -95,8 +98,18 @@ jobs:
           git add filterslists
           git commit -m "chore(filterslists): remove dead domains"
           git push origin "$BRANCH_NAME"
-          gh pr create \
+          PR_URL="$(gh pr create \
             --base master \
             --head "$BRANCH_NAME" \
             --title "chore(filterslists): remove dead domains" \
-            --body-file /tmp/dead-domain-pr-body.md
+            --body-file /tmp/dead-domain-pr-body.md)"
+          echo "Created $PR_URL"
+          echo "pull_request_number=${PR_URL##*/}" >> "$GITHUB_OUTPUT"
+  request-review:
+    needs: clean
+    if: needs.clean.outputs.pull_request_number != ''
+    permissions:
+      pull-requests: write
+    uses: ./.github/workflows/request-review.yml
+    with:
+      pull_request_number: ${{ needs.clean.outputs.pull_request_number }}
