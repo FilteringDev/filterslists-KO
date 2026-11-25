@@ -1,0 +1,56 @@
+name: Request Review
+
+on:
+  workflow_call:
+    inputs:
+      pull_request_number:
+        description: 'Pull request number to request reviews on'
+        required: true
+        type: string
+      reviewers:
+        description: 'Comma-separated GitHub usernames'
+        required: false
+        type: string
+        default: 'piquark6046,mu-hun'
+      team_reviewers:
+        description: 'Comma-separated GitHub team slugs'
+        required: false
+        type: string
+        default: ''
+
+permissions:
+  pull-requests: write
+
+jobs:
+  request-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request review
+        uses: actions/github-script@v7
+        env:
+          PULL_REQUEST_NUMBER: ${{ inputs.pull_request_number }}
+          REVIEWERS: ${{ inputs.reviewers }}
+          TEAM_REVIEWERS: ${{ inputs.team_reviewers }}
+        with:
+          script: |
+            const split = (value) =>
+              (value || '')
+                .split(',')
+                .map((item) => item.trim())
+                .filter(Boolean)
+
+            const reviewers = split(process.env.REVIEWERS)
+            const teamReviewers = split(process.env.TEAM_REVIEWERS)
+
+            if (reviewers.length === 0 && teamReviewers.length === 0) {
+              core.info('No reviewers configured, nothing to do.')
+              return
+            }
+
+            await github.rest.pulls.requestReviewers({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: Number(process.env.PULL_REQUEST_NUMBER),
+              reviewers,
+              team_reviewers: teamReviewers,
+            })
