@@ -38,3 +38,5 @@ sites:
     last_known_mirror: torrentbot268.site
     accept_antibot: true
     success_since: 2026-11-03 23:49
+  ToonKor (toonkor.*):
+    last_known_mirror: toonkor.net
