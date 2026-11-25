@@ -11,7 +11,6 @@ on:
         default: 'prod_dry'
         type: choice
         options:
-          - ''
           - 'prod_live'
           - 'prod_dry'
           - 'test_live'
@@ -38,9 +37,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/upload-artifact@v7
+        if: always()
         with:
           name: rotating-domains-checker-log
-          path: /logs/rotating-domains-checker.log
+          path: logs/rotating-domains-checker.log
+          if-no-files-found: warn
   request-review:
     needs: check-domains
     if: needs.check-domains.outputs.pull_request_number != ''
