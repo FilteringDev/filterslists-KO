@@ -41,7 +41,7 @@ te31.com#@##gallery-advert
 x86.co.kr#@#.download_ad
 @@||ssl.pstatic.net/adimg*.search/adpost/js/ad.js$domain=naver.com
 @@/^https:\/\/www\.ehanex\.com\/images\/main\/[a-z]{2}_ad\.gif$/
-@@||t1.daumcdn.net/adfit/static/kp.js$domain=pindirectshop.com|dongbanmall.com
+@@||t1.daumcdn.net/adfit/static/kp.js$domain=pindirectshop.com|dongbanmall.com|m.ticket.melon.com
 !
 ! DOMAIN-REFRESHER: START
 !
