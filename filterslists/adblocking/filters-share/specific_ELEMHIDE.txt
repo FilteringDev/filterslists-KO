@@ -1524,6 +1524,7 @@ kio.ac##main > div:has(> div > div > a > img)
 !
 ! DOMAIN-REFRESHER: START
 !
+kotbc2.com##.banner-area-main
 toonkor.net##.col-md-12.mobile-banner
 v2.ohli365.org##section[aria-label="상단 배너 광고"]
 1465544.xyz###overlay

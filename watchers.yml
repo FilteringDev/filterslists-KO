@@ -40,3 +40,5 @@ sites:
     success_since: 2026-11-03 23:49
   ToonKor (toonkor.*):
     last_known_mirror: toonkor.net
+  Kotbc (kotbc*.com):
+    last_known_mirror: kotbc2.com
