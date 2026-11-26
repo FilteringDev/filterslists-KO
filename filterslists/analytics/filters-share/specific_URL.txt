@@ -1,3 +1,4 @@
+||webtoonguide.com/ko/api-v2/tracking/$xmlhttprequest
 ||assets.011st.com/js/analytics/$script
 ||c.m.011st.com/MW/js/statistics/$script
 ||m.11st.co.kr/MW/js/statistics/$script

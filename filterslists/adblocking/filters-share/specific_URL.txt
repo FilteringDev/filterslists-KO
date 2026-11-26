@@ -31,6 +31,7 @@
 ||prod.danawa.com/info/ajax/getPowerClickProductList.ajax.php
 ||prod.danawa.com/bridge/loadingBridgePowerClick.php$document
 !
+||webtoonguide.com/api-v2/ad-
 ||cdn.jsdelivr.net/npm/@adrop/ads-web-sdk@
 ||etoland.co.kr/api/naver/powerplace
 ||pam.dakgg.io/sdk/pam.js
