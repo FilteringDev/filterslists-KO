@@ -6,5 +6,5 @@ blacktoon510.com,blacktoon511.com,blacktoon512.com,blacktoon513.com,blacktoon514
 linkbbg8.com##[style="margin-bottom: 20px;"].row.row-15
 linkbbg8.com##.basic-banner.row.row-10
 linkbbg8.com##.board-tail-banner
-||hoohootv*.*/static/bnner/$domain=hoohootv341.xyz
+||hoohootv*.*/static/bnner/$domain=hoohootv348.xyz
 /^https:\/\/nooo[0-9]+\.tv\/theme\/renew\/img\/banner\//$domain=nooo39.tv

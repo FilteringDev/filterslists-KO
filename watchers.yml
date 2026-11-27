@@ -6,9 +6,9 @@ sites:
     last_known_mirror: linkbbg8.com
     success_since: 2026-09-27 21:45
   Hoohoo TV (hoohootv*.xyz):
-    last_known_mirror: hoohootv341.xyz
+    last_known_mirror: hoohootv348.xyz
     accept_antibot: true
-    success_since: 2026-08-20 19:27
+    success_since: 2026-11-27 12:51
   Nooo (nooo*.tv):
     last_known_mirror: nooo39.tv
     success_since: 2026-11-03 23:49
